@@ -1,14 +1,46 @@
 import Image from "next/image";
 import Link from "next/link";
+import NewsletterForm from "./NewsletterForm";
 
 export default function Footer() {
   return (
     <>
       <style>{`
+        .newsletter-section {
+          padding: 60px 20px;
+          text-align: center;
+          background: #faf5f0;
+        }
+        .newsletter-inner {
+          max-width: 560px;
+          margin: 0 auto;
+        }
+        .newsletter-tag {
+          font-size: 11px;
+          text-transform: uppercase;
+          letter-spacing: 0.2em;
+          color: #f86613;
+          margin-bottom: 12px;
+        }
+        .newsletter-heading {
+          font-family: "Borsok", sans-serif;
+          font-size: 1.8rem;
+          color: #333;
+          margin-bottom: 8px;
+        }
+        .newsletter-heading span {
+          color: #f86613;
+        }
+        .newsletter-desc {
+          font-size: 14px;
+          color: #666;
+          margin-bottom: 24px;
+        }
+
         .site-footer {
           background: rgb(248, 102, 19);
           color: white;
-          margin-top: 80px;
+          margin-top: 0;
         }
 
         .footer-main {
@@ -149,6 +181,16 @@ export default function Footer() {
         }
       `}</style>
 
+      {/* Newsletter section */}
+      <section className="newsletter-section">
+        <div className="newsletter-inner">
+          <p className="newsletter-tag">NEWSLETTER</p>
+          <h2 className="newsletter-heading" style={{ color: "#3a9e4f" }}>RESTEZ <span>INFORMÉ</span>. DEVENEZ <span>MEILLEUR</span>.</h2>
+          <p className="newsletter-desc">Recevez nos derniers articles et conseils. Pas de spam.</p>
+          <NewsletterForm />
+        </div>
+      </section>
+
       <footer className="site-footer">
         <div className="footer-main">
           <div className="footer-brand">
@@ -194,7 +236,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <span>2020 © euhm.fr — Tous droits réservés</span>
+       <span>{new Date().getFullYear()} © euhm.fr — Tous droits réservés</span>
           <div className="footer-bottom-links">
             <Link href="/mentions-legales">Mentions légales</Link>
             <Link href="/cgu">CGU</Link>

@@ -1,19 +1,46 @@
 "use client";
+
 import { useState } from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
 export default function ContactPage() {
   const [sent, setSent] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState("");
   const [form, setForm] = useState({ prenom: "", nom: "", email: "", sujet: "", message: "" });
+  const [honeypot, setHoneypot] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setError("");
+
     if (!form.prenom || !form.email || !form.message) {
-      alert("Merci de remplir au moins votre prénom, votre email et votre message.");
+      setError("Merci de remplir au moins votre prénom, votre email et votre message.");
       return;
     }
-    setSent(true);
+
+    setSending(true);
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...form, honeypot }),
+      });
+
+      const data = await res.json();
+
+      if (data.ok) {
+        setSent(true);
+      } else {
+        setError("Une erreur est survenue. Veuillez réessayer.");
+      }
+    } catch {
+      setError("Une erreur est survenue. Veuillez réessayer.");
+    } finally {
+      setSending(false);
+    }
   };
 
   return (
@@ -65,8 +92,23 @@ export default function ContactPage() {
                   <label htmlFor="message">Message</label>
                   <textarea id="message" placeholder="Votre message..." value={form.message} onChange={e => setForm({...form, message: e.target.value})} />
                 </div>
+
+                <input
+                  type="text"
+                  value={honeypot}
+                  onChange={(e) => setHoneypot(e.target.value)}
+                  tabIndex={-1}
+                  autoComplete="off"
+                  aria-hidden="true"
+                  style={{ position: "absolute", left: "-9999px", opacity: 0 }}
+                />
+
+                {error && <p style={{ color: "#ef4444", fontSize: "14px", marginTop: "8px" }}>{error}</p>}
+
                 <div className="form-submit">
-                  <button type="submit" className="btn-submit">Envoyer le message</button>
+                  <button type="submit" className="btn-submit" disabled={sending} style={{ opacity: sending ? 0.6 : 1 }}>
+                    {sending ? "Envoi en cours..." : "Envoyer le message"}
+                  </button>
                 </div>
               </form>
             ) : (
