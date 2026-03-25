@@ -1,17 +1,17 @@
-import { Metadata } from "next"; // Ajout pour le SEO
+import { Metadata } from "next"; 
 import Link from "next/link";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import ArticlesClient from "../../components/ArticlesClient";
 import { getAllArticles } from "../../lib/mdx";
 
-// 1. Configuration des Metadata pour cette page
+// 1. Configuration des Metadata : On injecte de la puissance dès le titre
 export const metadata: Metadata = {
-  title: "Articles",
-  description: "Découvrez tous nos articles sur le sport, l'alimentation, la psychologie et l'écologie.",
+  title: "Articles & Conseils Bien-être : Sport, Mental et Écologie - EUHM",
+  description: "Découvrez nos guides experts pour optimiser votre vie : musculation au poids du corps, nutrition saine, psychologie masculine et mode de vie zéro déchet.",
   openGraph: {
-    title: "Tous les articles | EUHM",
-    description: "Conseils et astuces pour devenir une meilleure version de vous-même.",
+    title: "Articles et Ressources pour Hommes | EUHM",
+    description: "Apprenez à devenir une meilleure version de vous-même avec nos conseils pratiques et testés.",
   },
 };
 
@@ -21,17 +21,17 @@ export default function ArticlesPage() {
     articles = getAllArticles();
   } catch (e) {}
 
-  // 2. Ajout du type ": any[]" pour corriger l'erreur Vercel / TypeScript
+  // 2. Fallback avec des titres optimisés pour la recherche (Keywords)
   const fallback: any[] = [
-    { slug: "#", meta: { title: "5 exercices pour démarrer le sport à la maison", category: "Sport", description: "Pas besoin d'abonnement en salle. Découvrez une routine simple et efficace.", date: "12 mars 2021", readTime: "5 min" }, emoji: "🏃" },
-    { slug: "#", meta: { title: "Manger mieux sans se ruiner : le guide pratique", category: "Alimentation", description: "L'alimentation saine n'est pas réservée aux budgets confortables.", date: "5 janvier 2021", readTime: "7 min" }, emoji: "🥗" },
-    { slug: "#", meta: { title: "Gérer le stress au quotidien : 3 techniques simples", category: "Psychologie", description: "Respiration, pleine conscience, organisation... Des méthodes accessibles à tous.", date: "20 novembre 2020", readTime: "6 min" }, emoji: "🧠" },
-    { slug: "#", meta: { title: "Réduire ses déchets au quotidien : par où commencer ?", category: "Écologie", description: "Le zéro déchet peut faire peur, mais chaque petit geste compte.", date: "3 octobre 2020", readTime: "8 min" }, emoji: "🌱" },
-    { slug: "#", meta: { title: "Communication dans le couple : les erreurs à éviter", category: "Vie de couple", description: "Une relation épanouie se construit sur une communication honnête.", date: "15 septembre 2020", readTime: "5 min" }, emoji: "❤️" },
-    { slug: "#", meta: { title: "Mieux dormir : les habitudes qui changent tout", category: "Psychologie", description: "Quelques ajustements de routine peuvent transformer votre qualité de vie.", date: "1 août 2020", readTime: "6 min" }, emoji: "😴" },
-    { slug: "#", meta: { title: "Reprendre le sport après une longue pause", category: "Sport", description: "Comment retrouver la motivation et éviter les blessures.", date: "10 juillet 2020", readTime: "5 min" }, emoji: "💪" },
-    { slug: "#", meta: { title: "Les bienfaits du jeûne intermittent expliqués simplement", category: "Alimentation", description: "Mode ou vraie solution ? On fait le point sur ce que dit la science.", date: "22 juin 2020", readTime: "9 min" }, emoji: "🍵" },
-    { slug: "#", meta: { title: "Astuces ménagères naturelles : adieu les produits chimiques", category: "Écologie", description: "Vinaigre, bicarbonate, savon de Marseille... Une maison propre sans produits nocifs.", date: "5 mai 2020", readTime: "7 min" }, emoji: "🏡" },
+    { slug: "#", meta: { title: "5 exercices pour démarrer le sport à la maison (sans matériel)", category: "Sport", description: "Pas besoin d'abonnement en salle. Découvrez une routine simple et efficace pour sculpter votre corps.", date: "12 mars 2021", readTime: "5 min" }, emoji: "🏃" },
+    { slug: "#", meta: { title: "Manger mieux sans se ruiner : le guide de la nutrition saine", category: "Alimentation", description: "L'alimentation saine n'est pas réservée aux gros budgets. Apprenez à optimiser vos courses.", date: "5 janvier 2021", readTime: "7 min" }, emoji: "🥗" },
+    { slug: "#", meta: { title: "Gérer le stress au quotidien : 3 techniques de psychologie", category: "Psychologie", description: "Respiration, pleine conscience, organisation... Des méthodes accessibles pour calmer votre mental.", date: "20 novembre 2020", readTime: "6 min" }, emoji: "🧠" },
+    { slug: "#", meta: { title: "Réduire ses déchets : guide débutant pour un mode de vie éco-responsable", category: "Écologie", description: "Le zéro déchet peut faire peur, mais chaque petit geste pour l'environnement compte.", date: "3 octobre 2020", readTime: "8 min" }, emoji: "🌱" },
+    { slug: "#", meta: { title: "Communication dans le couple : les erreurs à éviter absolument", category: "Vie de couple", description: "Une relation épanouie se construit sur une communication honnête et constructive.", date: "15 septembre 2020", readTime: "5 min" }, emoji: "❤️" },
+    { slug: "#", meta: { title: "Optimiser son sommeil : les habitudes qui changent votre vie", category: "Psychologie", description: "Quelques ajustements de routine nocturne peuvent transformer votre énergie quotidienne.", date: "1 août 2020", readTime: "6 min" }, emoji: "😴" },
+    { slug: "#", meta: { title: "Reprendre la musculation après une pause : éviter les blessures", category: "Sport", description: "Comment retrouver la motivation et relancer votre progression physique.", date: "10 juillet 2020", readTime: "5 min" }, emoji: "💪" },
+    { slug: "#", meta: { title: "Les bienfaits du jeûne intermittent : ce que dit la science", category: "Alimentation", description: "Mode ou vraie solution santé ? On fait le point sur le jeûne pour l'optimisation physique.", date: "22 juin 2020", readTime: "9 min" }, emoji: "🍵" },
+    { slug: "#", meta: { title: "Maison saine : nettoyer naturellement sans produits chimiques", category: "Écologie", description: "Vinaigre, bicarbonate, savon de Marseille... Une maison propre et respectueuse de la santé.", date: "5 mai 2020", readTime: "7 min" }, emoji: "🏡" },
   ];
 
   const data = articles.length > 0
@@ -43,8 +43,12 @@ export default function ArticlesPage() {
       <Header title="Articles" />
       <main>
         <section className="articles-section">
-          <h1>Tous les articles</h1>
-          <p className="intro">Conseils, réflexions et astuces pour devenir une meilleure version de vous-même.</p>
+          {/* SEO : H1 plus descriptif que "Tous les articles" */}
+          <h1>Conseils et Stratégies pour devenir un Homme Meilleur</h1>
+          <p className="intro">
+            Explorez nos articles dédiés au **développement personnel**, au **sport**, à la **nutrition** et à l'**écologie**. 
+            Chaque guide est conçu pour vous apporter des solutions concrètes et optimiser votre quotidien.
+          </p>
           <ArticlesClient articles={data} />
         </section>
       </main>
