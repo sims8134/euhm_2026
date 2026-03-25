@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import Image from "next/image";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
@@ -49,13 +48,16 @@ export default function GaleriePage() {
       <Header title="Galerie" />
       <main>
         <section className="galerie-section">
-          <h1>Galerie photos</h1>
-          <p className="intro">Une collection d&#39;images inspirantes autour du bien-être, de la nature et du quotidien.</p>
+          <h1>Galerie Photos Bien-être & Nature</h1>
+          <p className="intro">
+            Une collection d&#39;images inspirantes capturant la sérénité de la nature et l&#39;harmonie du quotidien.
+          </p>
 
           <div className="galerie-grid">
             {PHOTOS.map((src, i) => (
               <div className="galerie-item" key={i} onClick={() => setLightbox(i)}>
-                <img src={src} alt={`Photo galerie ${i + 1}`} loading="lazy" />
+                {/* Utilisation de img standard pour la galerie dynamique */}
+                <img src={src} alt={`Photo galerie nature ${i + 1}`} loading="lazy" />
                 <div className="galerie-overlay"><span>🔍</span></div>
               </div>
             ))}
@@ -68,7 +70,7 @@ export default function GaleriePage() {
         <div className="lightbox" onClick={() => setLightbox(null)}>
           <button className="lightbox-close" onClick={() => setLightbox(null)}>✕</button>
           <button className="lightbox-prev" onClick={e => { e.stopPropagation(); setLightbox((lightbox - 1 + PHOTOS.length) % PHOTOS.length); }}>‹</button>
-          <img src={PHOTOS[lightbox]} alt="Photo agrandie" onClick={e => e.stopPropagation()} />
+          <img src={PHOTOS[lightbox]} alt="Photo agrandie EUHM" onClick={e => e.stopPropagation()} />
           <button className="lightbox-next" onClick={e => { e.stopPropagation(); setLightbox((lightbox + 1) % PHOTOS.length); }}>›</button>
         </div>
       )}
