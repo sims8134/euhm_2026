@@ -13,9 +13,17 @@ const NAV_LINKS = [
   { href: "/boutique", label: "Boutique" },
 ];
 
-export default function Header({ title }: { title: string }) {
+interface HeaderProps {
+  title: string;
+  /** Set to true when the page defines its own H1 — hero will render as H2 instead */
+  heroAsH2?: boolean;
+}
+
+export default function Header({ title, heroAsH2 = false }: HeaderProps) {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const HeroTag = heroAsH2 ? "h2" : "h1";
 
   return (
     <>
@@ -165,7 +173,8 @@ export default function Header({ title }: { title: string }) {
           text-align: center;
         }
 
-        .page-hero h1 {
+        .page-hero h1,
+        .page-hero h2 {
           font-size: 5.5rem;
           font-weight: 300;
           color: rgb(248, 102, 19);
@@ -181,11 +190,13 @@ export default function Header({ title }: { title: string }) {
           .header-main { height: 60px; padding: 0 20px; }
           .header-logo-text { font-size: 1.5rem; }
           .page-hero { padding: 70px 20px; }
-          .page-hero h1 { font-size: 3.5rem; }
+          .page-hero h1,
+          .page-hero h2 { font-size: 3.5rem; }
         }
 
         @media (max-width: 480px) {
-          .page-hero h1 { font-size: 2.5rem; }
+          .page-hero h1,
+          .page-hero h2 { font-size: 2.5rem; }
           .header-topbar { font-size: 1.1rem; }
         }
       `}</style>
@@ -201,7 +212,7 @@ export default function Header({ title }: { title: string }) {
             </div>
           </Link>
 
-          <nav className="header-nav">
+          <nav className="header-nav" aria-label="Navigation principale">
             <ul>
               {NAV_LINKS.map(link => (
                 <li key={link.href}>
@@ -222,7 +233,7 @@ export default function Header({ title }: { title: string }) {
           </button>
         </div>
 
-        <nav className={`header-mobile-menu${menuOpen ? " open" : ""}`}>
+        <nav className={`header-mobile-menu${menuOpen ? " open" : ""}`} aria-label="Menu mobile">
           {NAV_LINKS.map(link => (
             <Link
               key={link.href}
@@ -237,7 +248,7 @@ export default function Header({ title }: { title: string }) {
       </header>
 
       <div className="page-hero">
-        <h1>{title}</h1>
+        <HeroTag>{title}</HeroTag>
       </div>
     </>
   );

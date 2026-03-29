@@ -216,13 +216,13 @@ export default function Footer() {
           <div className="footer-social">
             <h3>Suivez-nous</h3>
             <div className="footer-social-icons">
-              <a href="#" aria-label="Facebook">
+              <a href="https://www.facebook.com/profile.php?id=61577494686303" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                 <Image src="/img/f_logo_RGB-White_58.png" alt="Facebook" width={22} height={22} />
               </a>
-              <a href="#" aria-label="Twitter">
-                <Image src="/img/Twitter_Social_Icon_Circle_White.png" alt="Twitter" width={22} height={22} />
+              <a href="https://x.com/euhmfr" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+                <Image src="/img/Twitter_Social_Icon_Circle_White.png" alt="X (Twitter)" width={22} height={22} />
               </a>
-              <a href="#" aria-label="Instagram">
+              <a href="https://www.instagram.com/euhmfr" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <Image src="/img/instablanc.png" alt="Instagram" width={22} height={22} />
               </a>
             </div>
@@ -236,7 +236,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-bottom">
-       <span>{new Date().getFullYear()} © euhm.fr — Tous droits réservés</span>
+          <span>{new Date().getFullYear()} © euhm.fr — Tous droits réservés</span>
           <div className="footer-bottom-links">
             <Link href="/mentions-legales">Mentions légales</Link>
             <Link href="/cgu">CGU</Link>

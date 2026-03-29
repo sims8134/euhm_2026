@@ -3,7 +3,16 @@ const nextConfig = {
   images: {
     remotePatterns: [],
   },
-  // ON SUPPRIME LE BLOC REDIRECTS ICI
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.euhm.fr" }],
+        destination: "https://euhm.fr/:path*",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
