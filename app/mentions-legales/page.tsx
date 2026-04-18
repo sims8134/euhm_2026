@@ -17,11 +17,12 @@ export default function MentionsLegalesPage() {
             <h2>1. Éditeur du site</h2>
             <p>Le site <strong>euhm.fr</strong> est édité par :</p>
             <div className="highlight-box">
-              <strong>SOC TRADE BULGARIA EOOD</strong><br />
-              Société à responsabilité limitée de droit bulgare<br />
-              ЕИК (numéro d&apos;identification) : <strong>208209146</strong><br />
-              Siège social : 64A ul. Maragidik, 1505 Sofia, Bulgarie<br />
-              Email : <a href="mailto:contact@euhm.fr">contact@euhm.fr</a>
+           <strong>SOC TRADE BULGARIA EOOD</strong><br />
+            Société à responsabilité limitée de droit bulgare<br />
+            ЕИК (numéro d&apos;identification) : <strong>208209146</strong><br />
+            Capital social : <strong>1 022 €</strong> (intégralement libéré)<br />
+            Siège social : 64A ul. Maragidik, 1505 Sofia, Bulgarie<br />
+            Email : <a href="mailto:contact@euhm.fr">contact@euhm.fr</a>
             </div>
           </div>
 
