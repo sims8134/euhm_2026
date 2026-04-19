@@ -42,7 +42,7 @@ export default function ArticlesPage() {
 
   const data =
     articles.length > 0
-      ? articles.map((a) => ({ slug: a.slug, meta: a.meta, emoji: "📄" }))
+      ? articles.map((a) => ({ slug: a.slug, meta: a, emoji: "📄" }))
       : fallback;
 
   return (
