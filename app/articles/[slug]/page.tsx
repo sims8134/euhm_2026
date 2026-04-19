@@ -33,6 +33,15 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             <h1>{article.meta.title}</h1>
             <div className="article-page-meta">{article.meta.date} · {article.meta.readTime} de lecture</div>
           </div>
+          {article.meta.image && (
+            <div className="article-page-img">
+              <img
+                src={article.meta.image}
+                alt={article.meta.title}
+                style={{width: '100%', maxHeight: '400px', objectFit: 'cover', borderRadius: '8px', marginBottom: '24px'}}
+              />
+            </div>
+          )}
           <div className="article-page-content">
             <div dangerouslySetInnerHTML={{ __html: article.content }} />
           </div>
