@@ -26,11 +26,11 @@ export default function ArticlesClient({ articles }: { articles: any[] }) {
   {filtered.map((a, i) => (
     <div className="article-card" key={i}>
       <div className="article-card-img">
-        {a.meta?.image ? (
-          <img src={a.meta.image} alt={a.meta.title} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
-        ) : (
-          <span>{a.emoji || "📄"}</span>
-        )}
+      {a.meta?.image || a.image ? (
+  <img src={a.meta?.image || a.image} alt={a.meta?.title || a.title} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+) : (
+  <span>{a.emoji || "📄"}</span>
+)}
       </div>
       <div className="article-card-body">
         <div className="article-tag">{a.meta?.category}</div>
