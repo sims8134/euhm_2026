@@ -23,19 +23,25 @@ export default function ArticlesClient({ articles }: { articles: any[] }) {
         ))}
       </div>
       <div className="articles-grid">
-        {filtered.map((a, i) => (
-          <div className="article-card" key={i}>
-            <div className="article-card-img">{a.emoji || "📄"}</div>
-            <div className="article-card-body">
-              <div className="article-tag">{a.meta?.category}</div>
-              <h2>{a.meta?.title}</h2>
-              <p>{a.meta?.description}</p>
-              <div className="article-meta">{a.meta?.date} · {a.meta?.readTime} de lecture</div>
-              <Link href={a.slug === "#" ? "#" : `/articles/${a.slug}`} className="btn">Lire l&#39;article</Link>
-            </div>
-          </div>
-        ))}
+  {filtered.map((a, i) => (
+    <div className="article-card" key={i}>
+      <div className="article-card-img">
+        {a.meta?.image ? (
+          <img src={a.meta.image} alt={a.meta.title} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+        ) : (
+          <span>{a.emoji || "📄"}</span>
+        )}
       </div>
+      <div className="article-card-body">
+        <div className="article-tag">{a.meta?.category}</div>
+        <h2>{a.meta?.title}</h2>
+        <p>{a.meta?.description}</p>
+        <div className="article-meta">{a.meta?.date} · {a.meta?.readTime} de lecture</div>
+        <Link href={a.slug === "#" ? "#" : `/articles/${a.slug}`} className="btn">Lire l&#39;article</Link>
+      </div>
+    </div>
+  ))}
+</div>
     </>
   );
 }
