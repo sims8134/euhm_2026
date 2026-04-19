@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import { marked } from "marked";
 
 const articlesDir = path.join(process.cwd(), "content/articles");
 
@@ -46,7 +47,8 @@ export function getArticleBySlug(slug: string) {
     if (fs.existsSync(filePath)) {
       const raw = fs.readFileSync(filePath, "utf8");
       const { data, content } = matter(raw);
-      return { meta: data as ArticleMeta, content };
+      const htmlContent = marked(content) as string;
+      return { meta: data as ArticleMeta, content: htmlContent };
     }
   }
   return null;
