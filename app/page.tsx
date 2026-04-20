@@ -39,18 +39,12 @@ export default function Accueil() {
           </article>
 
           <section id="actu" className="actualite">
-            <h2>actualites</h2>
+            <h2>actualités</h2>
             <ul>
               <li>
                 <strong>Hiver : Comment ne pas tomber malade</strong>
                 <Link href="/dossiers">
                   <Image className="imgactu" src="/img/actualites/winter.jpg" alt="Conseils santé hiver : renforcer son immunité naturellement" width={260} height={180} />
-                </Link>
-              </li>
-              <li>
-                <strong>Ebook : téléchargez gratuitement le livre EUHM !</strong>
-                <Link href="/telechargement">
-                  <Image className="imgbook" src="/img/actualites/Cover.jpg" alt="Ebook gratuit bien-être masculin EUHM" width={200} height={160} />
                 </Link>
               </li>
               <li>
