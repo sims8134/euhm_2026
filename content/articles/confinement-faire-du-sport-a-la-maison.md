@@ -3,7 +3,7 @@ title: "Confinement : Faire du sport à la maison"
 date: "2026-04-21"
 category: "Sport"
 description: "Comment rester actif et motivé pour faire du sport à la maison quand les distractions s'accumulent."
-image: image: "/img/actualites/sport.jpg"
+image: "/img/actualites/sport.jpg"
 readTime: "3 min"
 ---
 
