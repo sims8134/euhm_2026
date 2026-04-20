@@ -1,7 +1,7 @@
 ---
 title: "Hiver : Comment ne pas tomber malade"
 date: "2026-04-21"
-category: "Sport"
+category: "Santé"
 description: "Quelques habitudes simples pour mieux traverser l'hiver et préserver votre énergie au quotidien."
 image: "/img/actualités/winter.jpg"
 readTime: "3 min"

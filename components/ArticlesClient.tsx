@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 
-const CATEGORIES = ["Tous", "Sport", "Alimentation", "Psychologie", "Écologie", "Vie de couple"];
+const CATEGORIES = ["Tous", "Sport", "Santé", "Alimentation", "Psychologie", "Écologie", "Vie de couple"];
 
 export default function ArticlesClient({ articles }: { articles: any[] }) {
   const [active, setActive] = useState("Tous");
