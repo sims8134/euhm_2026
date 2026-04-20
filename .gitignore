@@ -2,3 +2,4 @@
 .next/
 .env*
 dist/
+send-newsletter.ps1
