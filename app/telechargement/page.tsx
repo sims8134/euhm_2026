@@ -30,7 +30,7 @@ export default function TelechargementPage() {
                 Découvrez la synthèse de 5 ans de recherches : <strong>sport, alimentation saine, psychologie stoïcienne et écologie</strong>. Un guide complet pour entamer votre transformation et devenir une meilleure version de vous-même.
               </p>
               {/* Note : Remplace le lien par ton PDF final dès qu'il est prêt */}
-              <a href="/img/actualités/Cover.jpg" download className="btn">
+              <a href="/img/actualites/Cover.jpg" download className="btn">
                 Télécharger l&#39;Ebook (Gratuit)
               </a>
             </div>

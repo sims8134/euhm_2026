@@ -3,7 +3,7 @@ title: "Rentrée : Booster son dynamisme"
 date: "2026-04-20"
 category: "Sport"
 description: "Fruits, thé, noix, marche ou course à pied et douche froide : des gestes simples pour retrouver de l'énergie au quotidien."
-image: "/img/actualités/rentrée.jpg"
+image: "/img/actualites/rentrée.jpg"
 readTime: "4 min"
 ---
 

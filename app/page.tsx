@@ -39,30 +39,30 @@ export default function Accueil() {
           </article>
 
           <section id="actu" className="actualite">
-            <h2>Actualités</h2>
+            <h2>actualites</h2>
             <ul>
               <li>
                 <strong>Hiver : Comment ne pas tomber malade</strong>
                 <Link href="/dossiers">
-                  <Image className="imgactu" src="/img/actualités/winter.jpg" alt="Conseils santé hiver : renforcer son immunité naturellement" width={260} height={180} />
+                  <Image className="imgactu" src="/img/actualites/winter.jpg" alt="Conseils santé hiver : renforcer son immunité naturellement" width={260} height={180} />
                 </Link>
               </li>
               <li>
                 <strong>Ebook : téléchargez gratuitement le livre EUHM !</strong>
                 <Link href="/telechargement">
-                  <Image className="imgbook" src="/img/actualités/Cover.jpg" alt="Ebook gratuit bien-être masculin EUHM" width={200} height={160} />
+                  <Image className="imgbook" src="/img/actualites/Cover.jpg" alt="Ebook gratuit bien-être masculin EUHM" width={200} height={160} />
                 </Link>
               </li>
               <li>
                 <strong>Rentrée : Booster son dynamisme</strong>
                 <Link href="/dossiers">
-                  <Image className="imgactu" src="/img/actualités/rentrée.jpg" alt="Booster sa motivation et son énergie à la rentrée" width={260} height={180} />
+                  <Image className="imgactu" src="/img/actualites/rentrée.jpg" alt="Booster sa motivation et son énergie à la rentrée" width={260} height={180} />
                 </Link>
               </li>
               <li>
                 <strong>Confinement : Faire du sport à la maison</strong>
                 <Link href="/articles/sport-maison">
-                  <Image className="imgactu" src="/img/actualités/sport.jpg" alt="Programme sport à la maison sans matériel" width={260} height={180} />
+                  <Image className="imgactu" src="/img/actualites/sport.jpg" alt="Programme sport à la maison sans matériel" width={260} height={180} />
                 </Link>
               </li>
             </ul>

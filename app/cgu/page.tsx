@@ -31,7 +31,7 @@ export default function CguPage() {
 
           <div className="legal-bloc">
             <h2>4. Newsletter</h2>
-            <p>En s&apos;inscrivant à la newsletter, l&apos;utilisateur consent expressément à recevoir des communications électroniques de la part de SOC TRADE BULGARIA EOOD relatives aux contenus et actualités du site euhm.fr.</p>
+            <p>En s&apos;inscrivant à la newsletter, l&apos;utilisateur consent expressément à recevoir des communications électroniques de la part de SOC TRADE BULGARIA EOOD relatives aux contenus et actualites du site euhm.fr.</p>
             <div className="highlight-box">
               Conformément au RGPD et à la loi française Informatique et Libertés, l&apos;utilisateur peut se désinscrire à tout moment via le lien de désinscription présent dans chaque email, ou en contactant <a href="mailto:contact@euhm.fr">contact@euhm.fr</a>.
             </div>
