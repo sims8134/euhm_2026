@@ -14,7 +14,7 @@ export function getConfirmationEmail(confirmToken: string) {
         <table width="560" cellpadding="0" cellspacing="0" style="background:#ffffff;border-radius:8px;padding:40px;border:1px solid #e8e0d8;">
           <tr>
             <td align="center" style="padding-bottom:24px;">
-              <span style="font-size:20px;font-weight:700;letter-spacing:2px;"><span style="color:#f86613;">EUHM</span><span style="color:#333;">.FR</span></span>
+              <img src="${BASE_URL}/img/logo_euhm_full.png" alt="EUHM" style="height:50px;width:auto;" />
             </td>
           </tr>
           <tr>
@@ -58,6 +58,11 @@ export function getNewsletterEmail(
 ) {
   const articleUrl = `${BASE_URL}/articles/${article.slug}`;
   const unsubUrl = `${BASE_URL}/api/newsletter/unsubscribe?token=${unsubToken}`;
+  const imageUrl = article.image
+    ? article.image.startsWith("http")
+      ? article.image
+      : `${BASE_URL}${article.image}`
+    : null;
 
   const html = `
 <!DOCTYPE html>
@@ -70,7 +75,7 @@ export function getNewsletterEmail(
         <table width="560" cellpadding="0" cellspacing="0" style="background:#ffffff;border-radius:8px;padding:40px;border:1px solid #e8e0d8;">
           <tr>
             <td align="center" style="padding-bottom:24px;">
-              <span style="font-size:20px;font-weight:700;letter-spacing:2px;"><span style="color:#f86613;">EUHM</span><span style="color:#333;">.FR</span></span>
+              <img src="${BASE_URL}/img/logo_euhm_full.png" alt="EUHM" style="height:50px;width:auto;" />
             </td>
           </tr>
           <tr>
@@ -78,10 +83,10 @@ export function getNewsletterEmail(
               <h1 style="margin:0;font-size:22px;color:#333;">Nouvel article</h1>
             </td>
           </tr>
-          ${article.image ? `
+          ${imageUrl ? `
           <tr>
             <td align="center" style="padding-bottom:24px;">
-              <img src="${BASE_URL}${article.image}" alt="${article.title}" style="width:100%;max-width:480px;border-radius:6px;" />
+              <img src="${imageUrl}" alt="${article.title}" style="width:100%;max-width:480px;border-radius:6px;" />
             </td>
           </tr>` : ''}
           <tr>
