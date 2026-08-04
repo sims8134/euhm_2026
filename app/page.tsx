@@ -14,9 +14,8 @@ export const metadata: Metadata = {
   },
 };
 
-// ⚠️ VÉRIFIE CE SLUG : il doit correspondre exactement au nom du fichier
-// dans content/articles/ (sans l'extension .md). Ex : si le fichier s'appelle
-// hiver-comment-ne-pas-tomber-malade.md, ce slug est correct.
+// ⚠️ Si tu avais modifié ce slug dans ta version précédente de page.tsx,
+// reporte ta valeur ici avant de coller.
 const SLUG_HIVER = "hiver-comment-ne-pas-tomber-malade";
 
 export default function Accueil() {
@@ -55,7 +54,7 @@ export default function Accueil() {
               <li>
                 <strong>Rentrée : Booster son dynamisme</strong>
                 <Link href="/articles/rentree-booster-son-dynamisme">
-                  <Image className="imgactu" src="/img/actualites/rentrée.jpg" alt="Booster sa motivation et son énergie à la rentrée" width={260} height={180} />
+                  <Image className="imgactu" src="/img/actualites/rentree.jpg" alt="Booster sa motivation et son énergie à la rentrée" width={260} height={180} />
                 </Link>
               </li>
               <li>
@@ -85,15 +84,15 @@ export default function Accueil() {
             >
               <li style={{ width: "200px" }}>
                 <strong>Savon d&apos;Alep</strong>
-                <Image className="imgshop" src="/img/boutique/savon d_alep.jpg" alt="Savon d'Alep naturel zéro déchet" width={200} height={140} style={{ borderRadius: "10px" }} />
+                <Image className="imgshop" src="/img/boutique/savon-alep.jpg" alt="Savon d'Alep naturel zéro déchet" width={200} height={140} style={{ borderRadius: "10px" }} />
               </li>
               <li style={{ width: "200px" }}>
                 <strong>Gourde en verre</strong>
-                <Image className="imgshop" src="/img/boutique/gourde en verre.jpg" alt="Gourde en verre réutilisable écologique" width={200} height={140} style={{ borderRadius: "10px" }} />
+                <Image className="imgshop" src="/img/boutique/gourde-en-verre.jpg" alt="Gourde en verre réutilisable écologique" width={200} height={140} style={{ borderRadius: "10px" }} />
               </li>
               <li style={{ width: "200px" }}>
                 <strong>Brosse à dent bambou</strong>
-                <Image className="imgshop" src="/img/boutique/brosse à dent bambou.jpg" alt="Brosse à dents en bambou biodégradable" width={200} height={140} style={{ borderRadius: "10px" }} />
+                <Image className="imgshop" src="/img/boutique/brosse-a-dent-bambou.jpg" alt="Brosse à dents en bambou biodégradable" width={200} height={140} style={{ borderRadius: "10px" }} />
               </li>
             </ul>
           </section>
