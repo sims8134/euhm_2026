@@ -67,10 +67,11 @@ export default function Accueil() {
           </section>
 
           <section id="shop" className="boutique" style={{ textAlign: "center" }}>
-            <h2>Quoi de neuf dans la boutique ?</h2>
-            <h3 style={{ color: "#ff6600", marginBottom: "20px" }}>
-              Boutique spéciale zéro déchet prochainement disponible !
-            </h3>
+            <h2>La boutique arrive</h2>
+            <p style={{ maxWidth: "540px", margin: "0 auto 24px", color: "#666", lineHeight: 1.6 }}>
+              Une sélection zéro déchet, testée au quotidien. Laissez votre adresse et vous serez
+              prévenu dès l&apos;ouverture.
+            </p>
 
             <ul
               style={{
@@ -83,18 +84,28 @@ export default function Accueil() {
               }}
             >
               <li style={{ width: "200px" }}>
-                <strong>Savon d&apos;Alep</strong>
-                <Image className="imgshop" src="/img/boutique/savon-alep.jpg" alt="Savon d'Alep naturel zéro déchet" width={200} height={140} style={{ borderRadius: "10px" }} />
+                <Link href="/boutique">
+                  <Image className="imgshop" src="/img/boutique/savon-alep.jpg" alt="Savon d'Alep naturel zéro déchet" width={200} height={140} style={{ borderRadius: "10px" }} />
+                </Link>
+                <strong style={{ display: "block", marginTop: "8px" }}>Savon d&apos;Alep</strong>
               </li>
               <li style={{ width: "200px" }}>
-                <strong>Gourde en verre</strong>
-                <Image className="imgshop" src="/img/boutique/gourde-en-verre.jpg" alt="Gourde en verre réutilisable écologique" width={200} height={140} style={{ borderRadius: "10px" }} />
+                <Link href="/boutique">
+                  <Image className="imgshop" src="/img/boutique/gourde-en-verre.jpg" alt="Gourde en verre réutilisable écologique" width={200} height={140} style={{ borderRadius: "10px" }} />
+                </Link>
+                <strong style={{ display: "block", marginTop: "8px" }}>Gourde en verre</strong>
               </li>
               <li style={{ width: "200px" }}>
-                <strong>Brosse à dent bambou</strong>
-                <Image className="imgshop" src="/img/boutique/brosse-a-dent-bambou.jpg" alt="Brosse à dents en bambou biodégradable" width={200} height={140} style={{ borderRadius: "10px" }} />
+                <Link href="/boutique">
+                  <Image className="imgshop" src="/img/boutique/brosse-a-dent-bambou.jpg" alt="Brosse à dents en bambou biodégradable" width={200} height={140} style={{ borderRadius: "10px" }} />
+                </Link>
+                <strong style={{ display: "block", marginTop: "8px" }}>Brosse à dent bambou</strong>
               </li>
             </ul>
+
+            <Link href="/boutique" className="btn" style={{ marginTop: "28px", display: "inline-block" }}>
+              Être prévenu au lancement
+            </Link>
           </section>
         </div>
       </main>

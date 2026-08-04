@@ -1,32 +1,35 @@
 import { Metadata } from "next";
-import Link from "next/link";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import DossierInterest from "../../components/DossierInterest";
 
 export const metadata: Metadata = {
   title: "Dossiers Bien-être Homme : Santé, Sport, Nutrition et Sommeil",
   description:
-    "Explorez nos dossiers thématiques approfondis : renforcement immunitaire, programme sport maison, nutrition équilibrée, sommeil et développement personnel.",
-  alternates: {
-    canonical: "https://euhm.fr/dossiers",
-  },
+    "Les dossiers thématiques EUHM en préparation : immunité, sport à la maison, nutrition, sommeil, zéro déchet. Dites-nous lequel vous voulez lire en premier.",
+  alternates: { canonical: "/dossiers" },
   openGraph: {
-    title: "Dossiers Bien-être Homme | EUHM",
+    title: "Dossiers Bien-être Homme",
     description:
-      "Des guides complets pour optimiser votre santé physique et mentale.",
+      "Des guides complets pour optimiser votre santé physique et mentale — en cours d'écriture.",
+    url: "/dossiers",
   },
 };
 
 const DOSSIERS = [
+  {
+    emoji: "❄️",
+    tag: "Santé · Immunité",
+    slug: "immunite-hiver",
+    title: "Santé en hiver : comment ne pas tomber malade",
+    desc: "Le dossier complet derrière l'article : immunité, alimentation, activité physique et outils naturels pour traverser la saison froide.",
+  },
   {
     emoji: "🏃",
     tag: "Sport · Maison",
     slug: "sport-maison",
     title: "Faire du sport à la maison : le dossier complet",
     desc: "Programme d'entraînement, motivation et équipement minimal pour rester en forme sans sortir de chez soi.",
-    time: "15 min",
-    date: "Février 2026",
-    ready: false,
   },
   {
     emoji: "🎒",
@@ -34,9 +37,6 @@ const DOSSIERS = [
     slug: "booster-dynamisme",
     title: "Rentrée : booster son dynamisme et son énergie",
     desc: "Fixer ses objectifs, reprendre de bonnes habitudes et aborder la nouvelle saison avec clarté mentale.",
-    time: "10 min",
-    date: "Janvier 2026",
-    ready: false,
   },
   {
     emoji: "🥦",
@@ -44,9 +44,6 @@ const DOSSIERS = [
     slug: "alimentation-equilibree",
     title: "Alimentation équilibrée : construire son assiette idéale",
     desc: "Macronutriments, micronutriments, hydratation… Tout ce qu'il faut savoir pour manger intelligemment au quotidien.",
-    time: "18 min",
-    date: "Décembre 2025",
-    ready: false,
   },
   {
     emoji: "🧘",
@@ -54,9 +51,6 @@ const DOSSIERS = [
     slug: "developpement-personnel",
     title: "Amélioration personnelle : par où commencer ?",
     desc: "Un dossier pour démystifier le développement personnel et identifier les premières actions concrètes à mettre en place.",
-    time: "14 min",
-    date: "Novembre 2025",
-    ready: false,
   },
   {
     emoji: "♻️",
@@ -64,9 +58,6 @@ const DOSSIERS = [
     slug: "zero-dechet",
     title: "Zéro déchet : le guide pratique pour débutants",
     desc: "Comment réduire ses déchets progressivement. Alternatives concrètes et accessibles pour un mode de vie durable.",
-    time: "11 min",
-    date: "Octobre 2025",
-    ready: false,
   },
   {
     emoji: "😴",
@@ -74,75 +65,49 @@ const DOSSIERS = [
     slug: "optimiser-sommeil",
     title: "Optimiser son sommeil pour une meilleure journée",
     desc: "Comprendre les cycles du sommeil et adopter les bonnes habitudes pour se réveiller reposé et concentré.",
-    time: "13 min",
-    date: "Septembre 2025",
-    ready: false,
   },
 ];
 
 export default function DossiersPage() {
   return (
     <>
-      {/* heroAsH2 because we define our own H1 below */}
-      <Header title="Dossiers Thématiques : Santé & Bien-être" heroAsH2 />
+      <Header title="Dossiers" />
       <main>
         <section className="dossiers-section">
-          <h1>Dossiers thématiques : Guides pour Être Un Homme Meilleur</h1>
+          <h1>Dossiers thématiques : les guides en préparation</h1>
           <p className="intro">
-            Des <strong>guides complets et approfondis</strong> pour aller plus
-            loin dans votre <strong>développement personnel</strong> et votre{" "}
-            <strong>optimisation physique</strong>.
+            Contrairement aux articles, un dossier prend du temps à écrire. Voici les sept sujets
+            au programme — <strong>dites-moi lequel vous voulez lire en premier</strong>, j&#39;écris
+            celui qui est le plus demandé et vous serez prévenu à sa sortie.
           </p>
 
-          <div className="dossier-featured">
-            <div className="dossier-featured-img">❄️</div>
-            <div className="dossier-featured-body">
-              <div className="dossier-badge">⭐ Dossier du moment</div>
-              <div className="dossier-tag">Santé · Immunité</div>
-              <h2>Santé en Hiver : comment ne pas tomber malade</h2>
-              <p>
-                Rhumes, grippes, fatigue… l&apos;hiver met notre système
-                immunitaire à rude épreuve. Dans ce{" "}
-                <strong>dossier complet</strong>, découvrez les habitudes
-                alimentaires, sportives et les outils naturels qui font la
-                différence pour rester en forme.
-              </p>
-              <div className="dossier-meta">
-                <span>📖 12 min de lecture</span>
-                <span>📅 Mars 2026</span>
-              </div>
-              {/* Link disabled until content is ready */}
-              <span className="btn btn-disabled" aria-disabled="true">
-                Bientôt disponible
-              </span>
-            </div>
-          </div>
-
           <div className="dossiers-grid">
-            {DOSSIERS.map((d, i) => (
-              <div className="dossier-card" key={i}>
+            {DOSSIERS.map((d) => (
+              <div className="dossier-card" key={d.slug}>
                 <div className="dossier-card-img">{d.emoji}</div>
                 <div className="dossier-card-body">
                   <div className="dossier-tag">{d.tag}</div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <div className="dossier-meta">
-                    <span>📖 {d.time}</span>
-                    <span>📅 {d.date}</span>
-                  </div>
-                  {d.ready ? (
-                    <Link href={`/dossiers/${d.slug}`} className="btn">
-                      Lire le dossier
-                    </Link>
-                  ) : (
-                    <span className="btn btn-disabled" aria-disabled="true">
-                      Bientôt disponible
-                    </span>
-                  )}
+                  <DossierInterest slug={d.slug} />
                 </div>
               </div>
             ))}
           </div>
+
+          <p
+            style={{
+              marginTop: "2.5rem",
+              textAlign: "center",
+              fontSize: "0.9rem",
+              color: "#666",
+              lineHeight: 1.7,
+            }}
+          >
+            En attendant, les <a href="/articles" style={{ color: "#f86613" }}>articles</a> et les{" "}
+            <a href="/telechargement" style={{ color: "#f86613" }}>fiches pratiques à imprimer</a>{" "}
+            sont déjà disponibles.
+          </p>
         </section>
       </main>
       <Footer />

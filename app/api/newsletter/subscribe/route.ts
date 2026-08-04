@@ -6,10 +6,45 @@ import { getConfirmationEmail } from "../../../../lib/newsletter-emails";
 
 const SITE = "euhm";
 
+/**
+ * Filet de sécurité : si la base est injoignable (projet Supabase en pause,
+ * panne réseau), l'adresse est envoyée par mail à l'admin au lieu d'être perdue.
+ * Retourne true si le repli a fonctionné.
+ */
+async function fallbackToAdmin(email: string, source: string, reason: string) {
+  const admin = process.env.ADMIN_EMAIL || process.env.SMTP_FROM;
+  if (!admin) return false;
+
+  try {
+    await sendEmail({
+      to: admin,
+      subject: "[EUHM] Inscription à récupérer manuellement",
+      html: `
+        <p>La base est injoignable, une inscription n'a pas pu être enregistrée.</p>
+        <ul>
+          <li><strong>Adresse :</strong> ${email}</li>
+          <li><strong>Source :</strong> ${source}</li>
+          <li><strong>Date :</strong> ${new Date().toISOString()}</li>
+          <li><strong>Motif :</strong> ${reason}</li>
+        </ul>
+        <p>À ajouter à la main dans la table subscribers une fois la base rétablie.</p>
+      `,
+    });
+    return true;
+  } catch (e) {
+    console.error("[subscribe] Repli admin impossible :", e);
+    return false;
+  }
+}
+
 export async function POST(request: Request) {
+  let trimmedEmail = "";
+  let source = "newsletter";
+
   try {
     const body = await request.json();
     const { email, honeypot } = body;
+    source = typeof body.source === "string" ? body.source.slice(0, 60) : "newsletter";
 
     if (honeypot) return NextResponse.json({ ok: true });
 
@@ -17,9 +52,8 @@ export async function POST(request: Request) {
       return NextResponse.json({ ok: false, error: "email_required" }, { status: 400 });
     }
 
-    const trimmedEmail = email.trim().toLowerCase();
+    trimmedEmail = email.trim().toLowerCase();
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
     if (!emailRegex.test(trimmedEmail)) {
       return NextResponse.json({ ok: false, error: "email_invalid" }, { status: 400 });
     }
@@ -53,10 +87,13 @@ export async function POST(request: Request) {
           confirmed: false,
           confirm_token: confirmToken,
           unsub_token: unsubToken,
+          source,
         });
 
       if (insertError) {
-        console.error("Insert error:", insertError);
+        console.error("[subscribe] Insert error:", insertError);
+        const saved = await fallbackToAdmin(trimmedEmail, source, insertError.message ?? "insert_error");
+        if (saved) return NextResponse.json({ ok: true, fallback: true });
         return NextResponse.json({ ok: false, error: "server_error" }, { status: 500 });
       }
     }
@@ -66,7 +103,17 @@ export async function POST(request: Request) {
 
     return NextResponse.json({ ok: true });
   } catch (error) {
-    console.error("Subscribe error:", error);
+    console.error("[subscribe] Erreur:", error);
+
+    if (trimmedEmail) {
+      const saved = await fallbackToAdmin(
+        trimmedEmail,
+        source,
+        error instanceof Error ? error.message : "unknown"
+      );
+      if (saved) return NextResponse.json({ ok: true, fallback: true });
+    }
+
     return NextResponse.json({ ok: false, error: "server_error" }, { status: 500 });
   }
 }
