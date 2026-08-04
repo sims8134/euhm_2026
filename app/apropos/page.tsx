@@ -1,73 +1,170 @@
-import type { Metadata } from "next"; // Ajout pour le SEO
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
-// 1. Configuration des Metadata (SEO invisible)
+const BASE_URL = "https://euhm.fr";
+
+// ⚠️ Doit correspondre exactement à la constante AUTEUR de app/articles/[slug]/page.tsx
+const AUTEUR = "Simon";
+
+// ⚠️ Mets ici une photo de toi si tu en as une (public/img/auteur.jpg par ex.).
+// Une page auteur avec un visage vaut bien plus qu'un logo sur une thématique santé.
+const PHOTO = "/img/logo_euhm_half.png";
+
 export const metadata: Metadata = {
-  title: "À propos | EUHM — Être Un Homme Meilleur",
-  description: "Découvrez l'histoire d'EUHM. Passionné par le développement personnel et l'optimisation du mode de vie, je partage mes outils et conseils testés pour progresser au quotidien.",
+  title: "À propos — qui écrit sur EUHM",
+  description:
+    "Qui est derrière EUHM : cinq ans d'expérimentation personnelle en sport, alimentation, psychologie et écologie. Ni coach, ni médecin — des méthodes testées et assumées.",
+  alternates: { canonical: "/apropos" },
+  openGraph: {
+    title: "À propos — qui écrit sur EUHM",
+    description:
+      "Cinq ans d'expérimentation personnelle partagés sans promesse miracle. Ni coach, ni médecin.",
+    url: "/apropos",
+  },
 };
 
 export default function AproposPage() {
+  // Balisage Person : relie l'auteur des articles à cette page.
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: AUTEUR,
+    url: `${BASE_URL}/apropos`,
+    description:
+      "Auteur d'EUHM — Être Un Homme Meilleur. Cinq ans d'expérimentation personnelle en sport, alimentation, psychologie et écologie.",
+    knowsAbout: [
+      "bien-être masculin",
+      "sport à la maison",
+      "alimentation équilibrée",
+      "développement personnel",
+      "mode de vie zéro déchet",
+    ],
+    worksFor: {
+      "@type": "Organization",
+      name: "EUHM — Être Un Homme Meilleur",
+      url: BASE_URL,
+    },
+  };
+
   return (
     <>
-      {/* SEO : Titre visuel pour l'en-tête */}
-      <Header title="À propos d'EUHM" />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <Header title="À propos" />
       <main>
         <section className="apropos-section">
           <div className="apropos-hero">
             <div className="apropos-hero-logo">
-              <Image 
-                src="/img/logo_euhm_half.png" 
-                alt="Logo Être Un Homme Meilleur - Bien-être masculin" 
-                width={160} 
-                height={160} 
+              <Image
+                src={PHOTO}
+                alt={`${AUTEUR}, auteur du site EUHM — Être Un Homme Meilleur`}
+                width={160}
+                height={160}
               />
             </div>
             <div className="apropos-hero-text">
-              {/* SEO : H1 contenant les mots-clés principaux */}
-              <h1>L'histoire d'EUHM : Être Un Homme Meilleur</h1>
-              <p>Le portail dédié à l'<strong>optimisation du bien-être</strong> pour devenir une meilleure version de vous-même.</p>
+              <h1>Qui écrit sur EUHM</h1>
+              <p>
+                Moi, c&apos;est <strong>{AUTEUR}</strong>. Cinq ans à tester des méthodes de
+                bien-être sur moi-même, et à écrire ce qui a marché — comme ce qui n&apos;a pas marché.
+              </p>
             </div>
           </div>
 
           <div className="apropos-content">
-            <h2>Qui est derrière EUHM ?</h2>
+            <h2>Pourquoi ce site existe</h2>
             <p>
-              Je suis le créateur de <strong>EUHM</strong> — Être Un Homme Meilleur. Passionné depuis plus de <strong>5 ans par le développement personnel</strong> et l'<strong>optimisation du mode de vie</strong>, j'ai conçu ce site comme un laboratoire de partage. 
+              Il y a cinq ans, j&apos;ai commencé à m&apos;intéresser sérieusement à mon hygiène de vie :
+              le sport, le sommeil, l&apos;alimentation, la charge mentale. J&apos;ai lu beaucoup, essayé
+              beaucoup, abandonné beaucoup. Et j&apos;ai surtout constaté une chose : entre les coachs qui
+              vendent des transformations en trente jours et les articles génériques qui répètent
+              « mangez équilibré, dormez bien », il manquait quelque chose.
               <br /><br />
-              Mon approche est simple : partager ce que j'ai réellement appris, testé et intégré dans mon quotidien. Ici, pas de théorie fumeuse, uniquement du concret. 
-              <br /><br />
-              <em>Note importante :</em> Je ne suis ni coach professionnel, ni nutritionniste, ni médecin. Je me définis comme un <strong>explorateur du bien-être</strong>. Mon but est de vous donner des pistes de réflexion et des outils testés, tout en vous encourageant à rester maître de votre santé en consultant des professionnels.
+              EUHM, c&apos;est ce qui manquait, pour moi en tout cas : des protocoles précis, avec des
+              chiffres, des durées, un ordre de mise en place, et un moyen de vérifier si ça fonctionne
+              — plutôt que des conseils qu&apos;on lit sans jamais rien en faire.
             </p>
 
-            <h2>Mes piliers et valeurs</h2>
+            <h2>Ce que je ne suis pas</h2>
+            <p>
+              Je ne suis <strong>ni coach sportif, ni nutritionniste, ni professionnel de santé</strong>.
+              Je n&apos;ai aucun diplôme dans ces domaines et je ne prétends à aucune autorité médicale.
+              <br /><br />
+              Ce que je partage, ce sont des expériences personnelles documentées. Elles ont fonctionné
+              pour moi, dans mon contexte, avec mon corps. Elles peuvent ne pas vous convenir. Pour toute
+              question de santé — douleur, fatigue persistante, traitement en cours — c&apos;est un médecin
+              qu&apos;il faut consulter, pas un site de bien-être. Je le rappelle dans chacun de mes articles,
+              et ce n&apos;est pas une formule de prudence : c&apos;est la limite réelle de ce que je peux vous apporter.
+            </p>
+
+            <h2>Mes trois règles d&apos;écriture</h2>
             <div className="apropos-valeurs">
               <div className="valeur-card">
-                <div className="valeur-icon">💪</div>
-                <h3>Honnêteté Radicale</h3>
-                <p>Zéro promesse miracle. Chaque conseil ou astuce est le fruit d'une expérience vécue et honnête.</p>
+                <div className="valeur-icon">📏</div>
+                <h3>Du concret, chiffré</h3>
+                <p>Des durées, des quantités, un ordre d&apos;exécution. Si un conseil ne peut pas être appliqué demain matin, il ne mérite pas d&apos;être écrit.</p>
               </div>
               <div className="valeur-card">
-                <div className="valeur-icon">🌱</div>
-                <h3>Écologie & Durabilité</h3>
-                <p>Prendre soin de son corps et de son esprit en respectant l'environnement qui nous entoure.</p>
+                <div className="valeur-icon">🧪</div>
+                <h3>Testé avant d&apos;être publié</h3>
+                <p>Je n&apos;écris pas sur ce que je n&apos;ai pas pratiqué moi-même, sur une durée suffisante pour en juger.</p>
               </div>
               <div className="valeur-card">
-                <div className="valeur-icon">🧠</div>
-                <h3>Esprit Critique</h3>
-                <p>Sortir des sentiers battus, tester de nouvelles approches et ne jamais cesser d'apprendre.</p>
+                <div className="valeur-icon">🚫</div>
+                <h3>Aucune promesse miracle</h3>
+                <p>Pas de transformation en trente jours, pas de secret que les autres vous cachent. Ce qui marche demande du temps, et je le dis.</p>
               </div>
             </div>
 
-            <h2>Collaborons ensemble</h2>
+            <h2>Par où commencer</h2>
             <p>
-              Vous avez une question sur un <strong>dossier bien-être</strong>, une suggestion d'article ou une envie de collaboration pro ? 
-              Je lis tous vos messages avec attention. 
-              <br /><br />
-              N'hésitez pas à me contacter via la <Link href="/contact" className="link-seo">page contact dédiée</Link>.
+              Le plus simple est de partir d&apos;un besoin concret :
+            </p>
+            <ul style={{ listStyle: "disc", paddingLeft: "22px", marginBottom: "20px" }}>
+              <li style={{ listStyle: "disc", marginBottom: "10px" }}>
+                Reprendre une activité physique sans matériel →{" "}
+                <Link href="/articles/confinement-faire-du-sport-a-la-maison" style={{ color: "#f86613", textDecoration: "underline" }}>
+                  le programme de sport à la maison
+                </Link>
+              </li>
+              <li style={{ listStyle: "disc", marginBottom: "10px" }}>
+                Tenir la saison froide sans tomber malade →{" "}
+                <Link href="/articles/hiver-comment-ne-pas-tomber-malade" style={{ color: "#f86613", textDecoration: "underline" }}>
+                  les six habitudes d&apos;hiver
+                </Link>
+              </li>
+              <li style={{ listStyle: "disc", marginBottom: "10px" }}>
+                En finir avec le coup de barre de l&apos;après-midi →{" "}
+                <Link href="/articles/rentree-booster-son-dynamisme" style={{ color: "#f86613", textDecoration: "underline" }}>
+                  la routine énergie
+                </Link>
+              </li>
+            </ul>
+            <p>
+              Chaque article a sa{" "}
+              <Link href="/telechargement" style={{ color: "#f86613", textDecoration: "underline" }}>
+                fiche pratique à imprimer
+              </Link>{" "}
+              : une page A4 avec les gestes, les repères chiffrés et des cases à cocher.
+            </p>
+
+            <h2>Me contacter</h2>
+            <p>
+              Une question, une suggestion de sujet, une erreur à me signaler ? Je lis tous les messages.
+              Écrivez-moi via la{" "}
+              <Link href="/contact" style={{ color: "#f86613", textDecoration: "underline" }}>
+                page contact
+              </Link>{" "}
+              — et si vous voulez peser sur les prochains sujets, les{" "}
+              <Link href="/dossiers" style={{ color: "#f86613", textDecoration: "underline" }}>
+                dossiers en préparation
+              </Link>{" "}
+              se votent.
             </p>
           </div>
         </section>

@@ -158,6 +158,23 @@ export default function Footer() {
           flex-wrap: wrap;
         }
 
+        .footer-credit {
+          border-top: 1px solid rgba(255,255,255,0.15);
+          max-width: 1280px;
+          margin: 0 auto;
+          padding: 14px 40px 22px;
+          font-size: 1.2rem;
+          color: rgba(255,255,255,0.7);
+        }
+
+        .footer-credit a {
+          color: rgba(255,255,255,0.9);
+          text-decoration: none;
+          font-weight: 600;
+        }
+
+        .footer-credit a:hover { color: white; text-decoration: underline; }
+
         @media (max-width: 900px) {
           .footer-main {
             grid-template-columns: 1fr 1fr;
@@ -165,6 +182,7 @@ export default function Footer() {
           }
           .footer-brand { grid-column: 1 / -1; }
           .footer-bottom { padding: 16px 24px; }
+          .footer-credit { padding: 14px 24px 20px; }
         }
 
         @media (max-width: 600px) {
@@ -242,6 +260,13 @@ export default function Footer() {
             <Link href="/cgu">CGU</Link>
             <Link href="/politique-confidentialite">Politique de confidentialité</Link>
           </div>
+        </div>
+
+        <div className="footer-credit">
+          Site réalisé par{" "}
+          <a href="https://sbcconception.com" target="_blank" rel="noopener">
+            SBCConception
+          </a>
         </div>
       </footer>
     </>
