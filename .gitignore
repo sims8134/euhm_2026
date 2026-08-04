@@ -3,3 +3,5 @@
 .env*
 dist/
 send-newsletter.ps1
+
+test-smtp.mjs

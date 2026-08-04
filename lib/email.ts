@@ -19,10 +19,30 @@ export async function sendEmail({
   subject: string;
   html: string;
 }) {
-  return transporter.sendMail({
+  // Échoue explicitement si la configuration SMTP manque, au lieu de partir
+  // dans le vide : sans ça, un .env incomplet produit un faux succès.
+  if (!process.env.SMTP_HOST || !process.env.SMTP_FROM) {
+    console.error("[email] Configuration SMTP manquante — aucun envoi effectué.");
+    throw new Error("smtp_not_configured");
+  }
+
+  const info = await transporter.sendMail({
     from: process.env.SMTP_FROM,
     to,
     subject,
     html,
   });
+
+  // Trace systématique : sujet, destinataire et réponse brute du serveur.
+  // C'est cette ligne qui permet de diagnostiquer un problème de remise.
+  console.log(
+    `[email] "${subject}" -> ${to} | accepté: ${info.accepted.length} | refusé: ${info.rejected.length} | ${info.response}`
+  );
+
+  // Un destinataire refusé par le serveur ne doit pas passer pour un succès.
+  if (info.rejected.length > 0) {
+    throw new Error(`smtp_rejected: ${info.rejected.join(", ")}`);
+  }
+
+  return info;
 }

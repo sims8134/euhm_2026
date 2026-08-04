@@ -10,30 +10,13 @@ export const metadata: Metadata = {
   },
   title: {
     default: "EUHM — Bien-être masculin : sport, alimentation, psychologie",
-    template: "%s | EUHM — Être Un Homme Meilleur",
+    template: "%s | EUHM",
   },
   description:
     "Conseils pratiques de bien-être pour hommes : sport, alimentation équilibrée, psychologie, développement personnel et écologie. Guides gratuits et ressources testées.",
-  keywords: [
-    "bien-être homme",
-    "développement personnel homme",
-    "sport maison homme",
-    "alimentation équilibrée homme",
-    "psychologie masculine",
-    "écologie zéro déchet",
-    "être un homme meilleur",
-    "santé homme",
-  ],
   robots: { index: true, follow: true },
   icons: { icon: "/img/logo_euhm_half.png" },
-  alternates: {
-    canonical: BASE_URL,
-  },
   openGraph: {
-    title: "EUHM — Bien-être masculin : sport, alimentation, psychologie",
-    description:
-      "Conseils pratiques de bien-être pour hommes : sport, alimentation, psychologie et développement personnel.",
-    url: BASE_URL,
     siteName: "EUHM — Être Un Homme Meilleur",
     locale: "fr_FR",
     type: "website",
@@ -49,10 +32,6 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@euhmfr",
-    title: "EUHM — Bien-être masculin : sport, alimentation, psychologie",
-    description:
-      "Conseils pratiques de bien-être pour hommes : sport, alimentation, psychologie et développement personnel.",
-    images: ["/img/og-image.jpg"],
   },
 };
 

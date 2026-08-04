@@ -15,15 +15,18 @@ const NAV_LINKS = [
 
 interface HeaderProps {
   title: string;
-  /** Set to true when the page defines its own H1 — hero will render as H2 instead */
+  /** Set to true ONLY on pages that do NOT define their own <h1> in their content.
+   *  Default: the hero renders a decorative <p>, and the page owns its unique <h1>. */
+  heroAsH1?: boolean;
+  /** @deprecated no longer needed — the hero is no longer an H1 by default. Kept to avoid build errors. */
   heroAsH2?: boolean;
 }
 
-export default function Header({ title, heroAsH2 = false }: HeaderProps) {
+export default function Header({ title, heroAsH1 = false }: HeaderProps) {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const HeroTag = heroAsH2 ? "h2" : "h1";
+  const HeroTag = heroAsH1 ? "h1" : "p";
 
   return (
     <>
@@ -174,7 +177,8 @@ export default function Header({ title, heroAsH2 = false }: HeaderProps) {
         }
 
         .page-hero h1,
-        .page-hero h2 {
+        .page-hero p {
+          font-family: "Borsok", sans-serif;
           font-size: 5.5rem;
           font-weight: 300;
           color: rgb(248, 102, 19);
@@ -191,12 +195,12 @@ export default function Header({ title, heroAsH2 = false }: HeaderProps) {
           .header-logo-text { font-size: 1.5rem; }
           .page-hero { padding: 70px 20px; }
           .page-hero h1,
-          .page-hero h2 { font-size: 3.5rem; }
+          .page-hero p { font-size: 3.5rem; }
         }
 
         @media (max-width: 480px) {
           .page-hero h1,
-          .page-hero h2 { font-size: 2.5rem; }
+          .page-hero p { font-size: 2.5rem; }
           .header-topbar { font-size: 1.1rem; }
         }
       `}</style>

@@ -2,7 +2,23 @@
 
 import { useState } from "react";
 
-export default function NewsletterForm() {
+type Props = {
+  /** Identifie d'où vient l'inscription (ex : "newsletter", "boutique"). */
+  source?: string;
+  /** Texte du bouton. */
+  buttonLabel?: string;
+  /** Texte affiché après une inscription réussie. */
+  successMessage?: string;
+  /** Placeholder du champ e-mail. */
+  placeholder?: string;
+};
+
+export default function NewsletterForm({
+  source = "newsletter",
+  buttonLabel = "S'inscrire",
+  successMessage = "Vérifiez votre boîte mail pour confirmer votre inscription. Pensez à vérifier vos spams.",
+  placeholder = "Votre adresse e-mail",
+}: Props) {
   const [email, setEmail] = useState("");
   const [honeypot, setHoneypot] = useState("");
   const [status, setStatus] = useState("idle" as "idle" | "loading" | "success" | "error" | "already");
@@ -26,7 +42,7 @@ export default function NewsletterForm() {
       const res = await fetch("/api/newsletter/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: trimmed, honeypot }),
+        body: JSON.stringify({ email: trimmed, honeypot, source }),
       });
 
       const data = await res.json();
@@ -49,7 +65,7 @@ export default function NewsletterForm() {
   if (status === "success") {
     return (
       <div style={{ textAlign: "center", padding: "16px 0" }}>
-        <p style={{ color: "#22c55e", fontSize: "14px" }}>Vérifiez votre boîte mail pour confirmer votre inscription. Pensez à vérifier vos spams.</p>
+        <p style={{ color: "#22c55e", fontSize: "14px" }}>{successMessage}</p>
       </div>
     );
   }
@@ -69,7 +85,7 @@ export default function NewsletterForm() {
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          placeholder="Votre adresse e-mail"
+          placeholder={placeholder}
           required
           style={{ flex: 1, padding: "12px 16px", border: "1px solid #e2e0d8", borderRadius: "6px", fontSize: "14px", outline: "none", background: "#fff", color: "#333" }}
         />
@@ -87,7 +103,7 @@ export default function NewsletterForm() {
           disabled={status === "loading"}
           style={{ padding: "12px 24px", background: "#f86613", color: "white", border: "none", borderRadius: "6px", fontSize: "14px", fontWeight: 600, cursor: "pointer", opacity: status === "loading" ? 0.6 : 1, whiteSpace: "nowrap" }}
         >
-          {status === "loading" ? "Envoi..." : "S'inscrire"}
+          {status === "loading" ? "Envoi..." : buttonLabel}
         </button>
       </form>
       {status === "error" && errorMsg && (

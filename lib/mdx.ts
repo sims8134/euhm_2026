@@ -40,6 +40,17 @@ export function getAllArticles(): ArticleMeta[] {
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
+/**
+ * Le H1 de la page article est déjà fourni par le template (titre du frontmatter).
+ * Tout H1 présent dans le corps markdown (# Titre) est donc rétrogradé en H2
+ * pour garantir un seul H1 par page, quel que soit le contenu des futurs articles.
+ */
+function demoteH1(html: string): string {
+  return html
+    .replace(/<h1(\s[^>]*)?>/g, "<h2$1>")
+    .replace(/<\/h1>/g, "</h2>");
+}
+
 export function getArticleBySlug(slug: string) {
   const extensions = ["mdx", "md"];
   for (const ext of extensions) {
@@ -47,7 +58,7 @@ export function getArticleBySlug(slug: string) {
     if (fs.existsSync(filePath)) {
       const raw = fs.readFileSync(filePath, "utf8");
       const { data, content } = matter(raw);
-      const htmlContent = marked(content) as string;
+      const htmlContent = demoteH1(marked(content) as string);
       return { meta: data as ArticleMeta, content: htmlContent };
     }
   }

@@ -5,19 +5,24 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "EUHM — Bien-être masculin : sport, alimentation, psychologie",
-  description:
-    "Conseils pratiques de bien-être pour hommes : sport, alimentation équilibrée, psychologie, développement personnel et écologie. Guides gratuits et ressources testées.",
-  alternates: {
-    canonical: "https://euhm.fr",
+  alternates: { canonical: "/" },
+  openGraph: {
+    title: "EUHM — Bien-être masculin : sport, alimentation, psychologie",
+    description:
+      "Conseils pratiques de bien-être pour hommes : sport, alimentation, psychologie et développement personnel.",
+    url: "/",
   },
 };
+
+// ⚠️ VÉRIFIE CE SLUG : il doit correspondre exactement au nom du fichier
+// dans content/articles/ (sans l'extension .md). Ex : si le fichier s'appelle
+// hiver-comment-ne-pas-tomber-malade.md, ce slug est correct.
+const SLUG_HIVER = "hiver-comment-ne-pas-tomber-malade";
 
 export default function Accueil() {
   return (
     <>
-      {/* heroAsH2 = true because this page defines its own H1 below */}
-      <Header title="Accueil" heroAsH2 />
+      <Header title="Accueil" />
       <main>
         <div className="main-grid">
           <article className="bienvenue">
@@ -43,19 +48,19 @@ export default function Accueil() {
             <ul>
               <li>
                 <strong>Hiver : Comment ne pas tomber malade</strong>
-                <Link href="/dossiers">
+                <Link href={`/articles/${SLUG_HIVER}`}>
                   <Image className="imgactu" src="/img/actualites/winter.jpg" alt="Conseils santé hiver : renforcer son immunité naturellement" width={260} height={180} />
                 </Link>
               </li>
               <li>
                 <strong>Rentrée : Booster son dynamisme</strong>
-                <Link href="/dossiers">
+                <Link href="/articles/rentree-booster-son-dynamisme">
                   <Image className="imgactu" src="/img/actualites/rentrée.jpg" alt="Booster sa motivation et son énergie à la rentrée" width={260} height={180} />
                 </Link>
               </li>
               <li>
                 <strong>Confinement : Faire du sport à la maison</strong>
-                <Link href="/articles/sport-maison">
+                <Link href="/articles/confinement-faire-du-sport-a-la-maison">
                   <Image className="imgactu" src="/img/actualites/sport.jpg" alt="Programme sport à la maison sans matériel" width={260} height={180} />
                 </Link>
               </li>
