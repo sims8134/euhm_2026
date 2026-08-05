@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import Turnstile from "../../components/Turnstile";
 
 export default function ContactPage() {
   const [sent, setSent] = useState(false);
@@ -10,6 +11,7 @@ export default function ContactPage() {
   const [error, setError] = useState("");
   const [form, setForm] = useState({ prenom: "", nom: "", email: "", sujet: "", message: "" });
   const [honeypot, setHoneypot] = useState("");
+  const [captcha, setCaptcha] = useState("");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -20,19 +22,30 @@ export default function ContactPage() {
       return;
     }
 
+    if (!captcha) {
+      setError("Vérification anti-robot en cours, patientez un instant puis réessayez.");
+      return;
+    }
+
     setSending(true);
 
     try {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...form, honeypot }),
+        body: JSON.stringify({ ...form, honeypot, captcha }),
       });
 
       const data = await res.json();
 
       if (data.ok) {
         setSent(true);
+      } else if (data.error === "captcha_failed") {
+        setError("Vérification anti-robot échouée. Rechargez la page et réessayez.");
+      } else if (data.error === "rate_limited") {
+        setError("Trop de messages envoyés. Réessayez dans un moment.");
+      } else if (data.error === "message_too_long") {
+        setError("Votre message est trop long. Merci de le raccourcir.");
       } else {
         setError("Une erreur est survenue. Veuillez réessayer.");
       }
@@ -102,6 +115,11 @@ export default function ContactPage() {
                   aria-hidden="true"
                   style={{ position: "absolute", left: "-9999px", opacity: 0 }}
                 />
+
+                {/* Widget anti-robot : invisible tant qu'aucune clé Turnstile n'est configurée */}
+                <div style={{ marginTop: "8px" }}>
+                  <Turnstile onVerify={setCaptcha} onExpire={() => setCaptcha("")} />
+                </div>
 
                 {error && <p style={{ color: "#ef4444", fontSize: "14px", marginTop: "8px" }}>{error}</p>}
 
