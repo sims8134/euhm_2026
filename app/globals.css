@@ -383,3 +383,18 @@ html {
 
 /* Sélection de texte aux couleurs du site */
 ::selection { background: rgba(248, 102, 19, 0.85); color: #fff; }
+
+/* Colonne actualités : titres lisibles, sans soulignement */
+.actualite li { font-weight: normal; text-decoration: none; }
+.actualite li strong {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 1.45rem;
+  line-height: 1.35;
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+.actualite li a:hover strong { color: rgb(248, 102, 19); }
+.btn:link, .btn:visited, .btn:hover, .btn:active { color: white; }

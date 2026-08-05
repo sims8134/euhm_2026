@@ -3,14 +3,15 @@ import { randomUUID } from "crypto";
 import { supabaseAdmin } from "../../../../lib/supabase-admin";
 import { sendEmail } from "../../../../lib/email";
 import { getConfirmationEmail } from "../../../../lib/newsletter-emails";
+import { rateLimit, getClientIp } from "../../../../lib/rate-limit";
+import { verifierTurnstile } from "../../../../lib/turnstile";
 
 const SITE = "euhm";
 
-/**
- * Filet de sécurité : si la base est injoignable (projet Supabase en pause,
- * panne réseau), l'adresse est envoyée par mail à l'admin au lieu d'être perdue.
- * Retourne true si le repli a fonctionné.
- */
+const IP_LIMIT = 5;
+const EMAIL_LIMIT = 3;
+const WINDOW = 60 * 60 * 1000;
+
 async function fallbackToAdmin(email: string, source: string, reason: string) {
   const admin = process.env.ADMIN_EMAIL || process.env.SMTP_FROM;
   if (!admin) return false;
@@ -42,11 +43,23 @@ export async function POST(request: Request) {
   let source = "newsletter";
 
   try {
+    const ip = getClientIp(request);
+    if (!rateLimit(`ip:${ip}`, IP_LIMIT, WINDOW)) {
+      console.warn(`[subscribe] Limite atteinte pour l'IP ${ip}`);
+      return NextResponse.json({ ok: false, error: "rate_limited" }, { status: 429 });
+    }
+
     const body = await request.json();
-    const { email, honeypot } = body;
+    const { email, honeypot, captcha } = body;
     source = typeof body.source === "string" ? body.source.slice(0, 60) : "newsletter";
 
     if (honeypot) return NextResponse.json({ ok: true });
+
+    // Vérification anti-robot avant tout traitement coûteux.
+    const humain = await verifierTurnstile(captcha, ip);
+    if (!humain) {
+      return NextResponse.json({ ok: false, error: "captcha_failed" }, { status: 403 });
+    }
 
     if (!email || typeof email !== "string") {
       return NextResponse.json({ ok: false, error: "email_required" }, { status: 400 });
@@ -56,6 +69,11 @@ export async function POST(request: Request) {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(trimmedEmail)) {
       return NextResponse.json({ ok: false, error: "email_invalid" }, { status: 400 });
+    }
+
+    if (!rateLimit(`email:${trimmedEmail}`, EMAIL_LIMIT, WINDOW)) {
+      console.warn(`[subscribe] Limite atteinte pour l'adresse ${trimmedEmail}`);
+      return NextResponse.json({ ok: false, error: "rate_limited" }, { status: 429 });
     }
 
     const { data: existing } = await supabaseAdmin

@@ -7,7 +7,9 @@ import Footer from "../../../components/Footer";
 import { getArticleBySlug, getAllArticles } from "../../../lib/mdx";
 
 const BASE_URL = "https://euhm.fr";
-const AUTEUR = "Simon"; // ⚠️ Mets ici le nom sous lequel tu signes le site.
+
+// ⚠️ Doit correspondre à la constante AUTEUR de app/apropos/page.tsx
+const AUTEUR = "Simon";
 
 export async function generateStaticParams() {
   const articles = getAllArticles();
@@ -42,7 +44,6 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const article = getArticleBySlug(slug);
   if (!article) notFound();
 
-  // Balisage schema.org Article — indispensable sur une thématique santé (E-E-A-T).
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -90,21 +91,35 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
               {" · "}{article.meta.date} · {article.meta.readTime} de lecture
             </div>
           </div>
+
           {article.meta.image && (
-            <div
-              className="article-page-img"
-              style={{ position: "relative", width: "100%", height: "400px", marginBottom: "24px" }}
-            >
-              <Image
-                src={article.meta.image}
-                alt={article.meta.title}
-                fill
-                sizes="(max-width: 900px) 100vw, 800px"
-                priority
-                style={{ objectFit: "cover", borderRadius: "8px" }}
-              />
-            </div>
+            <figure style={{ margin: "0 0 24px" }}>
+              <div style={{ position: "relative", width: "100%", height: "400px" }}>
+                <Image
+                  src={article.meta.image}
+                  alt={article.meta.title}
+                  fill
+                  sizes="(max-width: 900px) 100vw, 800px"
+                  priority
+                  style={{ objectFit: "cover", borderRadius: "8px" }}
+                />
+              </div>
+              {article.meta.imageCredit && (
+                <figcaption
+                  style={{
+                    marginTop: "8px",
+                    fontSize: "1.2rem",
+                    color: "#999",
+                    fontStyle: "italic",
+                    textAlign: "right",
+                  }}
+                >
+                  {article.meta.imageCredit}
+                </figcaption>
+              )}
+            </figure>
           )}
+
           <div className="article-page-content">
             <div dangerouslySetInnerHTML={{ __html: article.content }} />
           </div>

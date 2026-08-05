@@ -5,6 +5,12 @@ category: "Santé"
 description: "6 habitudes concrètes pour renforcer sa résistance en hiver : sommeil, hygiène, aération, activité physique, alimentation et gestion du chauffage."
 image: "/img/actualites/winter.jpg"
 readTime: "5 min"
+
+fiche: "/fiches/euhm-fiche-checklist-hiver.pdf"
+ficheNumero: "02"
+ficheIcon: "❄️"
+ficheTitre: "Checklist hiver : 6 habitudes"
+ficheDesc: "Les six gestes qui font la différence quand les températures chutent, chacun avec son repère chiffré — sommeil, mains, aération, activité physique, alimentation, chauffage — et une grille de suivi sur 7 jours."
 ---
 
 Un hiver, une grippe m'a cloué au lit dix jours — le genre d'épisode qui fait réfléchir à ce qu'on aurait pu faire en amont. Depuis, j'applique une liste courte d'habitudes vérifiables. Pas de remède miracle : six gestes concrets, à mettre en place dès maintenant.

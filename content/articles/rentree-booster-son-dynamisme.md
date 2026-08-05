@@ -5,6 +5,12 @@ category: "Sport"
 description: "Une routine énergie complète et minutée : matin, après-midi, soir. Fruits, thé, noix, marche et douche froide — quoi faire, quand, et comment démarrer."
 image: "/img/actualites/rentree.jpg"
 readTime: "5 min"
+
+fiche: "/fiches/euhm-fiche-routine-energie.pdf"
+ficheNumero: "03"
+ficheIcon: "⚡"
+ficheTitre: "Routine énergie : la journée type"
+ficheDesc: "Sept gestes minutés pour en finir avec le coup de barre de 15 h, du verre d'eau du réveil à la marche du soir. Avec le démarrage progressif sur 4 semaines et une grille d'auto-mesure."
 ---
 
 # Booster son dynamisme : la routine complète, heure par heure

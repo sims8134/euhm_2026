@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Turnstile from "./Turnstile";
 
 type Props = {
   /** Identifie d'où vient l'inscription (ex : "newsletter", "boutique"). */
@@ -21,6 +22,7 @@ export default function NewsletterForm({
 }: Props) {
   const [email, setEmail] = useState("");
   const [honeypot, setHoneypot] = useState("");
+  const [captcha, setCaptcha] = useState("");
   const [status, setStatus] = useState("idle" as "idle" | "loading" | "success" | "error" | "already");
   const [errorMsg, setErrorMsg] = useState("");
 
@@ -38,11 +40,17 @@ export default function NewsletterForm({
       return;
     }
 
+    if (!captcha) {
+      setStatus("error");
+      setErrorMsg("Vérification anti-robot en cours, patientez un instant.");
+      return;
+    }
+
     try {
       const res = await fetch("/api/newsletter/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: trimmed, honeypot, source }),
+        body: JSON.stringify({ email: trimmed, honeypot, source, captcha }),
       });
 
       const data = await res.json();
@@ -52,6 +60,12 @@ export default function NewsletterForm({
         setEmail("");
       } else if (data.error === "already_subscribed") {
         setStatus("already");
+      } else if (data.error === "captcha_failed") {
+        setStatus("error");
+        setErrorMsg("Vérification anti-robot échouée. Rechargez la page et réessayez.");
+      } else if (data.error === "rate_limited") {
+        setStatus("error");
+        setErrorMsg("Trop de tentatives. Réessayez dans un moment.");
       } else {
         setStatus("error");
         setErrorMsg("Une erreur est survenue. Veuillez réessayer.");
@@ -106,6 +120,12 @@ export default function NewsletterForm({
           {status === "loading" ? "Envoi..." : buttonLabel}
         </button>
       </form>
+
+      {/* Widget anti-robot : invisible tant qu'aucune clé Turnstile n'est configurée */}
+      <div style={{ marginTop: "12px" }}>
+        <Turnstile onVerify={setCaptcha} onExpire={() => setCaptcha("")} />
+      </div>
+
       {status === "error" && errorMsg && (
         <p style={{ color: "#ef4444", fontSize: "12px", marginTop: "8px", textAlign: "center" }}>{errorMsg}</p>
       )}

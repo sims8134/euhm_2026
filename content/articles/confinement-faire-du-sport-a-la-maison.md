@@ -5,6 +5,12 @@ category: "Sport"
 description: "Un programme complet de 3 séances par semaine sans aucun matériel : exercices, séries, répétitions et progression sur 4 semaines."
 image: "/img/actualites/sport.jpg"
 readTime: "6 min"
+
+fiche: "/fiches/euhm-fiche-programme-sport-maison.pdf"
+ficheNumero: "01"
+ficheIcon: "🏋️"
+ficheTitre: "Programme sport à la maison"
+ficheDesc: "Trois séances de 25 minutes par semaine, sans aucun matériel : les 4 exercices du circuit avec leur technique, la progression sur 4 semaines, une grille pour cocher chaque séance et le test avant/après à 30 jours."
 ---
 
 Pas de salle, pas de matériel, pas d'excuse : tout ce qu'il faut pour se remettre en forme tient dans deux mètres carrés de salon. Voici le programme exact que j'ai suivi pour reprendre le sport chez moi — quand il fait trop froid pour sortir, c'est aussi [ma solution pour rester actif l'hiver](/articles/hiver-comment-ne-pas-tomber-malade).

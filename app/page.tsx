@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { getAllArticles } from "../lib/mdx";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -27,7 +28,7 @@ export default function Accueil() {
           <article className="bienvenue">
             <h1>Bien-être masculin : devenez un homme meilleur</h1>
 
-            <h2>EUHM c&apos;est quoi ?</h2>
+            <h2>EUHM c'est quoi ?</h2>
             <p>
               Les lettres <strong>EUHM</strong> sont l&apos;abréviation de &quot;<strong>Être Un Homme Meilleur</strong>&quot;.
               <br /><br />
@@ -42,30 +43,27 @@ export default function Accueil() {
             <Link href="/contact" className="btn">Contactez-nous</Link>
           </article>
 
-          <section id="actu" className="actualite">
+        <section id="actu" className="actualite">
             <h2>actualités</h2>
             <ul>
-              <li>
-                <strong>Hiver : Comment ne pas tomber malade</strong>
-                <Link href={`/articles/${SLUG_HIVER}`}>
-                  <Image className="imgactu" src="/img/actualites/winter.jpg" alt="Conseils santé hiver : renforcer son immunité naturellement" width={260} height={180} />
-                </Link>
-              </li>
-              <li>
-                <strong>Rentrée : Booster son dynamisme</strong>
-                <Link href="/articles/rentree-booster-son-dynamisme">
-                  <Image className="imgactu" src="/img/actualites/rentree.jpg" alt="Booster sa motivation et son énergie à la rentrée" width={260} height={180} />
-                </Link>
-              </li>
-              <li>
-                <strong>Confinement : Faire du sport à la maison</strong>
-                <Link href="/articles/confinement-faire-du-sport-a-la-maison">
-                  <Image className="imgactu" src="/img/actualites/sport.jpg" alt="Programme sport à la maison sans matériel" width={260} height={180} />
-                </Link>
-              </li>
+              {getAllArticles().slice(0, 3).map((a) => (
+                <li key={a.slug}>
+                  <Link href={`/articles/${a.slug}`}>
+                    <strong>{a.title}</strong>
+                    {a.image && (
+                      <Image
+                        className="imgactu"
+                        src={a.image}
+                        alt={a.title}
+                        width={260}
+                        height={180}
+                      />
+                    )}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </section>
-
           <section id="shop" className="boutique" style={{ textAlign: "center" }}>
             <h2>La boutique arrive</h2>
             <p style={{ maxWidth: "540px", margin: "0 auto 24px", color: "#666", lineHeight: 1.6 }}>
