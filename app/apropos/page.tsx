@@ -1,29 +1,30 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import { pageOpenGraph } from "../../lib/seo";
 
 const BASE_URL = "https://euhm.fr";
 
 // ⚠️ Doit correspondre exactement à la constante AUTEUR de app/articles/[slug]/page.tsx
 const AUTEUR = "Simon";
 
-// ⚠️ Mets ici une photo de toi si tu en as une (public/img/auteur.jpg par ex.).
-// Une page auteur avec un visage vaut bien plus qu'un logo sur une thématique santé.
-const PHOTO = "/img/logo_euhm_half.png";
+// Photo de l'auteur : WebP servi en priorite, JPEG en repli (800px de large).
+const PHOTO_WEBP = "/img/simon-auteur-euhm.webp";
+const PHOTO_JPEG = "/img/simon-auteur-euhm.jpg";
+const PHOTO_ALT = `${AUTEUR}, auteur d'EUHM`;
 
 export const metadata: Metadata = {
   title: "À propos — qui écrit sur EUHM",
   description:
     "Qui est derrière EUHM : cinq ans d'expérimentation personnelle en sport, alimentation, psychologie et écologie. Ni coach, ni médecin — des méthodes testées et assumées.",
   alternates: { canonical: "/apropos" },
-  openGraph: {
+  openGraph: pageOpenGraph({
     title: "À propos — qui écrit sur EUHM",
     description:
       "Cinq ans d'expérimentation personnelle partagés sans promesse miracle. Ni coach, ni médecin.",
     url: "/apropos",
-  },
+  }),
 };
 
 export default function AproposPage() {
@@ -33,6 +34,7 @@ export default function AproposPage() {
     "@type": "Person",
     name: AUTEUR,
     url: `${BASE_URL}/apropos`,
+    image: `${BASE_URL}${PHOTO_JPEG}`,
     description:
       "Auteur d'EUHM — Être Un Homme Meilleur. Cinq ans d'expérimentation personnelle en sport, alimentation, psychologie et écologie.",
     knowsAbout: [
@@ -60,12 +62,16 @@ export default function AproposPage() {
         <section className="apropos-section">
           <div className="apropos-hero">
             <div className="apropos-hero-logo">
-              <Image
-                src={PHOTO}
-                alt={`${AUTEUR}, auteur du site EUHM — Être Un Homme Meilleur`}
-                width={160}
-                height={160}
-              />
+              <picture>
+                <source srcSet={PHOTO_WEBP} type="image/webp" />
+                <img
+                  src={PHOTO_JPEG}
+                  alt={PHOTO_ALT}
+                  width={160}
+                  height={160}
+                  decoding="async"
+                />
+              </picture>
             </div>
             <div className="apropos-hero-text">
               <h1>Qui écrit sur EUHM</h1>

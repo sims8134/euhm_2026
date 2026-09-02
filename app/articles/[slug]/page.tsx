@@ -4,9 +4,10 @@ import Link from "next/link";
 import Image from "next/image";
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
+import ShareButtons from "../../../components/ShareButtons";
 import { getArticleBySlug, getAllArticles } from "../../../lib/mdx";
-
-const BASE_URL = "https://euhm.fr";
+import { BASE_URL, SITE_NAME, DEFAULT_OG_IMAGES } from "../../../lib/seo";
+import { formatDateFr, isoDate } from "../../../lib/dates";
 
 // ⚠️ Doit correspondre à la constante AUTEUR de app/apropos/page.tsx
 const AUTEUR = "Simon";
@@ -28,13 +29,19 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     description: article.meta.description,
     alternates: { canonical: url },
     openGraph: {
+      // siteName et locale ne sont pas hérités du layout : Next.js remplace
+      // le bloc openGraph en entier dès qu'une page en déclare un.
+      siteName: SITE_NAME,
+      locale: "fr_FR",
       type: "article",
       url,
       title: article.meta.title,
       description: article.meta.description,
-      ...(article.meta.image && {
-        images: [{ url: article.meta.image, width: 1200, height: 630, alt: article.meta.title }],
-      }),
+      publishedTime: article.meta.date,
+      modifiedTime: article.meta.date,
+      images: article.meta.image
+        ? [{ url: article.meta.image, width: 1200, height: 630, alt: article.meta.title }]
+        : DEFAULT_OG_IMAGES,
     },
   };
 }
@@ -88,7 +95,9 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             <h1>{article.meta.title}</h1>
             <div className="article-page-meta">
               Par <Link href="/apropos" style={{ color: "#f86613" }}>{AUTEUR}</Link>
-              {" · "}{article.meta.date} · {article.meta.readTime} de lecture
+              {" · "}
+              <time dateTime={isoDate(article.meta.date)}>{formatDateFr(article.meta.date)}</time>
+              {" · "}{article.meta.readTime} de lecture
             </div>
           </div>
 
@@ -123,6 +132,11 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           <div className="article-page-content">
             <div dangerouslySetInnerHTML={{ __html: article.content }} />
           </div>
+
+          <ShareButtons
+            url={`${BASE_URL}/articles/${slug}`}
+            title={article.meta.title}
+          />
 
           {/* Encart auteur — signal E-E-A-T sur thématique santé */}
           <aside

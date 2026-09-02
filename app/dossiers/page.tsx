@@ -2,18 +2,19 @@ import { Metadata } from "next";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import DossierInterest from "../../components/DossierInterest";
+import { pageOpenGraph } from "../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Dossiers Bien-être Homme : Santé, Sport, Nutrition et Sommeil",
   description:
     "Les dossiers thématiques EUHM en préparation : immunité, sport à la maison, nutrition, sommeil, zéro déchet. Dites-nous lequel vous voulez lire en premier.",
   alternates: { canonical: "/dossiers" },
-  openGraph: {
+  openGraph: pageOpenGraph({
     title: "Dossiers Bien-être Homme",
     description:
       "Des guides complets pour optimiser votre santé physique et mentale — en cours d'écriture.",
     url: "/dossiers",
-  },
+  }),
 };
 
 const DOSSIERS = [

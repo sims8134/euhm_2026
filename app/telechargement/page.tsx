@@ -2,18 +2,19 @@ import type { Metadata } from "next";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import { getAllFiches } from "../../lib/mdx";
+import { pageOpenGraph } from "../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Fiches Pratiques & Ressources Gratuites",
   description:
     "Téléchargez librement les fiches pratiques EUHM : une page A4 à imprimer par article, avec les gestes concrets, les repères chiffrés et des cases à cocher. Sans inscription.",
   alternates: { canonical: "/telechargement" },
-  openGraph: {
+  openGraph: pageOpenGraph({
     title: "Fiches pratiques gratuites | EUHM",
     description:
       "Des fiches A4 à imprimer et à cocher, une par article : sport, sommeil, énergie, santé.",
     url: "/telechargement",
-  },
+  }),
 };
 
 export default function TelechargementPage() {

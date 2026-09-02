@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-
-const BASE_URL = "https://euhm.fr";
+import { BASE_URL, SITE_NAME, DEFAULT_OG_IMAGES } from "../lib/seo";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
@@ -17,17 +16,10 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
   icons: { icon: "/img/logo_euhm_half.png" },
   openGraph: {
-    siteName: "EUHM — Être Un Homme Meilleur",
+    siteName: SITE_NAME,
     locale: "fr_FR",
     type: "website",
-    images: [
-      {
-        url: "/img/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "EUHM – Être Un Homme Meilleur : bien-être masculin",
-      },
-    ],
+    images: DEFAULT_OG_IMAGES,
   },
   twitter: {
     card: "summary_large_image",
@@ -39,7 +31,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "EUHM — Être Un Homme Meilleur",
+  name: SITE_NAME,
   url: BASE_URL,
   logo: `${BASE_URL}/img/logo_euhm_half.png`,
   description:

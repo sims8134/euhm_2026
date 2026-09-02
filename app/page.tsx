@@ -4,15 +4,16 @@ import Link from "next/link";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { getAllArticles } from "../lib/mdx";
+import { pageOpenGraph } from "../lib/seo";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
-  openGraph: {
+  openGraph: pageOpenGraph({
     title: "EUHM — Bien-être masculin : sport, alimentation, psychologie",
     description:
       "Conseils pratiques de bien-être pour hommes : sport, alimentation, psychologie et développement personnel.",
     url: "/",
-  },
+  }),
 };
 
 // ⚠️ Si tu avais modifié ce slug dans ta version précédente de page.tsx,

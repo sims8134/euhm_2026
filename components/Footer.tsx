@@ -227,7 +227,6 @@ export default function Footer() {
               <li><Link href="/dossiers">Dossiers</Link></li>
               <li><Link href="/galerie">Galerie</Link></li>
               <li><Link href="/telechargement">Téléchargement</Link></li>
-              <li><Link href="/boutique">Boutique</Link></li>
             </ul>
           </div>
 

@@ -5,3 +5,4 @@ dist/
 send-newsletter.ps1
 
 test-smtp.mjs
+_a-traiter/

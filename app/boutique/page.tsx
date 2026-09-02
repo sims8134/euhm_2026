@@ -3,16 +3,17 @@ import Image from "next/image";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import NewsletterForm from "../../components/NewsletterForm";
+import { pageOpenGraph } from "../../lib/seo";
 
 export const metadata: Metadata = {
-  title: "Boutique Zéro Déchet & Accessoires Bien-être",
-  description: "La sélection zéro déchet EUHM arrive : savon d'Alep, gourde en verre, brosse à dents en bambou. Laissez votre e-mail pour être prévenu au lancement.",
+  title: "La boutique arrive — sélection zéro déchet & bien-être",
+  description: "La sélection zéro déchet EUHM se prépare : savon d'Alep, gourde en verre, brosse à dents en bambou. Rien n'est encore en vente. Laissez votre e-mail pour être prévenu au lancement.",
   alternates: { canonical: "/boutique" },
-  openGraph: {
-    title: "Boutique Éco-responsable EUHM",
-    description: "Équipez-vous pour devenir une meilleure version de vous-même tout en respectant la planète.",
+  openGraph: pageOpenGraph({
+    title: "La boutique arrive — sélection zéro déchet & bien-être",
+    description: "La sélection zéro déchet EUHM se prépare. Rien n'est encore en vente : laissez votre e-mail pour être prévenu au lancement.",
     url: "/boutique",
-  },
+  }),
 };
 
 const produits = [
@@ -39,12 +40,14 @@ const produits = [
 export default function BoutiquePage() {
   return (
     <>
-      <Header title="Boutique Éco-responsable : Zéro Déchet & Santé" />
+      <Header title="La boutique arrive" />
       <main>
         <section className="boutique-section">
-          <h1>La Boutique Zéro Déchet : Équipements pour un Homme Meilleur</h1>
+          <h1>La boutique arrive</h1>
           <p className="intro">
-            Une sélection rigoureuse d&#39;accessoires <strong>éco-responsables</strong> et de produits naturels pour optimiser votre quotidien et réduire votre empreinte carbone.
+            Une sélection rigoureuse d&#39;accessoires <strong>éco-responsables</strong> et de produits naturels
+            est en cours de constitution. Rien n&#39;est encore en vente : cette page présente ce qui sera proposé,
+            et vous permet d&#39;être prévenu à l&#39;ouverture.
           </p>
 
           {/* Bloc de capture e-mail */}
@@ -87,7 +90,7 @@ export default function BoutiquePage() {
 
           <h2 style={{ textAlign: "center", marginBottom: "8px" }}>Un aperçu de la sélection</h2>
           <p style={{ textAlign: "center", fontSize: "14px", color: "#666", marginBottom: "32px" }}>
-            Trois produits testés au quotidien, qui feront partie des premiers disponibles.
+            Trois produits testés au quotidien, qui feront partie des premiers proposés à l&#39;ouverture.
           </p>
 
           <div className="boutique-grid">

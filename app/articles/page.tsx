@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import ArticlesClient from "../../components/ArticlesClient";
 import { getAllArticles } from "../../lib/mdx";
+import { pageOpenGraph } from "../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Articles Bien-être Homme : Sport, Nutrition, Psychologie",
@@ -11,11 +12,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://euhm.fr/articles",
   },
-  openGraph: {
+  openGraph: pageOpenGraph({
     title: "Articles et Ressources Bien-être pour Hommes | EUHM",
     description:
       "Apprenez à devenir une meilleure version de vous-même avec nos conseils pratiques et testés.",
-  },
+    url: "/articles",
+  }),
 };
 
 export default function ArticlesPage() {

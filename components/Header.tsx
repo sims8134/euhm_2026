@@ -10,7 +10,6 @@ const NAV_LINKS = [
   { href: "/dossiers", label: "Dossiers" },
   { href: "/galerie", label: "Galerie" },
   { href: "/telechargement", label: "Téléchargement" },
-  { href: "/boutique", label: "Boutique" },
 ];
 
 interface HeaderProps {

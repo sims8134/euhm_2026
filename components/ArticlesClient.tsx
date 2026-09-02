@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { formatDateFr, isoDate } from "../lib/dates";
 
 const CATEGORIES = ["Tous", "Sport", "Santé", "Alimentation", "Psychologie", "Écologie", "Vie de couple", "Développement Personnel"];
 
@@ -43,7 +44,10 @@ export default function ArticlesClient({ articles }: { articles: any[] }) {
               <div className="article-tag">{a.meta?.category}</div>
               <h2>{a.meta?.title}</h2>
               <p>{a.meta?.description}</p>
-              <div className="article-meta">{a.meta?.date} · {a.meta?.readTime} de lecture</div>
+              <div className="article-meta">
+                <time dateTime={isoDate(a.meta?.date)}>{formatDateFr(a.meta?.date)}</time>
+                {" · "}{a.meta?.readTime} de lecture
+              </div>
               <Link href={a.slug === "#" ? "#" : `/articles/${a.slug}`} className="btn">Lire l&#39;article</Link>
             </div>
           </div>
