@@ -23,7 +23,7 @@ Deux raisons se combinent.
 
 **Il n'y a plus rien pour occuper l'attention.** Toute la journée, les tâches, le bruit et les écrans mobilisent l'esprit. Le soir, ce filtre tombe, et ce qui attendait remonte.
 
-**Le cerveau n'oublie pas ce qui n'est pas fini.** Une tâche close disparaît de l'esprit ; une tâche en suspens reste active, et il vous la rappelle — encore, et encore, parce qu'il n'a aucun moyen de savoir que vous l'avez notée quelque part. C'est le mécanisme central, et c'est aussi celui qui donne la solution.
+**Le cerveau n'oublie pas ce qui n'est pas fini.** Une tâche close disparaît de l'esprit ; une tâche en suspens reste active, et il vous la rappelle : encore, et encore, parce qu'il n'a aucun moyen de savoir que vous l'avez notée quelque part. C'est le mécanisme central, et c'est aussi celui qui donne la solution.
 
 ## Ruminer n'est pas réfléchir
 
@@ -33,7 +33,7 @@ La distinction est simple et elle change tout.
 
 **Ruminer tourne** : les mêmes éléments reviennent dans le même ordre, sans jamais produire de sortie. Vous avez l'impression de traiter le problème, mais vous le repassez simplement en boucle.
 
-**Le test, en une question** : est-ce que j'ai avancé depuis dix minutes ? Si la réponse est non, vous ne réfléchissez pas — et continuer ne produira rien de plus.
+**Le test, en une question** : est-ce que j'ai avancé depuis dix minutes ? Si la réponse est non, vous ne réfléchissez pas, et continuer ne produira rien de plus.
 
 ## Les six mécanismes
 
@@ -41,7 +41,7 @@ La distinction est simple et elle change tout.
 
 C'est le geste le plus efficace, et il prend cinq minutes. Le principe : ce qui est écrit cesse d'être retenu.
 
-Trois colonnes, sur un carnet papier — pas sur un écran :
+Trois colonnes, sur un carnet papier, pas sur un écran :
 
 - **Ce qui doit être fait demain** : les trois choses, pas quinze
 - **Ce qui traîne** : les tâches en suspens, même celles que vous ne ferez pas demain, avec une date approximative
@@ -55,7 +55,7 @@ C'est le prolongement direct des trois choses notées avant de dormir dans [le p
 
 Contre-intuitif, et redoutablement efficace : au lieu d'essayer de ne pas y penser, **donnez-vous un rendez-vous pour y penser**.
 
-Quinze minutes, à heure fixe, en journée — pas après 19 h. Vous vous asseyez avec votre liste de préoccupations et vous les examinez pour de bon. Quand la boucle démarre le soir, vous vous dites : ce n'est pas le créneau, j'y reviendrai demain à 18 h.
+Quinze minutes, à heure fixe, en journée, pas après 19 h. Vous vous asseyez avec votre liste de préoccupations et vous les examinez pour de bon. Quand la boucle démarre le soir, vous vous dites : ce n'est pas le créneau, j'y reviendrai demain à 18 h.
 
 Ça paraît trop simple pour fonctionner. Ça fonctionne parce que le cerveau n'insiste que tant qu'il craint d'être ignoré. Un rendez-vous pris, il attend.
 
@@ -73,7 +73,7 @@ La plupart des ruminations nocturnes portent sur des choses de la seconde catég
 
 Les décisions prises tard le soir sont mauvaises, systématiquement. La fatigue amplifie le négatif, réduit les nuances et fait paraître définitif ce qui ne l'est pas. Le message que vous avez failli envoyer à minuit, vous êtes content de ne pas l'avoir envoyé.
 
-**La règle** : aucune décision, aucun message, aucune conversation difficile après 22 h. Vous notez, et vous tranchez le lendemain — où le même sujet paraîtra deux fois plus petit.
+**La règle** : aucune décision, aucun message, aucune conversation difficile après 22 h. Vous notez, et vous tranchez le lendemain, où le même sujet paraîtra deux fois plus petit.
 
 ### 5. Une coupure physique entre la journée et le soir
 
@@ -89,7 +89,7 @@ Rester allongé à ruminer apprend au cerveau que le lit est un endroit où l'on
 
 ## Comment savoir si ça marche
 
-Deux chiffres, notés le matin en dix secondes : **le temps qu'il vous a fallu pour vous endormir** (5, 15, 30, plus de 45 minutes) et **si la boucle s'est déclenchée** — oui ou non.
+Deux chiffres, notés le matin en dix secondes : **le temps qu'il vous a fallu pour vous endormir** (5, 15, 30, plus de 45 minutes) et **si la boucle s'est déclenchée**, oui ou non.
 
 Regardez la tendance sur quatre semaines, pas une nuit isolée. Ce qui doit baisser, c'est le nombre de soirs où ça part en boucle. Une soirée difficile de temps en temps restera, et c'est normal.
 
@@ -99,4 +99,4 @@ Regardez la tendance sur quatre semaines, pas une nuit isolée. Ce qui doit bais
 
 Je ne suis ni psychologue ni thérapeute. Ce que je décris s'applique à la rumination ordinaire, celle qui suit une journée chargée et qui cède devant un carnet et un peu de méthode.
 
-Ça ne recouvre pas tout. Si l'anxiété est présente la plupart du temps et pas seulement le soir, si elle s'accompagne de symptômes physiques — cœur qui s'emballe, oppression, tremblements —, si vous n'arrivez plus à dormir depuis des semaines, ou si les pensées qui tournent deviennent sombres, ce n'est plus une question de méthode. Ce sont des situations qui se traitent, et un médecin ou un psychologue est le bon interlocuteur — bien plus efficace que n'importe quel carnet.
+Ça ne recouvre pas tout. Si l'anxiété est présente la plupart du temps et pas seulement le soir, si elle s'accompagne de symptômes physiques (cœur qui s'emballe, oppression, tremblements), si vous n'arrivez plus à dormir depuis des semaines, ou si les pensées qui tournent deviennent sombres, ce n'est plus une question de méthode. Ce sont des situations qui se traitent, et un médecin ou un psychologue est le bon interlocuteur, bien plus efficace que n'importe quel carnet.

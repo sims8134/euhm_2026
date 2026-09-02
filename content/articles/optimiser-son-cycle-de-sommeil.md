@@ -11,10 +11,10 @@ fiche: "/fiches/euhm-fiche-protocole-sommeil.pdf"
 ficheNumero: "04"
 ficheIcon: "😴"
 ficheTitre: "Protocole sommeil"
-ficheDesc: "Les six gestes qui font la différence sur la qualité des nuits — dernier café, écrans, température de la chambre, rituel du soir, lever à heure fixe, lumière du matin. Avec la règle des 20 minutes pour les réveils nocturnes et une grille d'auto-mesure."
+ficheDesc: "Les six gestes qui font la différence sur la qualité des nuits : dernier café, écrans, température de la chambre, rituel du soir, lever à heure fixe, lumière du matin. Avec la règle des 20 minutes pour les réveils nocturnes et une grille d'auto-mesure."
 ---
 
-Rester scotché à un écran jusqu'à une heure indécente, sans raison, pour des tâches sans importance : je l'ai fait des centaines de fois. Le lendemain se paie toujours — tête lourde, concentration en miettes, et l'envie de compenser au café dès 9 h. Voici le protocole qui a mis fin à ça chez moi, avec les horaires et les repères exacts.
+Rester scotché à un écran jusqu'à une heure indécente, sans raison, pour des tâches sans importance : je l'ai fait des centaines de fois. Le lendemain se paie toujours : tête lourde, concentration en miettes, et l'envie de compenser au café dès 9 h. Voici le protocole qui a mis fin à ça chez moi, avec les horaires et les repères exacts.
 
 ## Le déclic : ce n'est pas l'heure du coucher, c'est la régularité
 
@@ -30,11 +30,11 @@ Mon repère : ne pas dévier de plus de 30 minutes, même le samedi. Une grasse 
 
 **3. La chambre à 17-19 °C.** L'endormissement demande une baisse de la température corporelle. Une chambre à 22 °C la freine. C'est le paramètre qu'on néglige le plus, et il est gratuit à corriger.
 
-**4. Un rituel de 15 minutes, toujours le même.** Le mien : quelques pages d'un livre papier, puis noter sur un carnet les trois choses à faire le lendemain. Cette dernière étape a été une vraie surprise — c'est ce qui m'a le mieux vidé la tête. Tant que la liste tourne dans le crâne, le cerveau la répète pour ne pas l'oublier ; écrite, il la lâche.
+**4. Un rituel de 15 minutes, toujours le même.** Le mien : quelques pages d'un livre papier, puis noter sur un carnet les trois choses à faire le lendemain. Cette dernière étape a été une vraie surprise : c'est ce qui m'a le mieux vidé la tête. Tant que la liste tourne dans le crâne, le cerveau la répète pour ne pas l'oublier ; écrite, il la lâche.
 
 **5. Se lever à heure fixe, y compris le week-end.** L'heure du réveil ancre tout le rythme. Elle compte plus que l'heure du coucher, qui suivra naturellement.
 
-**6. 10 minutes de lumière du jour dans l'heure qui suit le réveil.** Sortir, ouvrir grand les rideaux, prendre le café dehors si possible. La lumière du matin cale l'horloge interne et rend l'endormissement du soir plus facile — c'est le geste le moins connu de la liste, et l'un des plus utiles. Un lien direct avec [ma routine énergie](/articles/rentree-booster-son-dynamisme), dont c'est aussi le premier levier.
+**6. 10 minutes de lumière du jour dans l'heure qui suit le réveil.** Sortir, ouvrir grand les rideaux, prendre le café dehors si possible. La lumière du matin cale l'horloge interne et rend l'endormissement du soir plus facile. C'est le geste le moins connu de la liste, et l'un des plus utiles. Un lien direct avec [ma routine énergie](/articles/rentree-booster-son-dynamisme), dont c'est aussi le premier levier.
 
 ## Le cas particulier : le réveil à 3 h du matin
 
@@ -57,7 +57,7 @@ Si vous n'appliquez qu'un seul de ces points, prenez le premier. La régularité
 
 Notez chaque matin, en dix secondes, deux chiffres : **la qualité de votre nuit sur 10**, et **le temps qu'il vous a fallu pour vous endormir** (à la louche : 5, 15, 30, plus de 45 minutes). Faites-le pendant les quatre semaines.
 
-Ce qu'il faut regarder au bout d'un mois, ce n'est pas une nuit isolée mais la tendance : le délai d'endormissement doit baisser, et la note moyenne monter d'un ou deux points. Si rien ne bouge du tout après un mois de protocole tenu, cette approche n'est pas votre levier — et c'est une information utile, pas un échec.
+Ce qu'il faut regarder au bout d'un mois, ce n'est pas une nuit isolée mais la tendance : le délai d'endormissement doit baisser, et la note moyenne monter d'un ou deux points. Si rien ne bouge du tout après un mois de protocole tenu, cette approche n'est pas votre levier, et c'est une information utile, pas un échec.
 
 **[Télécharger la fiche mémo (PDF, 1 page à imprimer)](/fiches/euhm-fiche-protocole-sommeil.pdf)**
 

@@ -11,10 +11,10 @@ fiche: "/fiches/euhm-fiche-sortir-du-sucre.pdf"
 ficheNumero: "05"
 ficheIcon: "🍫"
 ficheTitre: "Sortir du sucre automatique"
-ficheDesc: "Les sept leviers pour réduire les prises sucrées sans se priver — ne plus stocker, remplacer plutôt qu'interdire, supprimer le sucre liquide, s'asseoir pour manger — avec le démarrage sur 4 semaines et une grille de suivi."
+ficheDesc: "Les sept leviers pour réduire les prises sucrées sans se priver (ne plus stocker, remplacer plutôt qu'interdire, supprimer le sucre liquide, s'asseoir pour manger) avec le démarrage sur 4 semaines et une grille de suivi."
 ---
 
-J'étais un gros consommateur de chocolat. Pas un carré le dimanche : une tablette entamée en permanence, et le réflexe d'aller la chercher sans même y penser. Ce qui m'a fait changer, ce n'est pas la culpabilité — c'est d'avoir compris que je ne décidais pas vraiment. Le geste partait tout seul.
+J'étais un gros consommateur de chocolat. Pas un carré le dimanche : une tablette entamée en permanence, et le réflexe d'aller la chercher sans même y penser. Ce qui m'a fait changer, ce n'est pas la culpabilité : c'est d'avoir compris que je ne décidais pas vraiment. Le geste partait tout seul.
 
 Voici ce qui a fonctionné, et pourquoi la méthode « j'arrête tout à partir de lundi » m'a échoué trois fois avant.
 
@@ -36,7 +36,7 @@ Le levier n'est pas la volonté. C'est l'**environnement** et le **remplacement*
 
 **5. S'asseoir pour manger.** Ce qui se mange debout devant le frigo ou en marchant ne compte pas dans la tête, et compte quand même dans le corps. Règle simple : si ça se mange, ça se mange assis, dans une assiette. La moitié du grignotage automatique disparaît avec cette seule contrainte.
 
-**6. Repérer les trois moments à risque.** Chez moi c'était 16 h, l'après-dîner devant un écran, et les journées de travail sous pression. Ce ne sont pas des envies de sucre : ce sont des envies de pause, de récompense ou de décompression. Une fois le vrai besoin identifié, on peut y répondre autrement — un thé, une marche de dix minutes, quelques minutes dehors.
+**6. Repérer les trois moments à risque.** Chez moi c'était 16 h, l'après-dîner devant un écran, et les journées de travail sous pression. Ce ne sont pas des envies de sucre : ce sont des envies de pause, de récompense ou de décompression. Une fois le vrai besoin identifié, on peut y répondre autrement (un thé, une marche de dix minutes, quelques minutes dehors).
 
 **7. Garder un plaisir, choisi et assumé.** Je n'ai pas arrêté le chocolat. J'ai arrêté le chocolat automatique. Un carré, le soir, en le mangeant vraiment : c'est ce qui rend le reste tenable. Un régime sans plaisir a une durée de vie de deux semaines.
 
@@ -49,15 +49,15 @@ Le levier n'est pas la volonté. C'est l'**environnement** et le **remplacement*
 
 ## Comment savoir si ça marche
 
-Ne comptez pas les calories — c'est fastidieux, décourageant, et ça ne mesure pas le bon problème. Comptez plutôt, chaque jour, **le nombre de prises sucrées automatiques** : celles qui sont parties toutes seules, sans que vous ayez décidé.
+Ne comptez pas les calories : c'est fastidieux, décourageant, et ça ne mesure pas le bon problème. Comptez plutôt, chaque jour, **le nombre de prises sucrées automatiques** : celles qui sont parties toutes seules, sans que vous ayez décidé.
 
-Au bout de quatre semaines, regardez la tendance. Si vous êtes passé de six ou sept par jour à une ou deux choisies, c'est gagné — indépendamment de tout autre indicateur. C'est le geste automatique qu'on cherche à supprimer, pas le plaisir.
+Au bout de quatre semaines, regardez la tendance. Si vous êtes passé de six ou sept par jour à une ou deux choisies, c'est gagné, indépendamment de tout autre indicateur. C'est le geste automatique qu'on cherche à supprimer, pas le plaisir.
 
 **[Télécharger la fiche mémo (PDF, 1 page à imprimer)](/fiches/euhm-fiche-sortir-du-sucre.pdf)**
 
 ## Limites et humilité
 
-Je ne suis ni nutritionniste ni médecin, et ce texte ne décrit aucun régime. Il porte sur une habitude automatique, pas sur ce que vous devriez manger — cette question-là relève d'un professionnel, qui tiendra compte de votre situation, de votre santé et de vos besoins réels.
+Je ne suis ni nutritionniste ni médecin, et ce texte ne décrit aucun régime. Il porte sur une habitude automatique, pas sur ce que vous devriez manger. Cette question-là relève d'un professionnel, qui tiendra compte de votre situation, de votre santé et de vos besoins réels.
 
 Deux situations où cet article n'est pas le bon interlocuteur : si manger déclenche chez vous de la culpabilité, de l'anxiété ou une perte de contrôle régulière, c'est un sujet de santé qui se traite et pour lequel il existe un accompagnement adapté ; et si vous suivez un traitement ou vivez avec une condition qui touche l'alimentation, tout changement se discute avec votre médecin d'abord.
 

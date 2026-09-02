@@ -1,8 +1,8 @@
 ---
 title: "Rentrée : Booster son dynamisme"
-date: "2026-04-20"
+date: "2026-09-01"
 category: "Sport"
-description: "Une routine énergie complète et minutée : matin, après-midi, soir. Fruits, thé, noix, marche et douche froide — quoi faire, quand, et comment démarrer."
+description: "Une routine énergie complète et minutée : matin, après-midi, soir. Fruits, thé, noix, marche et douche froide : quoi faire, quand, et comment démarrer."
 image: "/img/actualites/rentree.jpg"
 readTime: "5 min"
 
@@ -15,7 +15,7 @@ ficheDesc: "Sept gestes minutés pour en finir avec le coup de barre de 15 h, du
 
 # Booster son dynamisme : la routine complète, heure par heure
 
-Les coups de fatigue de fin de journée, la tête lourde dès 15h, la motivation qui s'évapore : j'ai longtemps cru que c'était la fatalité de la rentrée. En réalité, mon problème était structurel — trop de café, pas assez de mouvement, des repas qui m'assommaient. Voici la routine exacte qui a changé ça, minutée, à copier telle quelle ou à adapter.
+Les coups de fatigue de fin de journée, la tête lourde dès 15h, la motivation qui s'évapore : j'ai longtemps cru que c'était la fatalité de la rentrée. En réalité, mon problème était structurel : trop de café, pas assez de mouvement, des repas qui m'assommaient. Voici la routine exacte qui a changé ça, minutée, à copier telle quelle ou à adapter.
 
 ## Le matin : lancer la machine
 
@@ -31,9 +31,9 @@ Les coups de fatigue de fin de journée, la tête lourde dès 15h, la motivation
 
 ## Le soir : bouger pour mieux dormir
 
-- **20 à 30 minutes de marche rapide ou de course avant le dîner.** C'est contre-intuitif quand on rentre épuisé, mais la fatigue de fin de journée est plus souvent mentale que physique — et le mouvement la dissout. Rythme cible pour la marche : celui où tenir une conversation reste possible mais demande un effort.
-- **Quand la météo ne s'y prête pas**, [une séance de sport à la maison](/articles/confinement-faire-du-sport-a-la-maison) remplace la sortie — même durée, même créneau, la routine ne casse pas.
-- **Pas d'écran au lit** : la routine du soir conditionne l'énergie du lendemain matin. Le sommeil est d'ailleurs le socle de tout le reste — j'y reviens dans [mes habitudes pour traverser l'hiver en forme](/articles/hiver-comment-ne-pas-tomber-malade).
+- **20 à 30 minutes de marche rapide ou de course avant le dîner.** C'est contre-intuitif quand on rentre épuisé, mais la fatigue de fin de journée est plus souvent mentale que physique, et le mouvement la dissout. Rythme cible pour la marche : celui où tenir une conversation reste possible mais demande un effort.
+- **Quand la météo ne s'y prête pas**, [une séance de sport à la maison](/articles/confinement-faire-du-sport-a-la-maison) remplace la sortie : même durée, même créneau, la routine ne casse pas.
+- **Pas d'écran au lit** : la routine du soir conditionne l'énergie du lendemain matin. Le sommeil est d'ailleurs le socle de tout le reste. J'y reviens dans [mes habitudes pour traverser l'hiver en forme](/articles/hiver-comment-ne-pas-tomber-malade).
 
 ## Comment démarrer sans tout faire d'un coup
 
@@ -42,9 +42,9 @@ Adopter les sept gestes dès lundi, c'est le meilleur moyen d'avoir tout abandon
 1. **Semaine 1** : le verre d'eau du réveil + la marche du soir. C'est tout.
 2. **Semaine 2** : ajoutez le fruit du matin et le dernier café à 14h.
 3. **Semaine 3** : ajoutez les 30 secondes d'eau froide.
-4. **Semaine 4** : le reste (thé, noix), si le besoin s'en fait encore sentir — souvent, les trois premières semaines ont déjà réglé l'essentiel.
+4. **Semaine 4** : le reste (thé, noix), si le besoin s'en fait encore sentir. Souvent, les trois premières semaines ont déjà réglé l'essentiel.
 
-Un test simple pour mesurer l'effet : notez votre niveau d'énergie sur 10, chaque jour à 15h, pendant les 4 semaines. Si la moyenne ne bouge pas, cette routine n'est pas votre levier — et c'est une information utile aussi.
+Un test simple pour mesurer l'effet : notez votre niveau d'énergie sur 10, chaque jour à 15h, pendant les 4 semaines. Si la moyenne ne bouge pas, cette routine n'est pas votre levier, et c'est une information utile aussi.
 
 [Télécharger la fiche mémo (PDF, 1 page à imprimer)](/fiches/euhm-routine-energie.pdf)
 

@@ -3,7 +3,7 @@ title: "Pourquoi vos bonnes résolutions tiennent trois semaines"
 draft: true
 date: "2026-08-05"
 category: "Psychologie"
-description: "La motivation est un carburant, pas un moteur. Les quatre erreurs qui font échouer un changement d'habitude, et les six mécanismes qui le font tenir — avec la règle de ne jamais rater deux fois d'affilée."
+description: "La motivation est un carburant, pas un moteur. Les quatre erreurs qui font échouer un changement d'habitude, et les six mécanismes qui le font tenir, avec la règle de ne jamais rater deux fois d'affilée."
 image: "/img/actualites/habitudes.jpg"
 readTime: "8 min"
 fiche: "/fiches/euhm-fiche-tenir-une-habitude.pdf"
@@ -13,7 +13,7 @@ ficheTitre: "Faire tenir une habitude"
 ficheDesc: "Les quatre erreurs qui font échouer un changement, les six mécanismes qui le font tenir, la version minimale non négociable et la règle des deux fois d'affilée."
 ---
 
-Vous avez déjà tenu trois semaines. Peut-être même quatre. Et puis un jour compliqué est arrivé, vous avez sauté une séance, une deuxième, et six mois plus tard vous en êtes au même point — avec en prime la conviction que vous « manquez de volonté ».
+Vous avez déjà tenu trois semaines. Peut-être même quatre. Et puis un jour compliqué est arrivé, vous avez sauté une séance, une deuxième, et six mois plus tard vous en êtes au même point, avec en prime la conviction que vous « manquez de volonté ».
 
 C'est faux, et c'est le point de départ de cet article. La volonté n'a jamais été le problème.
 
@@ -33,7 +33,7 @@ Ce moment est le pire pour construire un système, parce qu'il vous fait suresti
 
 **3. Tout changer en même temps.** Sport, alimentation, sommeil, écrans, le même lundi. Chaque changement a un coût d'attention ; quatre en parallèle en dépassent le budget, et l'abandon de l'un entraîne les autres par effet domino.
 
-**4. Ne rien mesurer.** Sans trace, vous n'avez que votre impression — et l'impression est mauvaise juge. Elle est trop sévère les jours de fatigue et trop indulgente les autres. Surtout, elle ne montre jamais la progression, qui est le seul vrai moteur une fois la motivation retombée.
+**4. Ne rien mesurer.** Sans trace, vous n'avez que votre impression, et l'impression est mauvaise juge. Elle est trop sévère les jours de fatigue et trop indulgente les autres. Surtout, elle ne montre jamais la progression, qui est le seul vrai moteur une fois la motivation retombée.
 
 ## Les six mécanismes qui font tenir
 
@@ -41,7 +41,7 @@ Ce moment est le pire pour construire un système, parce qu'il vous fait suresti
 
 Définissez une **version minimale non négociable**, si petite qu'elle paraît ridicule. Pas « trente minutes de sport », mais « je mets ma tenue et je fais cinq squats ». Pas « lire vingt pages », mais « ouvrir le livre et lire un paragraphe ».
 
-Ce n'est pas un objectif : c'est un plancher. Les bons jours vous ferez bien plus. Les mauvais jours, vous ferez le minimum — et c'est précisément là que tout se joue, parce que la chaîne n'est pas rompue.
+Ce n'est pas un objectif : c'est un plancher. Les bons jours vous ferez bien plus. Les mauvais jours, vous ferez le minimum, et c'est précisément là que tout se joue, parce que la chaîne n'est pas rompue.
 
 ### 2. Ancrer sur ce qui existe déjà
 
@@ -59,7 +59,7 @@ Le principe tient en une phrase : **rendez facile ce que vous voulez faire, et p
 
 C'est la règle la plus importante de tout cet article.
 
-Rater une fois n'a aucune conséquence. C'est la deuxième fois qui installe l'abandon : la première était un accident, la deuxième devient une nouvelle habitude — celle de ne pas faire.
+Rater une fois n'a aucune conséquence. C'est la deuxième fois qui installe l'abandon : la première était un accident, la deuxième devient une nouvelle habitude, celle de ne pas faire.
 
 Ce que ça change concrètement : le jour où vous ratez, le seul objectif du lendemain devient la version minimale, même bâclée. Cinq squats. Un paragraphe. Le contenu ne compte pas, la continuité si.
 
@@ -73,11 +73,11 @@ Et la mesure vous protège de votre propre jugement. Au bout d'un mois, vous voy
 
 ### 6. Une habitude à la fois
 
-Une seule. Pendant quatre semaines. Les autres attendront, et elles viendront plus facilement — installer une habitude rend la suivante plus simple, parce que vous cessez d'être quelqu'un qui essaie et devenez quelqu'un qui fait.
+Une seule. Pendant quatre semaines. Les autres attendront, et elles viendront plus facilement : installer une habitude rend la suivante plus simple, parce que vous cessez d'être quelqu'un qui essaie et devenez quelqu'un qui fait.
 
 ## Pourquoi quatre semaines, et pas vingt et un jours
 
-Vous avez sûrement entendu qu'il faut vingt et un jours pour créer une habitude. C'est un mythe, né d'une mauvaise lecture d'un ouvrage de chirurgie esthétique des années 1960. Les travaux sérieux sur le sujet donnent des durées très variables selon les personnes et les comportements — de quelques semaines à plusieurs mois, avec des écarts considérables.
+Vous avez sûrement entendu qu'il faut vingt et un jours pour créer une habitude. C'est un mythe, né d'une mauvaise lecture d'un ouvrage de chirurgie esthétique des années 1960. Les travaux sérieux sur le sujet donnent des durées très variables selon les personnes et les comportements : de quelques semaines à plusieurs mois, avec des écarts considérables.
 
 Quatre semaines, dans mes protocoles, ne sont donc pas un délai d'automatisation : c'est **une durée d'essai**. Assez longue pour dépasser la phase de motivation et voir ce qui se passe quand elle retombe, assez courte pour ne pas être décourageante. Au bout de quatre semaines, vous ne savez pas si l'habitude est installée — vous savez si elle est tenable pour vous.
 
@@ -85,7 +85,7 @@ Quatre semaines, dans mes protocoles, ne sont donc pas un délai d'automatisatio
 
 Un dernier point, et c'est peut-être celui qui change le plus.
 
-La plupart des objectifs sont formulés en résultats : perdre cinq kilos, courir dix kilomètres, arrêter de fumer. Le problème d'un objectif de résultat, c'est qu'il se termine — et qu'après, le comportement s'arrête aussi.
+La plupart des objectifs sont formulés en résultats : perdre cinq kilos, courir dix kilomètres, arrêter de fumer. Le problème d'un objectif de résultat, c'est qu'il se termine, et qu'après, le comportement s'arrête aussi.
 
 La formulation qui tient est différente : **quelqu'un qui fait ça, c'est qui ?** Quelqu'un qui bouge trois fois par semaine. Quelqu'un qui dort à heures régulières. Chaque séance faite n'est plus un pas vers un objectif lointain, c'est une preuve de plus que c'est bien qui vous êtes.
 
@@ -105,4 +105,4 @@ C'est aussi ce qui rend les jours ratés inoffensifs : quelqu'un qui court régu
 
 Je ne suis ni psychologue ni spécialiste du comportement. Ce que je décris, ce sont des mécanismes largement documentés et que j'ai appliqués à mes propres routines — pas une méthode garantie.
 
-Une précision importante, et elle compte plus que le reste de l'article. **Une absence durable d'envie n'est pas un problème de méthode.** Si plus rien ne vous motive depuis des semaines, si les choses qui vous plaisaient ne vous font plus rien, si vous vous sentez épuisé sans raison ou que votre moral reste bas quoi qu'il arrive, aucun système d'habitudes ne réglera ça — et se reprocher un manque de volonté ne fera qu'aggraver les choses. Ce sont des signes qui méritent d'être examinés par un médecin ou un psychologue. Ça se soigne, et bien mieux qu'avec des cases à cocher.
+Une précision importante, et elle compte plus que le reste de l'article. **Une absence durable d'envie n'est pas un problème de méthode.** Si plus rien ne vous motive depuis des semaines, si les choses qui vous plaisaient ne vous font plus rien, si vous vous sentez épuisé sans raison ou que votre moral reste bas quoi qu'il arrive, aucun système d'habitudes ne réglera ça, et se reprocher un manque de volonté ne fera qu'aggraver les choses. Ce sont des signes qui méritent d'être examinés par un médecin ou un psychologue. Ça se soigne, et bien mieux qu'avec des cases à cocher.

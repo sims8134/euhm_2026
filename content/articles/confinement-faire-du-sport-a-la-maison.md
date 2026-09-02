@@ -13,7 +13,7 @@ ficheTitre: "Programme sport à la maison"
 ficheDesc: "Trois séances de 25 minutes par semaine, sans aucun matériel : les 4 exercices du circuit avec leur technique, la progression sur 4 semaines, une grille pour cocher chaque séance et le test avant/après à 30 jours."
 ---
 
-Pas de salle, pas de matériel, pas d'excuse : tout ce qu'il faut pour se remettre en forme tient dans deux mètres carrés de salon. Voici le programme exact que j'ai suivi pour reprendre le sport chez moi — quand il fait trop froid pour sortir, c'est aussi [ma solution pour rester actif l'hiver](/articles/hiver-comment-ne-pas-tomber-malade).
+Pas de salle, pas de matériel, pas d'excuse : tout ce qu'il faut pour se remettre en forme tient dans deux mètres carrés de salon. Voici le programme exact que j'ai suivi pour reprendre le sport chez moi. Quand il fait trop froid pour sortir, c'est aussi [ma solution pour rester actif l'hiver](/articles/hiver-comment-ne-pas-tomber-malade).
 
 ## Le programme : 3 séances de 25 minutes par semaine
 
@@ -26,7 +26,7 @@ Trois séances par semaine, un jour de repos minimum entre chaque (par exemple l
 ## Les 4 exercices du circuit
 
 - **Squats** : pieds largeur d'épaules, descendre comme pour s'asseoir sur une chaise invisible, cuisses parallèles au sol si possible, remonter. Le dos reste droit, le poids sur les talons.
-- **Pompes** : classiques, ou sur les genoux si les classiques sont trop dures — il n'y a aucune honte, c'est la version par laquelle j'ai commencé. Le corps reste gainé, on descend jusqu'à frôler le sol.
+- **Pompes** : classiques, ou sur les genoux si les classiques sont trop dures. Il n'y a aucune honte, c'est la version par laquelle j'ai commencé. Le corps reste gainé, on descend jusqu'à frôler le sol.
 - **Gainage (planche)** : sur les avant-bras, corps aligné des épaules aux chevilles. Si 45 secondes sont trop longues, tenir 20 secondes, se reposer 10, reprendre.
 - **Fentes alternées** : un grand pas en avant, le genou arrière descend vers le sol, on repousse pour revenir. On alterne les jambes.
 
@@ -41,8 +41,8 @@ Un repère simple pour savoir si l'intensité est bonne : à la fin d'une série
 
 ## Les 3 erreurs qui font abandonner (je les ai toutes faites)
 
-- **S'entraîner « quand j'aurai le temps »** : ce moment n'arrive jamais. Bloquez un créneau fixe dans votre agenda comme un rendez-vous — le mien, c'est 18h30 avant le dîner. Même logique que pour [les routines d'énergie quotidiennes](/articles/rentree-booster-son-dynamisme) : ce qui n'est pas planifié n'existe pas.
-- **Garder le téléphone à portée de main** : une notification au milieu du circuit et la séance est morte. Mode avion, ou téléphone dans une autre pièce — il ne sert qu'au minuteur, et une minuterie de cuisine fait aussi bien l'affaire.
+- **S'entraîner « quand j'aurai le temps »** : ce moment n'arrive jamais. Bloquez un créneau fixe dans votre agenda comme un rendez-vous : le mien, c'est 18h30 avant le dîner. Même logique que pour [les routines d'énergie quotidiennes](/articles/rentree-booster-son-dynamisme) : ce qui n'est pas planifié n'existe pas.
+- **Garder le téléphone à portée de main** : une notification au milieu du circuit et la séance est morte. Mode avion, ou téléphone dans une autre pièce. Il ne sert qu'au minuteur, et une minuterie de cuisine fait aussi bien l'affaire.
 - **Vouloir en faire trop la première semaine** : les courbatures des 3 premières séances sont normales ; une douleur vive ou articulaire ne l'est pas. Dans ce cas, on arrête et on consulte un professionnel de santé.
 
 ## Le test à faire dans 30 jours

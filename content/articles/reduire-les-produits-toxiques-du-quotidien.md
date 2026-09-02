@@ -10,7 +10,7 @@ fiche: "/fiches/euhm-fiche-interieur-sain.pdf"
 ficheNumero: "07"
 ficheIcon: "🌿"
 ficheTitre: "Assainir son intérieur"
-ficheDesc: "Les sources d'exposition les plus faciles à supprimer — désodorisants automatiques, plastique chauffé, diffuseurs anti-moustiques, bougies parfumées — avec les alternatives concrètes et la règle d'aération. Sans alarmisme."
+ficheDesc: "Les sources d'exposition les plus faciles à supprimer (désodorisants automatiques, plastique chauffé, diffuseurs anti-moustiques, bougies parfumées) avec les alternatives concrètes et la règle d'aération. Sans alarmisme."
 ---
 
 On passe environ 80 % de son temps en intérieur, et l'air y est souvent plus chargé qu'à l'extérieur. Pas à cause d'une menace invisible venue de nulle part : à cause de choses qu'on y apporte volontairement, désodorisants, bougies, diffuseurs. Voici ce qui vaut la peine d'être changé, et ce qui n'en vaut pas la peine.
@@ -19,7 +19,7 @@ Je commence par le cadrage honnête, parce que le sujet attire beaucoup d'exagé
 
 ## Ce qu'on sait et ce qu'on ne sait pas
 
-**Les microplastiques.** On en trouve partout : dans l'eau, l'air, les aliments. Ça, c'est documenté. **Les effets sur la santé humaine ne le sont pas** — les recherches sont en cours et aucune conclusion solide n'existe aujourd'hui. Quiconque vous affirme le contraire, dans un sens ou dans l'autre, va plus vite que la science.
+**Les microplastiques.** On en trouve partout : dans l'eau, l'air, les aliments. Ça, c'est documenté. **Les effets sur la santé humaine ne le sont pas** : les recherches sont en cours et aucune conclusion solide n'existe aujourd'hui. Quiconque vous affirme le contraire, dans un sens ou dans l'autre, va plus vite que la science.
 
 Ma position : réduire une exposition qui ne sert à rien ne coûte rien. C'est de la précaution, pas de la peur.
 
@@ -48,11 +48,11 @@ Le petit boîtier qui fait « pschitt » toutes les quelques minutes, souvent po
 
 **Et il ne sert à rien.** Il masque une odeur au lieu de la traiter. Une odeur persistante dans un logement a toujours une cause — humidité, poubelle, litière, textiles, ventilation bouchée — et la cause reste après le pschitt.
 
-Même logique pour les sprays manuels, les diffuseurs à bâtonnets et le sapin parfumé de voiture — ce dernier cumulant les défauts du désodorisant automatique : diffusion continue, volume minuscule, aération quasi nulle.
+Même logique pour les sprays manuels, les diffuseurs à bâtonnets et le sapin parfumé de voiture, ce dernier cumulant les défauts du désodorisant automatique : diffusion continue, volume minuscule, aération quasi nulle.
 
 ### Le cas des bougies et de l'encens
 
-Elles méritent un paragraphe à part, parce qu'elles ajoutent un problème que les sprays n'ont pas : **la combustion**. Brûler quelque chose dans une pièce fermée produit des particules fines, celles-là mêmes qu'on mesure dans la pollution extérieure. L'encens est de loin le plus chargé de tous les produits d'intérieur sur ce plan — devant les bougies, elles-mêmes devant les sprays.
+Elles méritent un paragraphe à part, parce qu'elles ajoutent un problème que les sprays n'ont pas : **la combustion**. Brûler quelque chose dans une pièce fermée produit des particules fines, celles-là mêmes qu'on mesure dans la pollution extérieure. L'encens est de loin le plus chargé de tous les produits d'intérieur sur ce plan, devant les bougies, elles-mêmes devant les sprays.
 
 Trois nuances, parce que je n'ai pas envie de vous dire de jeter vos bougies :
 
@@ -60,9 +60,9 @@ Trois nuances, parce que je n'ai pas envie de vous dire de jeter vos bougies :
 - **La mèche et la cire jouent.** Une mèche en coton sans âme métallique, une cire végétale ou d'abeille, et surtout **pas de parfum de synthèse** : c'est déjà une autre bougie. Une bougie non parfumée fait exactement la même lumière.
 - **Aérer après.** Dix minutes fenêtre ouverte après une soirée bougies, et l'essentiel des particules est parti.
 
-Ma position : une bougie pour l'ambiance d'un soir, oui. Une bougie parfumée allumée tous les jours pour « sentir bon », non — c'est un désodorisant avec une flamme.
+Ma position : une bougie pour l'ambiance d'un soir, oui. Une bougie parfumée allumée tous les jours pour « sentir bon », non : c'est un désodorisant avec une flamme.
 
-**L'alternative, en trois points** : débrancher et jeter le diffuseur ; **aérer 10 minutes par jour**, même en hiver, même par temps froid — c'est déjà l'un des six points de [ma checklist hiver](/articles/hiver-comment-ne-pas-tomber-malade) ; et chercher la source de l'odeur si elle persiste, parce qu'une odeur qui revient signale presque toujours un problème réel. Pour la voiture : baisser les vitres cinq minutes en démarrant.
+**L'alternative, en trois points** : débrancher et jeter le diffuseur ; **aérer 10 minutes par jour**, même en hiver, même par temps froid, c'est déjà l'un des six points de [ma checklist hiver](/articles/hiver-comment-ne-pas-tomber-malade) ; et chercher la source de l'odeur si elle persiste, parce qu'une odeur qui revient signale presque toujours un problème réel. Pour la voiture : baisser les vitres cinq minutes en démarrant.
 
 ### 3. Les diffuseurs électriques anti-moustiques
 
@@ -72,7 +72,7 @@ C'est le point sur lequel les gens sont le plus surpris. Ces diffusaires libère
 
 ### 4. Les textiles synthétiques au lavage
 
-Chaque lavage de polyester libère des microfibres. Deux gestes simples : laver moins souvent et à plus basse température, et privilégier les fibres naturelles quand on renouvelle sa garde-robe. Des filtres et sacs de lavage existent, mais je les classe dans les gestes optionnels — l'effet est marginal comparé aux trois premiers points.
+Chaque lavage de polyester libère des microfibres. Deux gestes simples : laver moins souvent et à plus basse température, et privilégier les fibres naturelles quand on renouvelle sa garde-robe. Des filtres et sacs de lavage existent, mais je les classe dans les gestes optionnels : l'effet est marginal comparé aux trois premiers points.
 
 ## Ce qui ne vaut pas la peine
 
@@ -84,9 +84,9 @@ Autant le dire clairement, parce que ces sujets occupent beaucoup de place pour 
 ## Par où commencer
 
 1. **Semaine 1** : sortez le plastique du micro-ondes. Un contenant en verre, et c'est réglé.
-2. **Semaine 2** : débranchez et jetez tous les désodorisants automatiques — maison et voiture — et installez l'habitude d'aérer 10 minutes par jour.
+2. **Semaine 2** : débranchez et jetez tous les désodorisants automatiques (maison et voiture) et installez l'habitude d'aérer 10 minutes par jour.
 3. **Semaine 3** : remplacez le diffuseur anti-moustique par une moustiquaire ou un ventilateur.
-4. **Semaine 4** : traquez l'origine des odeurs persistantes plutôt que de les masquer — poubelle, humidité, textiles, ventilation encrassée.
+4. **Semaine 4** : traquez l'origine des odeurs persistantes plutôt que de les masquer (poubelle, humidité, textiles, ventilation encrassée).
 
 **[Télécharger la fiche mémo (PDF, 1 page à imprimer)](/fiches/euhm-fiche-interieur-sain.pdf)**
 

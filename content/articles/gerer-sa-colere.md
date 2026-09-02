@@ -19,7 +19,7 @@ Le problème n'est jamais la colère elle-même. C'est ce qu'on en fait dans les
 
 ## Ce qui se passe dans le corps
 
-La montée est rapide — quelques secondes suffisent — et la redescente est lente : il faut environ vingt minutes pour que l'organisme revienne à son état de base après une vraie décharge.
+La montée est rapide (quelques secondes suffisent) et la redescente est lente : il faut environ vingt minutes pour que l'organisme revienne à son état de base après une vraie décharge.
 
 Ces vingt minutes expliquent tout. C'est pourquoi une conversation reprise trop tôt repart immédiatement en vrille : vous croyez être calmé, votre corps ne l'est pas encore. Et c'est pourquoi la seule stratégie qui fonctionne consiste à mettre du temps entre la montée et la réponse.
 
@@ -43,7 +43,7 @@ La phrase compte plus qu'on ne croit. Sans elle, votre départ est vécu comme u
 
 ### 2. Bouger, pas ruminer
 
-Vingt minutes assis à repasser la scène ne calment rien : ça alimente. La rumination fonctionne exactement comme celle du soir, décrite dans [l'article sur la boucle du soir](/articles/arreter-de-ruminer-le-soir) — elle tourne sans produire de sortie.
+Vingt minutes assis à repasser la scène ne calment rien : ça alimente. La rumination fonctionne exactement comme celle du soir, décrite dans [l'article sur la boucle du soir](/articles/arreter-de-ruminer-le-soir) : elle tourne sans produire de sortie.
 
 Ce qui marche : marcher dehors. L'activité physique consomme réellement l'activation, et le changement d'environnement coupe le circuit.
 
@@ -59,7 +59,7 @@ Au retour, une seule règle de formulation : **parlez de vous, pas de l'autre**.
 
 **Faire comme si de rien n'était.** Le sujet revient, plus tard et plus fort.
 
-**Bouder trois jours.** C'est une punition déguisée qui oblige l'autre à gérer votre état — l'exact opposé d'un point d'appui, comme je le décris dans [l'article sur la force tranquille](/articles/etre-une-force-tranquille).
+**Bouder trois jours.** C'est une punition déguisée qui oblige l'autre à gérer votre état, l'exact opposé d'un point d'appui, comme je le décris dans [l'article sur la force tranquille](/articles/etre-une-force-tranquille).
 
 **Parler à chaud « pour crever l'abcès ».** L'abcès attendra vingt minutes.
 
@@ -67,17 +67,17 @@ Au retour, une seule règle de formulation : **parlez de vous, pas de l'autre**.
 
 Une colère qui monte trop vite et trop souvent est rarement un problème de tempérament. C'est presque toujours un seuil abaissé par autre chose :
 
-- **Le manque de sommeil** — c'est de loin la première cause, et la plus facile à corriger. Une semaine de nuits courtes suffit à rendre irritable quelqu'un qui ne l'est pas.
+- **Le manque de sommeil** : c'est de loin la première cause, et la plus facile à corriger. Une semaine de nuits courtes suffit à rendre irritable quelqu'un qui ne l'est pas.
 - **L'alcool**, qui désinhibe précisément ce qui retient.
 - **La faim**, dont l'effet sur l'irritabilité est réel et systématiquement sous-estimé.
-- **La surcharge durable** — trop de choses depuis trop longtemps. Là, ce n'est pas la colère qu'il faut traiter.
+- **La surcharge durable** : trop de choses depuis trop longtemps. Là, ce n'est pas la colère qu'il faut traiter.
 
 Si vous vous emportez beaucoup plus qu'avant, commencez par regarder ces quatre points avant de chercher une explication compliquée.
 
 ## Par où commencer
 
 1. **Aujourd'hui** : identifiez votre signal physique en repensant à vos trois dernières colères.
-2. **Cette semaine** : à chaque montée, nommez le niveau sur 10 — même sans rien changer d'autre.
+2. **Cette semaine** : à chaque montée, nommez le niveau sur 10, même sans rien changer d'autre.
 3. **Ensuite** : appliquez la sortie de vingt minutes dès que vous passez 4.
 4. **En parallèle** : réglez le sommeil. C'est le levier de fond le plus rentable.
 
@@ -85,7 +85,7 @@ Si vous vous emportez beaucoup plus qu'avant, commencez par regarder ces quatre 
 
 ## Limites et humilité
 
-Je ne suis ni psychologue ni thérapeute, et ce qui précède décrit la colère ordinaire — celle qui monte dans un conflit et qu'on peut apprendre à réguler.
+Je ne suis ni psychologue ni thérapeute, et ce qui précède décrit la colère ordinaire, celle qui monte dans un conflit et qu'on peut apprendre à réguler.
 
 Deux situations sortent complètement de ce cadre, et je veux être net dessus.
 

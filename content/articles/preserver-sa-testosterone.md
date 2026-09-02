@@ -3,7 +3,7 @@ title: "Préserver sa testostérone : ce qui compte vraiment, et ce qu'on peut s
 draft: true
 date: "2026-08-05"
 category: "Santé"
-description: "Les leviers établis — sommeil, activité physique, alcool, tour de taille — et un chantier négligé : réduire son exposition aux perturbateurs endocriniens dans les cosmétiques. Sans compléments ni promesses."
+description: "Les leviers établis (sommeil, activité physique, alcool, tour de taille) et un chantier négligé : réduire son exposition aux perturbateurs endocriniens dans les cosmétiques. Sans compléments ni promesses."
 image: "/img/actualites/testosterone.jpg"
 readTime: "7 min"
 fiche: "/fiches/euhm-fiche-testosterone.pdf"
@@ -17,13 +17,13 @@ Tapez « augmenter sa testostérone » dans un moteur de recherche : vous tomber
 
 ## Les quatre leviers établis
 
-Ce sont les seuls qui ont un effet démontré. Ils sont ennuyeux, gratuits, et personne n'a rien à vous vendre dessus — ce qui explique peut-être qu'on en parle moins.
+Ce sont les seuls qui ont un effet démontré. Ils sont ennuyeux, gratuits, et personne n'a rien à vous vendre dessus, ce qui explique peut-être qu'on en parle moins.
 
 **1. Le sommeil.** C'est le levier le plus direct : la production de testostérone se fait principalement pendant la nuit, et une restriction de sommeil prolongée fait baisser les taux mesurés chez des hommes jeunes et en bonne santé. Avant de chercher plus loin, dormez. C'est l'objet de [mon protocole sommeil](/articles/optimiser-son-cycle-de-sommeil), et si vous ne changez qu'une chose, changez celle-là.
 
-**2. Le tour de taille.** L'excès de graisse abdominale est associé à des taux plus bas — c'est probablement l'association la mieux établie de toutes. Non pas le poids sur la balance, mais la répartition. Un repère simple et gratuit : votre tour de taille devrait rester inférieur à la moitié de votre taille.
+**2. Le tour de taille.** L'excès de graisse abdominale est associé à des taux plus bas : c'est probablement l'association la mieux établie de toutes. Non pas le poids sur la balance, mais la répartition. Un repère simple et gratuit : votre tour de taille devrait rester inférieur à la moitié de votre taille.
 
-**3. L'activité physique, sans excès.** Le renforcement musculaire a un effet documenté. Mais l'excès produit l'inverse : un volume d'entraînement trop élevé sans récupération suffisante fait baisser les taux. Trois séances par semaine avec des jours de repos battent six séances qui épuisent — c'est la logique de [mon programme à la maison](/articles/confinement-faire-du-sport-a-la-maison).
+**3. L'activité physique, sans excès.** Le renforcement musculaire a un effet documenté. Mais l'excès produit l'inverse : un volume d'entraînement trop élevé sans récupération suffisante fait baisser les taux. Trois séances par semaine avec des jours de repos battent six séances qui épuisent : c'est la logique de [mon programme à la maison](/articles/confinement-faire-du-sport-a-la-maison).
 
 **4. L'alcool.** Une consommation régulière et importante a un effet dépresseur bien documenté sur la production hormonale. C'est le levier dont personne ne veut entendre parler, et c'est souvent le plus rentable.
 
@@ -41,14 +41,14 @@ Ma position est celle de la précaution, pas de la peur : réduire une expositio
 
 La liste des ingrédients d'un cosmétique est normalisée en Europe. Quelques repères concrets :
 
-- **Les parabènes** — apparaissent sous des noms finissant par « paraben » (propylparaben, butylparaben). Plusieurs ont été interdits dans l'UE, d'autres restent autorisés dans des limites précises.
-- **Les phtalates** — souvent masqués derrière la mention « parfum » ou « fragrance », qui n'a pas à détailler sa composition.
-- **Le triclosan** — antibactérien dont l'usage a été fortement restreint.
-- **Le BHA et le BHT** — conservateurs qui reviennent régulièrement dans les listes de substances surveillées.
+- **Les parabènes** : apparaissent sous des noms finissant par « paraben » (propylparaben, butylparaben). Plusieurs ont été interdits dans l'UE, d'autres restent autorisés dans des limites précises.
+- **Les phtalates** : souvent masqués derrière la mention « parfum » ou « fragrance », qui n'a pas à détailler sa composition.
+- **Le triclosan** : antibactérien dont l'usage a été fortement restreint.
+- **Le BHA et le BHT** : conservateurs qui reviennent régulièrement dans les listes de substances surveillées.
 
 ### Ce qu'on peut faire, concrètement
 
-**Réduire le nombre de produits.** Le geste le plus efficace n'est pas de trouver le produit parfait, c'est d'en utiliser moins. Un savon, un déodorant, un shampooing — la plupart des hommes n'ont besoin de rien d'autre.
+**Réduire le nombre de produits.** Le geste le plus efficace n'est pas de trouver le produit parfait, c'est d'en utiliser moins. Un savon, un déodorant, un shampooing : la plupart des hommes n'ont besoin de rien d'autre.
 
 **Préférer les listes courtes.** Un savon avec cinq ingrédients dont vous comprenez trois est un meilleur pari qu'un gel douche avec trente ingrédients et un parfum non détaillé. Le savon d'Alep, le savon de Marseille véritable ou un savon saponifié à froid entrent dans cette catégorie et coûtent moins cher qu'un gel douche de marque.
 
@@ -58,7 +58,7 @@ La liste des ingrédients d'un cosmétique est normalisée en Europe. Quelques r
 
 ### Ce que je fais, sans savoir si ça change quelque chose
 
-J'ai remplacé mon gel douche par un savon solide à liste courte, je ne me savonne pas intégralement tous les jours, et j'applique le parfum sur les vêtements plutôt que sur la peau. **Je n'ai aucune mesure avant/après et je ne peux rien affirmer sur l'effet.** Ces gestes ne coûtent rien, réduisent une exposition inutile et allègent la salle de bain — c'est la seule chose que je peux en dire honnêtement. Si quelqu'un vous promet mieux avec un produit à vendre, c'est le produit qui parle.
+J'ai remplacé mon gel douche par un savon solide à liste courte, je ne me savonne pas intégralement tous les jours, et j'applique le parfum sur les vêtements plutôt que sur la peau. **Je n'ai aucune mesure avant/après et je ne peux rien affirmer sur l'effet.** Ces gestes ne coûtent rien, réduisent une exposition inutile et allègent la salle de bain : c'est la seule chose que je peux en dire honnêtement. Si quelqu'un vous promet mieux avec un produit à vendre, c'est le produit qui parle.
 
 ## Par où commencer
 
@@ -77,6 +77,6 @@ Un déficit en testostérone se diagnostique par une prise de sang — le matin,
 
 ## Limites et humilité
 
-Je ne suis ni médecin ni endocrinologue, et rien ici ne remplace un avis médical. Sur ce sujet plus que sur les autres, méfiez-vous de ce que vous lisez — moi compris : c'est un terrain où l'on vend beaucoup, où l'on affirme beaucoup, et où l'on démontre peu.
+Je ne suis ni médecin ni endocrinologue, et rien ici ne remplace un avis médical. Sur ce sujet plus que sur les autres, méfiez-vous de ce que vous lisez, moi compris : c'est un terrain où l'on vend beaucoup, où l'on affirme beaucoup, et où l'on démontre peu.
 
 Ce que je peux dire honnêtement : les quatre leviers du début sont documentés, ils sont gratuits, et ils améliorent votre santé générale que votre testostérone bouge ou non. Le reste, y compris ce que je fais moi-même côté cosmétiques, relève de la précaution raisonnable — ni plus, ni moins.

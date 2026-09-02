@@ -13,7 +13,7 @@ ficheTitre: "Premier rendez-vous : l'essentiel"
 ficheDesc: "Le format qui met à l'aise, les questions qui ouvrent vraiment une conversation, les erreurs classiques, et la manière d'encaisser un refus sans amertume."
 ---
 
-Un premier rendez-vous n'est pas un examen à réussir. C'est un moment où deux personnes cherchent à savoir si elles ont envie de se revoir — et ça se joue dans les deux sens, ce qu'on oublie souvent quand on arrive en mode candidature.
+Un premier rendez-vous n'est pas un examen à réussir. C'est un moment où deux personnes cherchent à savoir si elles ont envie de se revoir, et ça se joue dans les deux sens, ce qu'on oublie souvent quand on arrive en mode candidature.
 
 Cet article ne prétend pas livrer une méthode de séduction : je n'en ai aucune, et ceux qui en vendent non plus. C'est simplement ce que j'aurais aimé qu'on me dise à vingt ans, quand chaque premier rendez-vous ressemblait à un entretien d'embauche que j'allais rater.
 
@@ -21,7 +21,7 @@ Cet article ne prétend pas livrer une méthode de séduction : je n'en ai aucun
 
 **Ne verrouillez rien.** C'est le seul principe qui compte. Un café ou une balade peut s'arrêter au bout de quarante minutes si le courant ne passe pas, et durer toute la soirée s'il passe. Un dîner réservé à 20 h enferme les deux personnes dans un format fixe : si ça ne prend pas, l'un des deux passera deux heures à chercher une sortie polie ; et si ça prend, il faudra quand même se lever quand l'assiette est vide.
 
-**N'annoncez surtout pas de durée.** « J'ai quelque chose après » pose une limite avant même d'avoir commencé, et transforme la rencontre en créneau. Les meilleures premières rencontres sont celles qui débordent — quatre heures, six heures, sans que personne regarde l'heure. Ça n'arrive pas si vous avez posé une fin d'avance.
+**N'annoncez surtout pas de durée.** « J'ai quelque chose après » pose une limite avant même d'avoir commencé, et transforme la rencontre en créneau. Les meilleures premières rencontres sont celles qui débordent : quatre heures, six heures, sans que personne regarde l'heure. Ça n'arrive pas si vous avez posé une fin d'avance.
 
 **Un endroit où l'on peut parler.** Un bar bruyant où il faut crier n'est pas un lieu de rencontre, c'est un lieu de malentendus. Et un endroit d'où l'on peut partir marcher si l'envie vient : c'est ce qui permet à une heure de café d'en devenir trois.
 
@@ -39,7 +39,7 @@ C'est le point le plus important, et celui que la plupart des hommes ratent quan
 
 **Un repère simple** : à la fin, si vous ne pouvez rien raconter de précis sur elle, vous avez trop parlé.
 
-**Et le meilleur signe qu'une rencontre se passe bien** : ni l'un ni l'autre n'a regardé l'heure. Une conversation qui dure des heures sans effort ne se provoque pas — mais on peut au moins éviter de l'empêcher.
+**Et le meilleur signe qu'une rencontre se passe bien** : ni l'un ni l'autre n'a regardé l'heure. Une conversation qui dure des heures sans effort ne se provoque pas, mais on peut au moins éviter de l'empêcher.
 
 **Et parlez de vous quand même.** L'écoute n'est pas l'effacement. Une conversation où l'un pose toutes les questions et l'autre y répond n'est pas un échange non plus.
 
@@ -47,7 +47,7 @@ C'est le point le plus important, et celui que la plupart des hommes ratent quan
 
 C'est la règle la plus importante de tout l'article, et la plus difficile à appliquer.
 
-Plus vous arrivez avec des attentes, plus vous serez déçu si ça ne prend pas — et surtout, plus ça se verra pendant. Quelqu'un qui attend beaucoup d'une soirée la porte sur lui : il surveille les signaux, il force les blancs, il s'accroche à un scénario qu'il a joué dans sa tête avant même d'arriver. Ça met une pression que l'autre ressent, sans forcément savoir la nommer.
+Plus vous arrivez avec des attentes, plus vous serez déçu si ça ne prend pas, et surtout, plus ça se verra pendant. Quelqu'un qui attend beaucoup d'une soirée la porte sur lui : il surveille les signaux, il force les blancs, il s'accroche à un scénario qu'il a joué dans sa tête avant même d'arriver. Ça met une pression que l'autre ressent, sans forcément savoir la nommer.
 
 À l'inverse, arriver sans scénario change tout. Vous n'avez rien à obtenir, donc rien à défendre. Vous êtes simplement en train de boire un café avec quelqu'un que vous ne connaissez pas et qui est peut-être intéressant. Cette disposition-là est infiniment plus agréable à côtoyer que n'importe quelle technique.
 
@@ -63,7 +63,7 @@ C'est la règle la plus utile quand on débute, et elle tient en une phrase : **
 
 **Ce qu'elle n'est pas** : un compte à rebours. Trois rendez-vous ne donnent droit à rien du tout, et si l'envie est mutuelle plus tôt, ce n'est pas un problème non plus. Le nombre n'est pas la règle — la règle, c'est que ça se décide à deux, sur le moment, et que ça se lit dans ce que l'autre montre et dit, pas dans un décompte.
 
-Ce que je retiens vraiment : **rien de bon ne vient de l'insistance**. Un doute chez l'autre se respecte sans discussion, sans négociation, sans « allez ». Et quelqu'un qui a envie le montre — vous n'avez pas à le deviner ni à le forcer.
+Ce que je retiens vraiment : **rien de bon ne vient de l'insistance**. Un doute chez l'autre se respecte sans discussion, sans négociation, sans « allez ». Et quelqu'un qui a envie le montre : vous n'avez pas à le deviner ni à le forcer.
 
 ## Les erreurs classiques
 
@@ -79,7 +79,7 @@ Ce que je retiens vraiment : **rien de bon ne vient de l'insistance**. Un doute 
 
 **Arriver en négociation.** Un rendez-vous n'est pas une transaction où l'on cherche à obtenir quelque chose. C'est ce qui distingue quelqu'un d'agréable de quelqu'un de pesant, et ça se sent en dix minutes.
 
-Sur le paiement, une position simple : proposez, sans en faire un principe. Si elle veut partager, acceptez sans insister — refuser son geste, c'est encore décider à sa place.
+Sur le paiement, une position simple : proposez, sans en faire un principe. Si elle veut partager, acceptez sans insister : refuser son geste, c'est encore décider à sa place.
 
 ## Un refus, c'est une information
 
@@ -93,7 +93,7 @@ C'est le point sur lequel je veux être le plus clair, parce que c'est là que b
 
 **Ce qu'il faut éviter absolument** : l'amertume. Elle ne se cache pas, elle se voit dans le message suivant, dans le rendez-vous suivant, dans l'attitude générale. Un homme aigri par ses refus le porte sur lui, et ça devient une prophétie auto-réalisatrice.
 
-**Et si vous n'avez pas envie de la revoir**, dites-le simplement, sans disparaître. Un message clair et bref vaut infiniment mieux que le silence — c'est exactement ce que vous voudriez qu'on fasse pour vous.
+**Et si vous n'avez pas envie de la revoir**, dites-le simplement, sans disparaître. Un message clair et bref vaut infiniment mieux que le silence : c'est exactement ce que vous voudriez qu'on fasse pour vous.
 
 ## Par où commencer
 
