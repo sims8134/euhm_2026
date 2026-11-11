@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   title: "Désinscription",
   description: "Vous êtes désinscrit de la newsletter EUHM et ne recevrez plus d'e-mails de notre part.",
   alternates: { canonical: "/newsletter-unsubscribe" },
+  // Page transactionnelle : hors des résultats de recherche.
+  robots: { index: false, follow: true },
   openGraph: pageOpenGraph({
     title: "Désinscription",
     description: "Vous êtes désinscrit de la newsletter EUHM et ne recevrez plus d'e-mails de notre part.",

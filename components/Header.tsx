@@ -41,11 +41,11 @@ export default function Header({ title, heroAsH1 = false, heroCompact = false }:
         }
 
         .header-topbar {
-          background: #c2410c;
+          background: #f86613;
           color: white;
           text-align: center;
           font-size: 1.2rem;
-          font-weight: 500;
+          font-weight: 700;
           padding: 6px 20px;
           letter-spacing: 0.15em;
           text-transform: uppercase;
@@ -113,7 +113,7 @@ export default function Header({ title, heroAsH1 = false, heroCompact = false }:
 
         .header-nav a:hover,
         .header-nav a.active {
-          color: #c2410c;
+          color: #f86613;
           background: rgba(248, 102, 19, 0.08);
         }
 
@@ -163,7 +163,7 @@ export default function Header({ title, heroAsH1 = false, heroCompact = false }:
 
         .header-mobile-menu a:hover,
         .header-mobile-menu a.active {
-          color: #c2410c;
+          color: #f86613;
           background: rgba(248, 102, 19, 0.08);
         }
 

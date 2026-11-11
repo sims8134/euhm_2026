@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   title: "Inscription confirmée",
   description: "Votre inscription à la newsletter EUHM est confirmée. Vous recevrez les prochaines publications.",
   alternates: { canonical: "/newsletter-confirmed" },
+  // Page transactionnelle : hors des résultats de recherche.
+  robots: { index: false, follow: true },
   openGraph: pageOpenGraph({
     title: "Inscription confirmée",
     description: "Votre inscription à la newsletter EUHM est confirmée. Vous recevrez les prochaines publications.",

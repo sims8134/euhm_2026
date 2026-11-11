@@ -20,7 +20,7 @@ export default function Footer() {
           font-size: 11px;
           text-transform: uppercase;
           letter-spacing: 0.2em;
-          color: #c2410c;
+          color: #f86613;
           margin-bottom: 12px;
         }
         .newsletter-heading {
@@ -30,7 +30,7 @@ export default function Footer() {
           margin-bottom: 8px;
         }
         .newsletter-heading span {
-          color: #c2410c;
+          color: #f86613;
         }
         .newsletter-desc {
           font-size: 14px;
@@ -39,7 +39,7 @@ export default function Footer() {
         }
 
         .site-footer {
-          background: #c2410c;
+          background: #f86613;
           color: white;
           margin-top: 0;
         }
@@ -147,8 +147,14 @@ export default function Footer() {
         .footer-credit a {
           color: #fff;
           text-decoration: none;
-          font-weight: 600;
+          font-weight: 700;
         }
+
+        /* Texte blanc sur orange : en gras pour la lisibilité (taille inchangée) */
+        .site-footer p,
+        .site-footer a:not(.follow-btn),
+        .footer-bottom,
+        .footer-credit { font-weight: 700; }
 
         .footer-credit a:hover { color: white; text-decoration: underline; }
 

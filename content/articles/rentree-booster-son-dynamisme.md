@@ -46,7 +46,7 @@ Adopter les sept gestes dès lundi, c'est le meilleur moyen d'avoir tout abandon
 
 Un test simple pour mesurer l'effet : notez votre niveau d'énergie sur 10, chaque jour à 15h, pendant les 4 semaines. Si la moyenne ne bouge pas, cette routine n'est pas votre levier, et c'est une information utile aussi.
 
-[Télécharger la fiche mémo (PDF, 1 page à imprimer)](/fiches/euhm-routine-energie.pdf)
+[Télécharger la fiche mémo (PDF, 1 page à imprimer)](/fiches/euhm-fiche-routine-energie.pdf)
 
 ## Mes limites habituelles
 

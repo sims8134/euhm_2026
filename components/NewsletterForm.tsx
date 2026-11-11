@@ -115,7 +115,7 @@ export default function NewsletterForm({
         <button
           type="submit"
           disabled={status === "loading"}
-          style={{ padding: "12px 24px", background: "#c2410c", color: "white", border: "none", borderRadius: "6px", fontSize: "14px", fontWeight: 600, cursor: "pointer", opacity: status === "loading" ? 0.6 : 1, whiteSpace: "nowrap" }}
+          style={{ padding: "12px 24px", background: "#f86613", color: "white", border: "none", borderRadius: "6px", fontSize: "14px", fontWeight: 600, cursor: "pointer", opacity: status === "loading" ? 0.6 : 1, whiteSpace: "nowrap" }}
         >
           {status === "loading" ? "Envoi..." : buttonLabel}
         </button>

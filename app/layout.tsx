@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import ReadingProgress from "../components/ReadingProgress";
 import { BASE_URL, SITE_NAME, DEFAULT_OG_IMAGES, SOCIAL_LINKS } from "../lib/seo";
 
 export const metadata: Metadata = {
@@ -51,7 +52,10 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <ReadingProgress />
+        {children}
+      </body>
     </html>
   );
 }

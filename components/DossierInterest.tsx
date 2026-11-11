@@ -113,7 +113,7 @@ export default function DossierInterest({ slug, label = "Ça m'intéresse" }: Pr
           disabled={status === "loading"}
           style={{
             padding: "10px 16px",
-            background: "#c2410c",
+            background: "#f86613",
             color: "white",
             border: "none",
             borderRadius: "6px",
