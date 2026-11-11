@@ -79,7 +79,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         url: `${BASE_URL}/img/logo_euhm_half.png`,
       },
     },
-    ...(article.meta.image && { image: `${BASE_URL}${article.meta.image}` }),
+    image: `${BASE_URL}${article.meta.image ?? "/img/og-image.jpg"}`,
   };
 
   return (

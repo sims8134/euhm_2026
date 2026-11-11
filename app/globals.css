@@ -66,7 +66,7 @@ li { list-style: none; }
 .logo { width: 50px; height: 50px; transform: scale(0.9); margin-right: 10px; }
 .logo:hover { transform: scale(1.5); }
 footer ul { display: flex; flex-direction: row; justify-content: space-around; flex-wrap: wrap; }
-footer li { display: flex; flex-direction: row; padding-left: 40px; }
+footer li { display: flex; flex-direction: row; }
 footer a:hover { color: rgb(60,190,240); text-decoration: underline; }
 
 /* ACCUEIL */

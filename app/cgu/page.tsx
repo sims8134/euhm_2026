@@ -1,12 +1,19 @@
 import type { Metadata } from "next";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import { pageOpenGraph } from "../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Conditions Générales d'Utilisation",
   description:
     "Conditions d'accès et d'utilisation du site euhm.fr : contenu éditorial, newsletter, ressources téléchargeables et propriété intellectuelle.",
   alternates: { canonical: "/cgu" },
+  openGraph: pageOpenGraph({
+    title: "Conditions Générales d'Utilisation",
+    description:
+      "Conditions d'accès et d'utilisation du site euhm.fr : contenu éditorial, newsletter, ressources téléchargeables et propriété intellectuelle.",
+    url: "/cgu",
+  }),
 };
 
 export default function CguPage() {

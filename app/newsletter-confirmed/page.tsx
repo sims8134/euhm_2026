@@ -1,6 +1,19 @@
+import type { Metadata } from "next";
+import { pageOpenGraph } from "../../lib/seo";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Inscription confirmée",
+  description: "Votre inscription à la newsletter EUHM est confirmée. Vous recevrez les prochaines publications.",
+  alternates: { canonical: "/newsletter-confirmed" },
+  openGraph: pageOpenGraph({
+    title: "Inscription confirmée",
+    description: "Votre inscription à la newsletter EUHM est confirmée. Vous recevrez les prochaines publications.",
+    url: "/newsletter-confirmed",
+  }),
+};
 
 export default function NewsletterConfirmedPage() {
   return (

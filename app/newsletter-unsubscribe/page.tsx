@@ -1,6 +1,19 @@
+import type { Metadata } from "next";
+import { pageOpenGraph } from "../../lib/seo";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Désinscription",
+  description: "Vous êtes désinscrit de la newsletter EUHM et ne recevrez plus d'e-mails de notre part.",
+  alternates: { canonical: "/newsletter-unsubscribe" },
+  openGraph: pageOpenGraph({
+    title: "Désinscription",
+    description: "Vous êtes désinscrit de la newsletter EUHM et ne recevrez plus d'e-mails de notre part.",
+    url: "/newsletter-unsubscribe",
+  }),
+};
 
 export default function NewsletterUnsubscribedPage() {
   return (

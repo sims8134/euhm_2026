@@ -1,12 +1,19 @@
 import type { Metadata } from "next";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import { pageOpenGraph } from "../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Politique de confidentialité",
   description:
     "Comment euhm.fr collecte, utilise et protège vos données personnelles : newsletter, formulaire de contact, sous-traitants et exercice de vos droits RGPD.",
   alternates: { canonical: "/politique-confidentialite" },
+  openGraph: pageOpenGraph({
+    title: "Politique de confidentialité",
+    description:
+      "Comment euhm.fr collecte, utilise et protège vos données personnelles : newsletter, formulaire de contact, sous-traitants et exercice de vos droits RGPD.",
+    url: "/politique-confidentialite",
+  }),
 };
 
 export default function PolitiqueConfidentialitePage() {

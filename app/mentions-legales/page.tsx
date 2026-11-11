@@ -1,12 +1,19 @@
 import type { Metadata } from "next";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import { pageOpenGraph } from "../../lib/seo";
 
 export const metadata: Metadata = {
   title: "Mentions légales",
   description:
     "Éditeur, directeur de la publication, hébergeur et conditions d'utilisation du site euhm.fr.",
   alternates: { canonical: "/mentions-legales" },
+  openGraph: pageOpenGraph({
+    title: "Mentions légales",
+    description:
+      "Éditeur, directeur de la publication, hébergeur et conditions d'utilisation du site euhm.fr.",
+    url: "/mentions-legales",
+  }),
 };
 
 export default function MentionsLegalesPage() {
