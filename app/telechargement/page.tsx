@@ -4,6 +4,7 @@ import Footer from "../../components/Footer";
 import FollowBlock from "../../components/FollowBlock";
 import { getAllFiches } from "../../lib/mdx";
 import { pageOpenGraph } from "../../lib/seo";
+import { typo } from "../../lib/typo";
 
 export const metadata: Metadata = {
   title: "Fiches Pratiques & Ressources Gratuites",
@@ -45,7 +46,7 @@ export default function TelechargementPage() {
                 <div className="dl-badge">
                   {f.ficheNumero ? `Fiche ${f.ficheNumero} · ` : ""}{f.category}
                 </div>
-                <h2>{f.ficheTitre ?? f.title}</h2>
+                <h2>{typo(f.ficheTitre ?? f.title)}</h2>
                 <p>{f.ficheDesc ?? f.description}</p>
                 <a href={f.fiche} download className="btn">
                   Télécharger (PDF, 1 page)
@@ -55,7 +56,7 @@ export default function TelechargementPage() {
                   style={{
                     display: "inline-block",
                     marginLeft: "16px",
-                    color: "#f86613",
+                    color: "#c2410c",
                     fontSize: "14px",
                     textDecoration: "underline",
                   }}

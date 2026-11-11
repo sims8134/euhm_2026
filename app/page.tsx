@@ -10,7 +10,7 @@ import { pageOpenGraph } from "../lib/seo";
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
   openGraph: pageOpenGraph({
-    title: "EUHM — Bien-être masculin : sport, alimentation, psychologie",
+    title: "EUHM, bien-être masculin : sport, alimentation, psychologie",
     description:
       "Conseils pratiques de bien-être pour hommes : sport, alimentation, psychologie et développement personnel.",
     url: "/",
@@ -30,7 +30,7 @@ export default function Accueil() {
           <article className="bienvenue">
             <h1>Bien-être masculin : devenez un homme meilleur</h1>
 
-            <h2>EUHM c'est quoi ?</h2>
+            <h2>EUHM c’est quoi ?</h2>
             <p>
               Les lettres <strong>EUHM</strong> sont l&apos;abréviation de &quot;<strong>Être Un Homme Meilleur</strong>&quot;.
               <br /><br />

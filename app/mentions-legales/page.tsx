@@ -66,7 +66,7 @@ export default function MentionsLegalesPage() {
           <div className="legal-bloc">
             <h2>4. Conception et réalisation</h2>
             <div className="highlight-box">
-              <strong>SBCConception</strong> — conception et développement web<br />
+              <strong>SBCConception</strong> : conception et développement web<br />
               <a href="https://sbcconception.com" target="_blank" rel="noopener noreferrer">sbcconception.com</a>
             </div>
           </div>

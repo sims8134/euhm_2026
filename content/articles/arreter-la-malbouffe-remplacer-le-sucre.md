@@ -30,7 +30,7 @@ Le levier n'est pas la volonté. C'est l'**environnement** et le **remplacement*
 
 **2. Avoir l'alternative déjà prête.** Une envie de sucre dure quelques minutes. Si l'alternative demande une préparation, elle perd. Chez moi : un bol de noix et d'amandes visible sur le plan de travail, des fruits dans une corbeille à hauteur des yeux, du thé accessible en trois gestes. Ce sont les mêmes appuis que dans [ma routine énergie](/articles/rentree-booster-son-dynamisme).
 
-**3. Supprimer le sucre liquide en premier.** Sodas, jus de fruits industriels, boissons énergisantes : c'est le sucre qu'on avale sans jamais avoir l'impression de manger. C'est aussi le plus facile à retirer parce qu'il n'y a pas d'attachement au goût — de l'eau gazeuse, un thé glacé maison, un fruit pressé de temps en temps, et le sujet est réglé.
+**3. Supprimer le sucre liquide en premier.** Sodas, jus de fruits industriels, boissons énergisantes : c'est le sucre qu'on avale sans jamais avoir l'impression de manger. C'est aussi le plus facile à retirer parce qu'il n'y a pas d'attachement au goût : de l'eau gazeuse, un thé glacé maison, un fruit pressé de temps en temps, et le sujet est réglé.
 
 **4. Ne jamais faire les courses le ventre vide.** Manger quelque chose avant de partir, et arriver avec une liste écrite. Le chariot d'un homme affamé sans liste ressemble toujours au même chariot.
 

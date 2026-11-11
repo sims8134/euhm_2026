@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const BASE_URL = "https://euhm.fr";
-export const SITE_NAME = "EUHM — Être Un Homme Meilleur";
+export const SITE_NAME = "EUHM : Être Un Homme Meilleur";
 
 /** Comptes sociaux officiels : source unique pour le pied de page, le bloc Suivre et le JSON-LD. */
 export const SOCIAL_LINKS = {
@@ -15,7 +15,7 @@ export const DEFAULT_OG_IMAGES = [
     url: "/img/og-image.jpg",
     width: 1200,
     height: 630,
-    alt: "EUHM – Être Un Homme Meilleur : bien-être masculin",
+    alt: "EUHM, Être Un Homme Meilleur : bien-être masculin",
   },
 ];
 

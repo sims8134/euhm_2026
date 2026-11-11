@@ -19,9 +19,11 @@ interface HeaderProps {
   heroAsH1?: boolean;
   /** @deprecated no longer needed — the hero is no longer an H1 by default. Kept to avoid build errors. */
   heroAsH2?: boolean;
+  /** Bandeau réduit et sans texte (pages d'article, dont le titre est déjà le H1). */
+  heroCompact?: boolean;
 }
 
-export default function Header({ title, heroAsH1 = false }: HeaderProps) {
+export default function Header({ title, heroAsH1 = false, heroCompact = false }: HeaderProps) {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -39,7 +41,7 @@ export default function Header({ title, heroAsH1 = false }: HeaderProps) {
         }
 
         .header-topbar {
-          background: rgb(248, 102, 19);
+          background: #c2410c;
           color: white;
           text-align: center;
           font-size: 1.2rem;
@@ -111,7 +113,7 @@ export default function Header({ title, heroAsH1 = false }: HeaderProps) {
 
         .header-nav a:hover,
         .header-nav a.active {
-          color: rgb(248, 102, 19);
+          color: #c2410c;
           background: rgba(248, 102, 19, 0.08);
         }
 
@@ -161,7 +163,7 @@ export default function Header({ title, heroAsH1 = false }: HeaderProps) {
 
         .header-mobile-menu a:hover,
         .header-mobile-menu a.active {
-          color: rgb(248, 102, 19);
+          color: #c2410c;
           background: rgba(248, 102, 19, 0.08);
         }
 
@@ -201,6 +203,12 @@ export default function Header({ title, heroAsH1 = false }: HeaderProps) {
           .page-hero h1,
           .page-hero p { font-size: 2.5rem; }
           .header-topbar { font-size: 1.1rem; }
+        }
+
+        /* Bandeau compact (pages d'article) : photo seule, sans texte */
+        .page-hero.page-hero--compact { padding: 70px 20px; }
+        @media (max-width: 900px) {
+          .page-hero.page-hero--compact { padding: 32px 20px; }
         }
       `}</style>
 
@@ -250,9 +258,13 @@ export default function Header({ title, heroAsH1 = false }: HeaderProps) {
         </nav>
       </header>
 
-      <div className="page-hero">
-        <HeroTag>{title}</HeroTag>
-      </div>
+      {heroCompact ? (
+        <div className="page-hero page-hero--compact" aria-hidden="true" />
+      ) : (
+        <div className="page-hero">
+          <HeroTag>{title}</HeroTag>
+        </div>
+      )}
     </>
   );
 }

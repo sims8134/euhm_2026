@@ -25,7 +25,7 @@ C'est l'ordre que la plupart des hommes inversent. On achète une veste avant d'
 
 **La barbe : rasé net ou taillé net, jamais entre les deux.** Le vrai problème n'est ni la barbe ni le rasage, c'est le flou, trois jours qui traînent depuis une semaine, un contour de joue qui remonte n'importe où, un cou jamais nettoyé. Si vous portez la barbe : tondeuse tous les deux ou trois jours, contours de joue et de cou faits au rasoir. Si vous êtes rasé : rasé, pas « rasé avant-hier ».
 
-**Le reste, en trente secondes par jour** : ongles courts et propres — c'est ce qu'on regarde le plus sans s'en rendre compte ; sourcils désépaissis si le besoin est évident ; oreilles et nez vérifiés une fois par semaine à partir de la trentaine, ça arrive plus tôt qu'on ne croit.
+**Le reste, en trente secondes par jour** : ongles courts et propres (c'est ce qu'on regarde le plus sans s'en rendre compte) ; sourcils désépaissis si le besoin est évident ; oreilles et nez vérifiés une fois par semaine à partir de la trentaine, ça arrive plus tôt qu'on ne croit.
 
 **L'odeur.** Douche, déodorant, vêtements réellement propres : un pull porté quatre fois sent, même s'il paraît propre. Et une main légère sur le parfum : deux pulvérisations, pas six, et sur les vêtements plutôt que sur la peau, comme je l'explique dans [l'article sur les cosmétiques](/articles/cosmetiques-simples-et-faits-maison).
 
@@ -63,9 +63,9 @@ Tout se combine, et vous êtes habillé pour 90 % des situations. Le reste est d
 
 C'est la partie qui bloque le plus de monde, et elle est plus simple qu'il n'y paraît. On n'a pas besoin d'avoir du goût, on a besoin de quatre repères.
 
-**1. Trois couleurs maximum par tenue.** Au-delà, ça part dans tous les sens. Et les neutres — blanc, gris, noir, marine, beige — ne comptent pratiquement pas dans le total : ils servent de fond.
+**1. Trois couleurs maximum par tenue.** Au-delà, ça part dans tous les sens. Et les neutres (blanc, gris, noir, marine, beige) ne comptent pratiquement pas dans le total : ils servent de fond.
 
-**2. Une base neutre, une seule pièce colorée.** Le jean brut, le chino beige, le tee-shirt blanc ou gris, le pull marine : tout se combine avec tout, sans réfléchir. Si vous voulez de la couleur — un pull bordeaux, une chemise verte —, mettez-en une seule à la fois, sur une base neutre. C'est exactement pourquoi la garde-robe minimale ci-dessus ne contient que des neutres : elle rend impossible de se tromper.
+**2. Une base neutre, une seule pièce colorée.** Le jean brut, le chino beige, le tee-shirt blanc ou gris, le pull marine : tout se combine avec tout, sans réfléchir. Si vous voulez de la couleur (un pull bordeaux, une chemise verte), mettez-en une seule à la fois, sur une base neutre. C'est exactement pourquoi la garde-robe minimale ci-dessus ne contient que des neutres : elle rend impossible de se tromper.
 
 **3. Le rappel : reprendre une couleur à deux endroits.** C'est l'astuce qui fait qu'une tenue paraît pensée sans effort. Tee-shirt blanc et baskets blanches : le blanc revient deux fois, l'œil relie les deux, et ça fonctionne, c'est d'ailleurs la combinaison la plus sûre qui existe avec un jean. Même principe avec une ceinture et des chaussures du même ton de cuir : marron avec marron, noir avec noir, jamais l'un avec l'autre.
 

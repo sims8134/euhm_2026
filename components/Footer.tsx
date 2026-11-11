@@ -20,7 +20,7 @@ export default function Footer() {
           font-size: 11px;
           text-transform: uppercase;
           letter-spacing: 0.2em;
-          color: #f86613;
+          color: #c2410c;
           margin-bottom: 12px;
         }
         .newsletter-heading {
@@ -30,7 +30,7 @@ export default function Footer() {
           margin-bottom: 8px;
         }
         .newsletter-heading span {
-          color: #f86613;
+          color: #c2410c;
         }
         .newsletter-desc {
           font-size: 14px;
@@ -39,7 +39,7 @@ export default function Footer() {
         }
 
         .site-footer {
-          background: rgb(248, 102, 19);
+          background: #c2410c;
           color: white;
           margin-top: 0;
         }
@@ -74,7 +74,7 @@ export default function Footer() {
 
         .footer-brand p {
           font-size: 1.35rem;
-          color: rgba(255,255,255,0.85);
+          color: #fff;
           line-height: 1.6;
           margin: 0;
         }
@@ -100,7 +100,7 @@ export default function Footer() {
         .footer-nav li { list-style: none; }
 
         .footer-nav a {
-          color: rgba(255,255,255,0.85);
+          color: #fff;
           text-decoration: none;
           font-size: 1.4rem;
           transition: color 0.2s ease;
@@ -117,13 +117,13 @@ export default function Footer() {
           align-items: center;
           justify-content: space-between;
           font-size: 1.3rem;
-          color: rgba(255,255,255,0.8);
+          color: #fff;
           flex-wrap: wrap;
           gap: 12px;
         }
 
         .footer-bottom a {
-          color: rgba(255,255,255,0.8);
+          color: #fff;
           text-decoration: none;
         }
 
@@ -141,11 +141,11 @@ export default function Footer() {
           margin: 0 auto;
           padding: 14px 40px 22px;
           font-size: 1.2rem;
-          color: rgba(255,255,255,0.7);
+          color: #fff;
         }
 
         .footer-credit a {
-          color: rgba(255,255,255,0.9);
+          color: #fff;
           text-decoration: none;
           font-weight: 600;
         }
@@ -180,7 +180,7 @@ export default function Footer() {
       <section className="newsletter-section">
         <div className="newsletter-inner">
           <p className="newsletter-tag">NEWSLETTER</p>
-          <h2 className="newsletter-heading" style={{ color: "#3a9e4f" }}>RESTEZ <span>INFORMÉ</span>. DEVENEZ <span>MEILLEUR</span>.</h2>
+          <h2 className="newsletter-heading" style={{ color: "#2e7d3e" }}>RESTEZ <span>INFORMÉ</span>. DEVENEZ <span>MEILLEUR</span>.</h2>
           <p className="newsletter-desc">Recevez nos derniers articles et conseils. Pas de spam.</p>
           <NewsletterForm />
         </div>
@@ -193,7 +193,7 @@ export default function Footer() {
               <Image src="/img/logo_euhm_half.png" alt="EUHM" width={50} height={50} />
               <div className="footer-brand-text">EUHM</div>
             </div>
-            <p>Être Un Homme Meilleur — conseils bien-être, sport, alimentation, psychologie et écologie pour devenir une meilleure version de vous-même.</p>
+            <p>Être Un Homme Meilleur : conseils bien-être, sport, alimentation, psychologie et écologie pour devenir une meilleure version de vous-même.</p>
           </div>
 
           <div className="footer-nav">
@@ -204,23 +204,19 @@ export default function Footer() {
               <li><Link href="/dossiers">Dossiers</Link></li>
               <li><Link href="/galerie">Galerie</Link></li>
               <li><Link href="/telechargement">Téléchargement</Link></li>
+              <li><Link href="/apropos">À propos</Link></li>
+              <li><Link href="/contact">Contact</Link></li>
             </ul>
           </div>
 
           <div className="footer-social">
             <h3>Suivez-nous</h3>
             <FollowBlock variant="compact" />
-            <div className="footer-nav">
-              <ul>
-                <li><Link href="/apropos">À propos</Link></li>
-                <li><Link href="/contact">Contact</Link></li>
-              </ul>
-            </div>
           </div>
         </div>
 
         <div className="footer-bottom">
-          <span>{new Date().getFullYear()} © euhm.fr — Tous droits réservés</span>
+          <span>{new Date().getFullYear()} © euhm.fr. Tous droits réservés</span>
           <div className="footer-bottom-links">
             <Link href="/mentions-legales">Mentions légales</Link>
             <Link href="/cgu">CGU</Link>

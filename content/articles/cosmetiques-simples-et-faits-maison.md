@@ -68,7 +68,7 @@ C'est la question qui revient le plus, et elle mérite une réponse franche, par
 
 **La pierre d'alun est un sel d'aluminium.** L'alun de potassium (c'est son nom) contient de l'aluminium, tout comme les sels des anti-transpirants classiques. Passer de l'un à l'autre « pour éviter l'aluminium » ne fonctionne donc pas comme argument, même si le produit est vendu presque systématiquement de cette manière.
 
-Cela dit, il y a de vraies différences : le mode d'action n'est pas le même — la pierre agit surtout en limitant la prolifération bactérienne, alors qu'un anti-transpirant bouche les canaux sudoripares — et la liste d'ingrédients tient en un mot, ce qui reste un avantage réel face à un aérosol parfumé à vingt composants.
+Cela dit, il y a de vraies différences : le mode d'action n'est pas le même (la pierre agit surtout en limitant la prolifération bactérienne, alors qu'un anti-transpirant bouche les canaux sudoripares), et la liste d'ingrédients tient en un mot, ce qui reste un avantage réel face à un aérosol parfumé à vingt composants.
 
 **Deux points de vigilance si vous l'utilisez :**
 
@@ -89,7 +89,7 @@ Un peu de gel d'aloe vera pur, ou de l'huile de jojoba, à la place de la lotion
 
 Trois mises en garde, parce que le fait-maison est souvent présenté comme intrinsèquement sûr, ce qui est faux :
 
-**Ce n'est pas parce que c'est naturel que c'est inoffensif.** Le bicarbonate irrite, le citron sur la peau exposée au soleil provoque des taches durables, et **les huiles essentielles sont des produits actifs** — allergisantes, contre-indiquées chez la femme enceinte et le jeune enfant, à ne jamais appliquer pures. Je les ai volontairement exclues des recettes ci-dessus.
+**Ce n'est pas parce que c'est naturel que c'est inoffensif.** Le bicarbonate irrite, le citron sur la peau exposée au soleil provoque des taches durables, et **les huiles essentielles sont des produits actifs** : allergisantes, contre-indiquées chez la femme enceinte et le jeune enfant, à ne jamais appliquer pures. Je les ai volontairement exclues des recettes ci-dessus.
 
 **Sans conservateur, la contamination est rapide.** Toute recette contenant de l'eau se contamine en quelques jours. Les trois recettes ci-dessus sont anhydres, sans eau, précisément pour cette raison. Méfiez-vous des recettes trouvées en ligne qui mélangent eau et huile sans conservateur.
 
@@ -110,6 +110,6 @@ Je ne suis ni dermatologue ni chimiste. Ce que je décris, c'est une démarche d
 
 Ce que je peux dire : ça coûte moins cher, ça encombre moins, et ça n'a aucun inconvénient.
 
-Si vous avez une pathologie de peau — eczéma, psoriasis, acné sévère, allergies —, ne bricolez pas : ces situations relèvent d'un dermatologue, et une recette maison mal choisie peut aggraver les choses. Une réaction cutanée qui persiste après l'arrêt d'un produit mérite également une consultation.
+Si vous avez une pathologie de peau (eczéma, psoriasis, acné sévère, allergies), ne bricolez pas : ces situations relèvent d'un dermatologue, et une recette maison mal choisie peut aggraver les choses. Une réaction cutanée qui persiste après l'arrêt d'un produit mérite également une consultation.
 
 Le pendant de cet article côté environnement intérieur, c'est [ce qu'on retire de son logement](/articles/reduire-les-produits-toxiques-du-quotidien) : désodorisants automatiques, plastique chauffé, diffuseurs.

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     google: "UwG_kI6DIiNh4OmL1rUELImqlTSmPRCdH0LPzivZJNI",
   },
   title: {
-    default: "EUHM — Bien-être masculin : sport, alimentation, psychologie",
+    default: "EUHM, bien-être masculin : sport, alimentation, psychologie",
     template: "%s | EUHM",
   },
   description:

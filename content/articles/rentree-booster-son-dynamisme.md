@@ -21,12 +21,12 @@ Les coups de fatigue de fin de journée, la tête lourde dès 15h, la motivation
 
 - **Un grand verre d'eau au réveil**, avant le café. Après une nuit, le corps est déshydraté, et la déshydratation se manifeste d'abord par de la fatigue.
 - **Un fruit entier au petit-déjeuner** (pas un jus) : une banane, une pomme, un kiwi. Les fibres du fruit entier lissent l'apport en sucre au lieu de créer un pic suivi d'un creux.
-- **La douche froide — version progressive** : inutile de plonger dans l'eau glacée dès le premier jour. Douche normale, puis les 30 dernières secondes à l'eau froide, jambes d'abord, puis le buste. Semaine suivante : 45 secondes. L'effet coup de fouet est immédiat et dure une bonne heure. Prudence si vous avez un problème cardiaque : demandez d'abord l'avis d'un médecin.
+- **La douche froide (version progressive)** : inutile de plonger dans l'eau glacée dès le premier jour. Douche normale, puis les 30 dernières secondes à l'eau froide, jambes d'abord, puis le buste. Semaine suivante : 45 secondes. L'effet coup de fouet est immédiat et dure une bonne heure. Prudence si vous avez un problème cardiaque : demandez d'abord l'avis d'un médecin.
 
 ## L'après-midi : éviter le crash de 15h
 
 - **Dernier café avant 14h.** La caféine reste 5 à 6 heures dans l'organisme : le café de 16h se paie à 23h dans le lit, et la mauvaise nuit se paie le lendemain à 15h. C'est un cercle qu'il faut casser par le haut.
-- **Le thé comme relais** : un thé vert ou noir vers 15h apporte une dose de caféine plus faible et plus étalée — l'énergie sans le pic.
+- **Le thé comme relais** : un thé vert ou noir vers 15h apporte une dose de caféine plus faible et plus étalée : l'énergie sans le pic.
 - **Une poignée de noix ou d'amandes** (l'équivalent du creux de la main) à la place du gâteau du distributeur. Le combo gras + protéines tient jusqu'au dîner sans somnolence.
 
 ## Le soir : bouger pour mieux dormir
@@ -50,4 +50,4 @@ Un test simple pour mesurer l'effet : notez votre niveau d'énergie sur 10, chaq
 
 ## Mes limites habituelles
 
-Ceci est ma routine, testée sur moi — pas une prescription. Une fatigue persistante malgré une bonne hygiène de vie peut avoir des causes médicales (carences, sommeil, thyroïde…) : si les 4 semaines ne changent rien, le bon réflexe est d'en parler à un médecin plutôt que d'empiler les astuces.
+Ceci est ma routine, testée sur moi, pas une prescription. Une fatigue persistante malgré une bonne hygiène de vie peut avoir des causes médicales (carences, sommeil, thyroïde…) : si les 4 semaines ne changent rien, le bon réflexe est d'en parler à un médecin plutôt que d'empiler les astuces.

@@ -65,7 +65,7 @@ Prenez chaque préoccupation de votre liste et posez une seule question : **est-
 
 **Si oui** : écrivez la prochaine action concrète et quand vous la ferez. Pas « régler le problème du travail », mais « envoyer un mail à X mardi matin ». Une préoccupation transformée en action datée cesse d'être une préoccupation.
 
-**Si non** : nommez-la explicitement — « je ne peux rien y faire ce soir » — et laissez-la sur le papier. Vous ne l'oubliez pas, vous cessez de la porter.
+**Si non** : nommez-la explicitement (« je ne peux rien y faire ce soir ») et laissez-la sur le papier. Vous ne l'oubliez pas, vous cessez de la porter.
 
 La plupart des ruminations nocturnes portent sur des choses de la seconde catégorie. C'est précisément pourquoi elles tournent sans fin : il n'y a pas de sortie à trouver.
 
@@ -79,7 +79,7 @@ Les décisions prises tard le soir sont mauvaises, systématiquement. La fatigue
 
 Le cerveau a besoin d'un signal de fin. Sans transition, la journée continue mentalement jusque dans le lit.
 
-Ce qui marche : une marche de quinze minutes en rentrant, une douche à heure fixe, changer de vêtements, ranger l'espace de travail. Le contenu importe peu — c'est la régularité qui crée le signal.
+Ce qui marche : une marche de quinze minutes en rentrant, une douche à heure fixe, changer de vêtements, ranger l'espace de travail. Le contenu importe peu : c'est la régularité qui crée le signal.
 
 ### 6. Si la boucle démarre au lit, levez-vous
 

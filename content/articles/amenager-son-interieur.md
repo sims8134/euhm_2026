@@ -19,7 +19,7 @@ Ce n'est pas un article de décoration. C'est ce qui, dans l'aménagement, chang
 
 ## Désencombrer sans se forcer
 
-Le minimalisme façon photo Instagram — pièce blanche, trois objets, aucune trace de vie — n'est pas un objectif, c'est une esthétique. L'objectif utile est plus modeste : **que chaque objet chez vous ait une raison d'être là**.
+Le minimalisme façon photo Instagram (pièce blanche, trois objets, aucune trace de vie) n'est pas un objectif, c'est une esthétique. L'objectif utile est plus modeste : **que chaque objet chez vous ait une raison d'être là**.
 
 **La méthode des trois boîtes.** Prenez une pièce, ou même juste un tiroir, et trois contenants : à garder, à donner ou vendre, à jeter. La règle est de décider immédiatement, sans reposer l'objet à sa place « pour y réfléchir ». La réflexion est ce qui fait échouer l'opération.
 
@@ -78,6 +78,6 @@ Cela dit, ce n'est pas une raison de s'en priver, et c'est même l'inverse. La p
 
 ## Limites et humilité
 
-Rien de médical ici, donc peu de précautions à prendre — sinon celle-ci : si vous vous reconnaissez dans une accumulation qui envahit le logement, qui empêche d'utiliser les pièces ou de recevoir, et qui s'accompagne d'une détresse à l'idée de jeter, ce n'est pas un problème de rangement. C'est une difficulté qui existe, qui a un nom, et pour laquelle un accompagnement est possible. Un article sur les trois boîtes n'y répondra pas, et un médecin est le bon interlocuteur.
+Rien de médical ici, donc peu de précautions à prendre, sinon celle-ci : si vous vous reconnaissez dans une accumulation qui envahit le logement, qui empêche d'utiliser les pièces ou de recevoir, et qui s'accompagne d'une détresse à l'idée de jeter, ce n'est pas un problème de rangement. C'est une difficulté qui existe, qui a un nom, et pour laquelle un accompagnement est possible. Un article sur les trois boîtes n'y répondra pas, et un médecin est le bon interlocuteur.
 
 Pour le reste, ce sont des ajustements simples, que j'ai testés chez moi et qui n'ont d'autre ambition que de rendre le quotidien un peu plus fluide.

@@ -61,7 +61,7 @@ C'est la règle la plus utile quand on débute, et elle tient en une phrase : **
 
 **Ce qu'elle apporte** : elle enlève la question de la tête. Plus de calcul, plus de « c'est le moment ou pas », plus cette tension pénible qui gâche une soirée. On est présent au lieu de guetter un signal. Et laisser du temps permet à l'envie d'être réciproque plutôt que provoquée.
 
-**Ce qu'elle n'est pas** : un compte à rebours. Trois rendez-vous ne donnent droit à rien du tout, et si l'envie est mutuelle plus tôt, ce n'est pas un problème non plus. Le nombre n'est pas la règle — la règle, c'est que ça se décide à deux, sur le moment, et que ça se lit dans ce que l'autre montre et dit, pas dans un décompte.
+**Ce qu'elle n'est pas** : un compte à rebours. Trois rendez-vous ne donnent droit à rien du tout, et si l'envie est mutuelle plus tôt, ce n'est pas un problème non plus. Le nombre n'est pas la règle : la règle, c'est que ça se décide à deux, sur le moment, et que ça se lit dans ce que l'autre montre et dit, pas dans un décompte.
 
 Ce que je retiens vraiment : **rien de bon ne vient de l'insistance**. Un doute chez l'autre se respecte sans discussion, sans négociation, sans « allez ». Et quelqu'un qui a envie le montre : vous n'avez pas à le deviner ni à le forcer.
 
@@ -75,7 +75,7 @@ Ce que je retiens vraiment : **rien de bon ne vient de l'insistance**. Un doute 
 
 **Le monologue.** Voir plus haut. C'est l'erreur la plus fréquente et la moins rattrapable.
 
-**Trop boire.** L'alcool ne détend pas, il désinhibe — ce n'est pas la même chose, et le lendemain fait la différence.
+**Trop boire.** L'alcool ne détend pas, il désinhibe. Ce n'est pas la même chose, et le lendemain fait la différence.
 
 **Arriver en négociation.** Un rendez-vous n'est pas une transaction où l'on cherche à obtenir quelque chose. C'est ce qui distingue quelqu'un d'agréable de quelqu'un de pesant, et ça se sent en dix minutes.
 
@@ -109,6 +109,6 @@ C'est le point sur lequel je veux être le plus clair, parce que c'est là que b
 
 Je ne suis ni thérapeute de couple ni spécialiste des relations, et je ne me présente pas en expert de la rencontre. Ce texte s'adresse à ceux qui débutent, et rassemble ce qui revient le plus souvent quand on regarde ce qui fonctionne et ce qui échoue.
 
-Une chose est plus importante que tout le reste : **rien de ce qui précède ne fonctionne comme une technique**. Il n'existe pas de méthode pour faire naître le désir chez quelqu'un, et tout ce qui se présente comme telle vend une illusion — souvent cher. Ce qui se travaille, c'est vous : votre écoute, votre calme, votre capacité à encaisser un non sans le prendre pour une agression.
+Une chose est plus importante que tout le reste : **rien de ce qui précède ne fonctionne comme une technique**. Il n'existe pas de méthode pour faire naître le désir chez quelqu'un, et tout ce qui se présente comme telle vend une illusion, souvent cher. Ce qui se travaille, c'est vous : votre écoute, votre calme, votre capacité à encaisser un non sans le prendre pour une agression.
 
 Si les rencontres vous génèrent une anxiété qui vous empêche d'y aller, ou si l'accumulation de refus entame durablement votre moral, ce n'est pas un problème de méthode. Ça se travaille, et un psychologue est bien plus utile qu'un article de plus.

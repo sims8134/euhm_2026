@@ -51,7 +51,7 @@ export default function DossierInterest({ slug, label = "Ça m'intéresse" }: Pr
   if (status === "success") {
     return (
       <p style={{ color: "#22c55e", fontSize: "13px", margin: "8px 0 0" }}>
-        C&#39;est noté — confirmez votre adresse dans le mail que vous venez de recevoir.
+        C&#39;est noté. Confirmez votre adresse dans le mail que vous venez de recevoir.
       </p>
     );
   }
@@ -59,7 +59,7 @@ export default function DossierInterest({ slug, label = "Ça m'intéresse" }: Pr
   if (status === "already") {
     return (
       <p style={{ color: "#eab308", fontSize: "13px", margin: "8px 0 0" }}>
-        Vous êtes déjà inscrit — votre vote est pris en compte.
+        Vous êtes déjà inscrit. Votre vote est pris en compte.
       </p>
     );
   }
@@ -113,7 +113,7 @@ export default function DossierInterest({ slug, label = "Ça m'intéresse" }: Pr
           disabled={status === "loading"}
           style={{
             padding: "10px 16px",
-            background: "#f86613",
+            background: "#c2410c",
             color: "white",
             border: "none",
             borderRadius: "6px",
@@ -129,7 +129,7 @@ export default function DossierInterest({ slug, label = "Ça m'intéresse" }: Pr
       </div>
       {status === "error" && (
         <p style={{ color: "#ef4444", fontSize: "12px", margin: "6px 0 0" }}>
-          Adresse invalide ou erreur — réessayez.
+          Adresse invalide ou erreur. Réessayez.
         </p>
       )}
     </form>

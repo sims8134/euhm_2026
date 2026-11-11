@@ -15,7 +15,7 @@ export default function CguPage() {
       <Header title="CGU" />
       <main>
         <section className="legal-section">
-          <h1>Conditions Générales d&apos;Utilisation</h1>
+          <h1>Conditions Générales d’Utilisation</h1>
           <p className="date">
             Dernière mise à jour :{" "}
             {new Date().toLocaleDateString("fr-FR", { month: "long", year: "numeric" })}

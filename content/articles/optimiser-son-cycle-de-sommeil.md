@@ -26,7 +26,7 @@ Mon repère : ne pas dévier de plus de 30 minutes, même le samedi. Une grasse 
 
 **1. Dernier café avant 14 h.** La caféine reste 5 à 6 heures dans l'organisme, et sa demi-vie s'allonge avec l'âge. Le café de 16 h est encore actif à 22 h. C'est le point le plus facile à corriger et souvent le plus efficace.
 
-**2. Coupure des écrans 30 minutes avant le coucher — 60 si possible.** Ce n'est pas seulement la lumière bleue : c'est le contenu. Un fil d'actualité ou une série à suspense maintient le cerveau en alerte bien après l'extinction. Concrètement, chez moi : téléphone en charge dans une autre pièce à 21 h 30.
+**2. Coupure des écrans 30 minutes avant le coucher (60 si possible).** Ce n'est pas seulement la lumière bleue : c'est le contenu. Un fil d'actualité ou une série à suspense maintient le cerveau en alerte bien après l'extinction. Concrètement, chez moi : téléphone en charge dans une autre pièce à 21 h 30.
 
 **3. La chambre à 17-19 °C.** L'endormissement demande une baisse de la température corporelle. Une chambre à 22 °C la freine. C'est le paramètre qu'on néglige le plus, et il est gratuit à corriger.
 
@@ -63,7 +63,7 @@ Ce qu'il faut regarder au bout d'un mois, ce n'est pas une nuit isolée mais la 
 
 ## Limites et humilité
 
-Ce protocole vaut pour un sommeil « moyennement mauvais » — celui qu'on abîme soi-même par ses habitudes. Il ne traite rien.
+Ce protocole vaut pour un sommeil « moyennement mauvais », celui qu'on abîme soi-même par ses habitudes. Il ne traite rien.
 
 Une somnolence permanente malgré des nuits longues, des ronflements avec pauses respiratoires, une insomnie qui dure depuis des mois, un réveil systématique à 4 h avec anxiété : ce sont des situations médicales, et l'apnée du sommeil comme l'insomnie chronique se soignent. Aucun rituel du soir ne remplace un médecin sur ces points. Si les quatre semaines ne changent rien, c'est vers lui qu'il faut aller, pas vers un article de plus.
 

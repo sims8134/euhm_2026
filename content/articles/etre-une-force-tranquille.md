@@ -31,7 +31,7 @@ Deux malentendus à écarter d'emblée, parce qu'ils font des dégâts.
 
 ### 1. La fiabilité avant tout le reste
 
-Faire ce qu'on a dit qu'on ferait. C'est banal et c'est pourtant ce qui construit tout le reste. Quelqu'un sur qui on peut compter pour les petites choses — un rendez-vous tenu, un appel passé, une tâche faite sans qu'il faille le rappeler — devient quelqu'un sur qui on peut compter pour les grandes.
+Faire ce qu'on a dit qu'on ferait. C'est banal et c'est pourtant ce qui construit tout le reste. Quelqu'un sur qui on peut compter pour les petites choses (un rendez-vous tenu, un appel passé, une tâche faite sans qu'il faille le rappeler) devient quelqu'un sur qui on peut compter pour les grandes.
 
 L'inverse est vrai aussi, et c'est le piège : dix promesses non tenues sur des détails détruisent la confiance plus sûrement qu'un grand manquement isolé.
 
@@ -102,4 +102,4 @@ Un homme qui ne dit jamais rien n'est pas rassurant : il est illisible. Et vivre
 
 Je ne suis ni thérapeute de couple ni psychologue. Ce texte décrit des comportements, pas une recette relationnelle, et il n'existe pas de manière d'être qui garantisse quoi que ce soit dans une relation, parce qu'une relation se joue à deux.
 
-Trois précisions importantes. **Rien de ce qui précède ne fonctionne à sens unique** : une relation où l'un fait tous les efforts n'est pas une relation équilibrée, c'est un déséquilibre qui finit par céder. **Une colère qui vous échappe régulièrement** relève d'un accompagnement, pas d'une bonne résolution. Et si votre relation est marquée par la peur, le contrôle, l'humiliation ou la violence — dans un sens ou dans l'autre —, ce n'est pas un problème de posture : le **3919**, numéro d'écoute gratuit et anonyme, existe pour ça.
+Trois précisions importantes. **Rien de ce qui précède ne fonctionne à sens unique** : une relation où l'un fait tous les efforts n'est pas une relation équilibrée, c'est un déséquilibre qui finit par céder. **Une colère qui vous échappe régulièrement** relève d'un accompagnement, pas d'une bonne résolution. Et si votre relation est marquée par la peur, le contrôle, l'humiliation ou la violence (dans un sens ou dans l'autre), ce n'est pas un problème de posture : le **3919**, numéro d'écoute gratuit et anonyme, existe pour ça.

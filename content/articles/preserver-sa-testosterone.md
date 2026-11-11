@@ -35,7 +35,7 @@ Un perturbateur endocrinien est une substance qui interfère avec le système ho
 
 Soyons précis sur ce qu'on sait et ce qu'on ne sait pas. **Ce qui est établi** : certaines substances utilisées en cosmétique ont une activité hormonale démontrée en laboratoire, et l'Union européenne en a interdit plusieurs pour cette raison. **Ce qui ne l'est pas** : l'effet exact, sur votre testostérone à vous, des doses auxquelles vous êtes exposé au quotidien. Les études sur l'exposition combinée à faible dose sont en cours et le débat n'est pas tranché.
 
-Ma position est celle de la précaution, pas de la peur : réduire une exposition inutile ne coûte rien, alors que l'accumulation quotidienne — gel douche, déodorant, shampooing, après-rasage, parfum, tous les jours, sur des décennies — n'a jamais été évaluée dans son ensemble.
+Ma position est celle de la précaution, pas de la peur : réduire une exposition inutile ne coûte rien, alors que l'accumulation quotidienne (gel douche, déodorant, shampooing, après-rasage, parfum, tous les jours, sur des décennies) n'a jamais été évaluée dans son ensemble.
 
 ### Ce qu'on peut repérer sur une étiquette
 
@@ -71,7 +71,7 @@ J'ai remplacé mon gel douche par un savon solide à liste courte, je ne me savo
 
 Une fatigue qui dure malgré un sommeil correct, une baisse durable de la libido, une humeur qui s'assombrit sans raison, une perte de masse musculaire inexpliquée : ce sont des signes qui méritent une consultation, pas un article de plus.
 
-Un déficit en testostérone se diagnostique par une prise de sang — le matin, moment où les taux sont les plus élevés — et il se traite. Il peut aussi révéler autre chose, parfois plus important que l'hormone elle-même. Si ces signes vous parlent, un rendez-vous médical vaut mieux que quatre semaines d'ajustements.
+Un déficit en testostérone se diagnostique par une prise de sang (le matin, moment où les taux sont les plus élevés) et il se traite. Il peut aussi révéler autre chose, parfois plus important que l'hormone elle-même. Si ces signes vous parlent, un rendez-vous médical vaut mieux que quatre semaines d'ajustements.
 
 **[Télécharger la fiche mémo (PDF, 1 page à imprimer)](/fiches/euhm-fiche-testosterone.pdf)**
 
@@ -79,4 +79,4 @@ Un déficit en testostérone se diagnostique par une prise de sang — le matin,
 
 Je ne suis ni médecin ni endocrinologue, et rien ici ne remplace un avis médical. Sur ce sujet plus que sur les autres, méfiez-vous de ce que vous lisez, moi compris : c'est un terrain où l'on vend beaucoup, où l'on affirme beaucoup, et où l'on démontre peu.
 
-Ce que je peux dire honnêtement : les quatre leviers du début sont documentés, ils sont gratuits, et ils améliorent votre santé générale que votre testostérone bouge ou non. Le reste, y compris ce que je fais moi-même côté cosmétiques, relève de la précaution raisonnable — ni plus, ni moins.
+Ce que je peux dire honnêtement : les quatre leviers du début sont documentés, ils sont gratuits, et ils améliorent votre santé générale que votre testostérone bouge ou non. Le reste, y compris ce que je fais moi-même côté cosmétiques, relève de la précaution raisonnable. Ni plus, ni moins.

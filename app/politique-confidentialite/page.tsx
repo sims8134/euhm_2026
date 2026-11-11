@@ -19,7 +19,7 @@ export default function PolitiqueConfidentialitePage() {
           <p className="date">Dernière mise à jour : août 2026</p>
 
           <div style={{ textAlign: "center", marginBottom: "40px" }}>
-            <span style={{ background: "rgb(248,102,19)", color: "white", borderRadius: "30px", padding: "8px 20px", fontSize: "1.4rem", fontWeight: 600 }}>
+            <span style={{ background: "#c2410c", color: "white", borderRadius: "30px", padding: "8px 20px", fontSize: "1.4rem", fontWeight: 600 }}>
               🔒 Conforme RGPD &amp; CNIL
             </span>
           </div>
@@ -59,11 +59,11 @@ export default function PolitiqueConfidentialitePage() {
             <h2>3. Finalité du traitement</h2>
             <p>Vos données sont utilisées exclusivement pour :</p>
             <div className="highlight-box">
-              — Répondre à vos demandes de contact<br />
-              — Vous envoyer la newsletter à laquelle vous avez souscrit<br />
-              — Vous prévenir de la sortie d&apos;un contenu ou de l&apos;ouverture de la boutique<br />
-              — Orienter le choix des prochains sujets publiés<br />
-              — Respecter nos obligations légales
+              • Répondre à vos demandes de contact<br />
+              • Vous envoyer la newsletter à laquelle vous avez souscrit<br />
+              • Vous prévenir de la sortie d&apos;un contenu ou de l&apos;ouverture de la boutique<br />
+              • Orienter le choix des prochains sujets publiés<br />
+              • Respecter nos obligations légales
             </div>
             <p style={{ marginTop: "1rem" }}>
               Elles ne sont jamais revendues ni transmises à des tiers à des fins commerciales.
@@ -74,8 +74,8 @@ export default function PolitiqueConfidentialitePage() {
             <h2>4. Base légale</h2>
             <p>Le traitement de vos données repose sur :</p>
             <div className="highlight-box">
-              — <strong>Votre consentement</strong>, pour l&apos;ensemble des traitements
-              (newsletter, alertes, formulaire de contact) — Art. 6.1.a RGPD.<br /><br />
+              <strong>Votre consentement</strong>, pour l&apos;ensemble des traitements
+              (newsletter, alertes, formulaire de contact), art. 6.1.a RGPD.<br /><br />
               Ce consentement est libre, spécifique et révocable à tout moment, sans conséquence.
             </div>
           </div>
@@ -87,11 +87,11 @@ export default function PolitiqueConfidentialitePage() {
               données pour notre compte et uniquement sur nos instructions :
             </p>
             <div className="highlight-box">
-              <strong>Supabase</strong> — stockage des adresses inscrites à la newsletter.
+              <strong>Supabase</strong> : stockage des adresses inscrites à la newsletter.
               Serveurs situés dans l&apos;Union européenne (Irlande).<br /><br />
-              <strong>LWS</strong> — hébergement de la messagerie et envoi des emails de confirmation
+              <strong>LWS</strong> : hébergement de la messagerie et envoi des emails de confirmation
               et de désinscription. Serveurs situés en France.<br /><br />
-              <strong>Vercel Inc.</strong> — hébergement du site (société établie aux États-Unis).
+              <strong>Vercel Inc.</strong> : hébergement du site (société établie aux États-Unis).
               À ce titre, des données techniques de connexion (adresse IP, en-têtes de requête)
               peuvent transiter par ses infrastructures.
             </div>
@@ -107,9 +107,9 @@ export default function PolitiqueConfidentialitePage() {
           <div className="legal-bloc">
             <h2>6. Durée de conservation</h2>
             <div className="highlight-box">
-              — Messages reçus via le formulaire de contact : <strong>12 mois</strong> maximum<br />
-              — Adresses inscrites à la newsletter : jusqu&apos;à votre désinscription<br />
-              — Adresses en attente de confirmation (double opt-in) : supprimées après <strong>3 mois</strong> sans confirmation
+              • Messages reçus via le formulaire de contact : <strong>12 mois</strong> maximum<br />
+              • Adresses inscrites à la newsletter : jusqu&apos;à votre désinscription<br />
+              • Adresses en attente de confirmation (double opt-in) : supprimées après <strong>3 mois</strong> sans confirmation
             </div>
           </div>
 
@@ -165,8 +165,8 @@ export default function PolitiqueConfidentialitePage() {
             <h2>11. Autorités de contrôle</h2>
             <p>En cas de réclamation, vous pouvez contacter :</p>
             <div className="highlight-box">
-              🇫🇷 <strong>CNIL</strong> (France) — <a href="https://www.cnil.fr" target="_blank" rel="noopener noreferrer">www.cnil.fr</a><br /><br />
-              🇧🇬 <strong>CPDP</strong> (Bulgarie) — <a href="https://www.cpdp.bg" target="_blank" rel="noopener noreferrer">www.cpdp.bg</a>
+              🇫🇷 <strong>CNIL</strong> (France) : <a href="https://www.cnil.fr" target="_blank" rel="noopener noreferrer">www.cnil.fr</a><br /><br />
+              🇧🇬 <strong>CPDP</strong> (Bulgarie) : <a href="https://www.cpdp.bg" target="_blank" rel="noopener noreferrer">www.cpdp.bg</a>
             </div>
           </div>
 

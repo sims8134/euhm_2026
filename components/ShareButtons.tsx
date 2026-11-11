@@ -51,7 +51,7 @@ export default function ShareButtons({ url, title }: { url: string; title: strin
           font-weight: 600;
           text-transform: uppercase;
           letter-spacing: 0.16em;
-          color: #999;
+          color: #666;
         }
         .share-list {
           display: flex;

@@ -27,6 +27,11 @@ body {
 }
 
 h1, h2, h3, h4 { font-family: "Borsok", sans-serif; color: rgb(248, 102, 19); }
+/* Contraste AA : l'orange #f86613 (3:1 sur blanc) est réservé aux titres de 24 px et plus.
+   Les titres plus petits passent en #c2410c (5,2:1). */
+h3, h4,
+.article-card h2, .dossier-card h2, .apropos-content h2, .produit-card h2,
+.dl-body h2, .legal-section h2, .article-page-content h2 { color: #c2410c; }
 
 a, a:hover, a:visited, a:active { text-decoration: none; color: inherit; }
 
@@ -55,7 +60,7 @@ li { list-style: none; }
 
 
 /* BOUTON */
-.btn { padding: 8px 20px; border-radius: 30px; background: rgb(248,102,19); display: inline-block; color: white; cursor: pointer; font-size: 1.5rem; }
+.btn { padding: 8px 20px; border-radius: 30px; background: #c2410c; display: inline-block; color: white; cursor: pointer; font-size: 1.5rem; }
 .btn:hover { background: rgb(60,190,240); box-shadow: 2px 3px 7px rgba(0,0,0,0.25); color: white; }
 /* FOOTER */
 .logo { width: 50px; height: 50px; transform: scale(0.9); margin-right: 10px; }
@@ -92,20 +97,20 @@ footer a:hover { color: rgb(60,190,240); text-decoration: underline; }
 .articles-section > h1 { text-align: center; margin-bottom: 10px; }
 .articles-section > p.intro { text-align: center; color: #555; margin-bottom: 50px; font-size: 1.7rem; }
 .filtres { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-bottom: 50px; }
-.filtre-btn { padding: 8px 20px; border-radius: 30px; border: 2px solid rgb(248,102,19); color: rgb(248,102,19); background: white; font-family: "Roboto", sans-serif; font-size: 1.4rem; cursor: pointer; font-weight: 500; }
-.filtre-btn:hover, .filtre-btn.actif { background: rgb(248,102,19); color: white; }
+.filtre-btn { padding: 8px 20px; border-radius: 30px; border: 2px solid #c2410c; color: #c2410c; background: white; font-family: "Roboto", sans-serif; font-size: 1.4rem; cursor: pointer; font-weight: 500; }
+.filtre-btn:hover, .filtre-btn.actif { background: #c2410c; color: white; }
 .articles-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
 .article-card { border-radius: 16px; overflow: hidden; box-shadow: 0px 0px 12px rgba(0,0,0,0.12); display: flex; flex-direction: column; background: #fff; }
 .article-card:hover { box-shadow: 0px 0px 18px rgba(248,102,19,0.4); transform: translateY(-4px); }
 .article-card-img { width: 100%; height: 200px; object-fit: cover; background-color: #ededed; display: flex; align-items: center; justify-content: center; font-size: 5rem; }
 .article-card-body { padding: 20px 24px 24px; flex: 1; display: flex; flex-direction: column; }
-.article-tag { font-size: 1.2rem; font-weight: 700; text-transform: uppercase; color: rgb(248,102,19); letter-spacing: 0.05em; margin-bottom: 8px; }
+.article-tag { font-size: 1.2rem; font-weight: 700; text-transform: uppercase; color: #c2410c; letter-spacing: 0.05em; margin-bottom: 8px; }
 .article-card h2 { font-size: 1.8rem; margin: 0 0 10px 0; line-height: 1.3; }
 .article-card p { font-size: 1.4rem; color: #555; flex: 1; margin-bottom: 20px; }
-.article-meta { font-size: 1.2rem; color: #999; margin-bottom: 16px; }
+.article-meta { font-size: 1.2rem; color: #666; margin-bottom: 16px; }
 .article-page-content a[href$=".pdf"] {
   display: inline-block;
-  background: #f86613;
+  background: #c2410c;
   color: #fff;
   padding: 12px 22px;
   border-radius: 8px;
@@ -114,7 +119,7 @@ footer a:hover { color: rgb(60,190,240); text-decoration: underline; }
   margin: 24px 0;
   transition: opacity 0.2s ease;
 }
-.article-page-content a[href$=".pdf"]:hover { opacity: 0.85; }
+.article-page-content a[href$=".pdf"]:hover { background: #9a3412; }
 /* DOSSIERS */
 .dossiers-section { max-width: 1200px; margin: 60px auto; padding: 0 40px; }
 .dossiers-section > h1 { text-align: center; margin-bottom: 10px; }
@@ -124,7 +129,7 @@ footer a:hover { color: rgb(60,190,240); text-decoration: underline; }
 .dossier-card:hover { box-shadow: 0px 0px 18px rgba(248,102,19,0.4); transform: translateY(-4px); }
 .dossier-card-img { width: 100%; height: 180px; background-color: #ededed; display: flex; align-items: center; justify-content: center; font-size: 5rem; }
 .dossier-card-body { padding: 20px 24px 28px; flex: 1; display: flex; flex-direction: column; }
-.dossier-tag { font-size: 1.2rem; font-weight: 700; text-transform: uppercase; color: rgb(248,102,19); letter-spacing: 0.05em; margin-bottom: 8px; }
+.dossier-tag { font-size: 1.2rem; font-weight: 700; text-transform: uppercase; color: #c2410c; letter-spacing: 0.05em; margin-bottom: 8px; }
 .dossier-card h2 { font-size: 1.9rem; margin: 0 0 10px 0; line-height: 1.3; }
 .dossier-card p { font-size: 1.4rem; color: #555; flex: 1; margin-bottom: 20px; }
 
@@ -135,8 +140,8 @@ footer a:hover { color: rgb(60,190,240); text-decoration: underline; }
 .contact-email-bloc { display: flex; align-items: center; justify-content: center; gap: 16px; background: #fff8f4; border: 2px solid rgba(248,102,19,0.2); border-radius: 16px; padding: 28px 36px; margin-bottom: 50px; }
 .contact-email-bloc .email-icon { font-size: 3rem; flex-shrink: 0; }
 .contact-email-bloc div { display: flex; flex-direction: column; }
-.contact-email-bloc span { font-size: 1.4rem; color: #999; margin-bottom: 4px; }
-.contact-email-bloc a { font-size: 2rem; font-weight: 700; color: rgb(248,102,19); }
+.contact-email-bloc span { font-size: 1.4rem; color: #666; margin-bottom: 4px; }
+.contact-email-bloc a { font-size: 2rem; font-weight: 700; color: #c2410c; }
 .contact-email-bloc a:hover { color: rgb(60,190,240); text-decoration: underline; }
 .separateur { display: flex; align-items: center; gap: 16px; margin-bottom: 50px; color: #bbb; font-size: 1.4rem; }
 .separateur::before, .separateur::after { content: ""; flex: 1; height: 1px; background: #ddd; }
@@ -148,7 +153,8 @@ footer a:hover { color: rgb(60,190,240); text-decoration: underline; }
 .form-group textarea { height: 150px; resize: vertical; }
 .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
 .form-submit { text-align: center; margin-top: 10px; }
-.btn-submit { padding: 12px 40px; border-radius: 30px; background: rgb(248,102,19); color: white; font-family: "Roboto", sans-serif; font-size: 1.6rem; font-weight: 600; border: none; cursor: pointer; display: inline-block; }
+.btn-submit { padding: 12px 40px; border-radius: 30px; background: #c2410c; color: white; font-family: "Roboto", sans-serif; font-size: 1.6rem; font-weight: 600; border: none; cursor: pointer; display: inline-block; }
+.btn-submit:hover:not(:disabled) { background: #9a3412; }
 .btn-submit:hover { background: rgb(60,190,240); box-shadow: 2px 4px 10px rgba(0,0,0,0.2); transform: translateY(-2px); }
 .form-success { text-align: center; padding: 30px; background: #f0fff4; border-radius: 12px; border: 1.5px solid #86efac; margin-top: 24px; }
 .form-success p { color: #166534; font-size: 1.6rem; margin: 0; }
@@ -217,20 +223,23 @@ footer a:hover { color: rgb(60,190,240); text-decoration: underline; }
 .legal-section h1 { margin-bottom: 10px; }
 .legal-section h2 { font-size: 2rem; margin-top: 40px; }
 .legal-section p { font-size: 1.55rem; color: #333; line-height: 1.8; }
-.legal-section a { color: rgb(248,102,19); }
+.legal-section a { color: #c2410c; text-decoration: underline; }
 .legal-section a:hover { color: rgb(60,190,240); text-decoration: underline; }
 
 /* ARTICLE PAGE */
 .article-page { max-width: 800px; margin: 60px auto 100px; padding: 0 40px; }
 .article-page-header { margin-bottom: 40px; }
-.article-page-tag { font-size: 1.3rem; font-weight: 700; text-transform: uppercase; color: rgb(248,102,19); letter-spacing: 0.08em; margin-bottom: 12px; }
+.article-page-tag { font-size: 1.3rem; font-weight: 700; text-transform: uppercase; color: #c2410c; letter-spacing: 0.08em; margin-bottom: 12px; }
 .article-page-header h1 { font-size: 3.5rem; margin: 0 0 16px 0; line-height: 1.2; }
-.article-page-meta { font-size: 1.4rem; color: #999; }
+.article-page-meta { font-size: 1.4rem; color: #666; }
 .article-page-content { font-size: 1.6rem; color: #333; line-height: 1.9; }
 .article-page-content h2 { font-size: 2.2rem; margin-top: 40px; }
 .article-page-content p { margin-bottom: 20px; }
-.article-back { display: inline-block; margin-bottom: 30px; color: rgb(248,102,19); font-weight: 600; font-size: 1.5rem; }
-.article-back:hover { color: rgb(60,190,240); }
+.article-page-content a:not([href$=".pdf"]),
+.article-page-content a:not([href$=".pdf"]):visited { color: #c2410c; text-decoration: underline; }
+.article-page-content a:not([href$=".pdf"]):hover { color: #9a3412; }
+.article-back { display: inline-block; margin-bottom: 30px; color: #c2410c; font-weight: 600; font-size: 1.5rem; }
+.article-back:hover { color: #9a3412; }
 
 /* RESPONSIVE */
 
@@ -316,8 +325,9 @@ html {
   text-decoration: none;
   margin-bottom: 8px;
 }
-.actualite li a:hover strong { color: rgb(248, 102, 19); }
+.actualite li a:hover strong { color: #c2410c; }
 .btn:link, .btn:visited, .btn:hover, .btn:active { color: white; }
+.btn:hover { background: #9a3412; }
 /* ========================
    FOLLOW BLOCK (components/FollowBlock.tsx)
    Contrastes AA : #c2410c sur blanc = 5,2:1 ; blanc sur #c2410c = 5,2:1 ;
@@ -399,7 +409,7 @@ html {
 .follow-block--compact .follow-btn:focus-visible { outline-color: #fff; }
 
 @media (max-width: 600px) {
-  .follow-block { padding: 24px 16px; }
+  .follow-block:not(.follow-block--compact) { padding: 24px 16px; }
   .follow-actions { flex-direction: column; align-items: stretch; }
   .follow-btn { width: 100%; }
 }

@@ -10,7 +10,7 @@ fiche: "/fiches/euhm-fiche-checklist-hiver.pdf"
 ficheNumero: "02"
 ficheIcon: "❄️"
 ficheTitre: "Checklist hiver : 6 habitudes"
-ficheDesc: "Les six gestes qui font la différence quand les températures chutent, chacun avec son repère chiffré — sommeil, mains, aération, activité physique, alimentation, chauffage — et une grille de suivi sur 7 jours."
+ficheDesc: "Les six gestes qui font la différence quand les températures chutent, chacun avec son repère chiffré (sommeil, mains, aération, activité physique, alimentation, chauffage) et une grille de suivi sur 7 jours."
 ---
 
 Un hiver, une grippe m'a cloué au lit dix jours, le genre d'épisode qui fait réfléchir à ce qu'on aurait pu faire en amont. Depuis, j'applique une liste courte d'habitudes vérifiables. Pas de remède miracle : six gestes concrets, à mettre en place dès maintenant.
@@ -27,7 +27,7 @@ Tout le monde le sait, presque personne ne le fait systématiquement. Les virus 
 
 En hiver, on vit fenêtres fermées dans un air confiné où les virus circulent librement. Dix minutes d'aération par pièce et par jour renouvellent l'air sans refroidir les murs : le logement remonte en température en quelques minutes. Je le fais le matin en préparant le café.
 
-## 4. Maintenir l'activité physique — en intérieur s'il le faut
+## 4. Maintenir l'activité physique, en intérieur s'il le faut
 
 L'activité physique régulière et modérée soutient le système immunitaire ; l'arrêt complet de novembre à mars fait exactement l'inverse. Quand il fait trop froid ou trop nuit pour sortir, [mon programme de sport à la maison sans matériel](/articles/confinement-faire-du-sport-a-la-maison) prend le relais : 3 séances de 25 minutes par semaine, dans le salon.
 

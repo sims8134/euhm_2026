@@ -44,7 +44,7 @@ export function getConfirmationEmail(confirmToken: string) {
 </body>
 </html>`.trim();
 
-  return { subject: "Confirmez votre inscription — EUHM", html };
+  return { subject: "EUHM : confirmez votre inscription", html };
 }
 
 export function getNewsletterEmail(

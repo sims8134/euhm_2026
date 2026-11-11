@@ -19,7 +19,7 @@ C'est faux, et c'est le point de départ de cet article. La volonté n'a jamais 
 
 ## La motivation est un carburant, pas un moteur
 
-La motivation est une émotion. Elle monte et elle redescend, comme toutes les émotions, et elle est au plus haut exactement au moment où vous décidez de changer quelque chose — le 1er janvier, le lendemain d'un mauvais résultat, le soir d'une prise de conscience.
+La motivation est une émotion. Elle monte et elle redescend, comme toutes les émotions, et elle est au plus haut exactement au moment où vous décidez de changer quelque chose : le 1er janvier, le lendemain d'un mauvais résultat, le soir d'une prise de conscience.
 
 Ce moment est le pire pour construire un système, parce qu'il vous fait surestimer ce que vous tiendrez dans trois semaines, quand vous serez fatigué, malade ou débordé. Vous concevez un plan pour la version motivée de vous-même. C'est la version démotivée qui devra l'appliquer.
 
@@ -27,7 +27,7 @@ Ce moment est le pire pour construire un système, parce qu'il vous fait suresti
 
 ## Les quatre erreurs qui font tout échouer
 
-**1. Commencer trop gros.** Cinq séances par semaine, un régime complet, une heure de lecture par jour. Ça tient tant que la motivation porte, c'est-à-dire deux à trois semaines — d'où cette impression que tout s'écroule toujours au même moment.
+**1. Commencer trop gros.** Cinq séances par semaine, un régime complet, une heure de lecture par jour. Ça tient tant que la motivation porte, c'est-à-dire deux à trois semaines, d'où cette impression que tout s'écroule toujours au même moment.
 
 **2. Compter sur la volonté.** La volonté est une ressource limitée qui s'épuise dans la journée. Un plan qui exige de résister trois fois par jour est un plan qui échouera un soir de fatigue. Ce n'est pas une faiblesse personnelle, c'est un défaut de conception.
 
@@ -79,7 +79,7 @@ Une seule. Pendant quatre semaines. Les autres attendront, et elles viendront pl
 
 Vous avez sûrement entendu qu'il faut vingt et un jours pour créer une habitude. C'est un mythe, né d'une mauvaise lecture d'un ouvrage de chirurgie esthétique des années 1960. Les travaux sérieux sur le sujet donnent des durées très variables selon les personnes et les comportements : de quelques semaines à plusieurs mois, avec des écarts considérables.
 
-Quatre semaines, dans mes protocoles, ne sont donc pas un délai d'automatisation : c'est **une durée d'essai**. Assez longue pour dépasser la phase de motivation et voir ce qui se passe quand elle retombe, assez courte pour ne pas être décourageante. Au bout de quatre semaines, vous ne savez pas si l'habitude est installée — vous savez si elle est tenable pour vous.
+Quatre semaines, dans mes protocoles, ne sont donc pas un délai d'automatisation : c'est **une durée d'essai**. Assez longue pour dépasser la phase de motivation et voir ce qui se passe quand elle retombe, assez courte pour ne pas être décourageante. Au bout de quatre semaines, vous ne savez pas si l'habitude est installée. Vous savez si elle est tenable pour vous.
 
 ## Changer de question
 
@@ -103,6 +103,6 @@ C'est aussi ce qui rend les jours ratés inoffensifs : quelqu'un qui court régu
 
 ## Limites et humilité
 
-Je ne suis ni psychologue ni spécialiste du comportement. Ce que je décris, ce sont des mécanismes largement documentés et que j'ai appliqués à mes propres routines — pas une méthode garantie.
+Je ne suis ni psychologue ni spécialiste du comportement. Ce que je décris, ce sont des mécanismes largement documentés et que j'ai appliqués à mes propres routines, pas une méthode garantie.
 
 Une précision importante, et elle compte plus que le reste de l'article. **Une absence durable d'envie n'est pas un problème de méthode.** Si plus rien ne vous motive depuis des semaines, si les choses qui vous plaisaient ne vous font plus rien, si vous vous sentez épuisé sans raison ou que votre moral reste bas quoi qu'il arrive, aucun système d'habitudes ne réglera ça, et se reprocher un manque de volonté ne fera qu'aggraver les choses. Ce sont des signes qui méritent d'être examinés par un médecin ou un psychologue. Ça se soigne, et bien mieux qu'avec des cases à cocher.

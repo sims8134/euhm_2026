@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
+import { typoHeadings } from "./typo";
 
 const articlesDir = path.join(process.cwd(), "content/articles");
 
@@ -111,7 +112,7 @@ export function getArticleBySlug(slug: string) {
       const meta = toMeta(data, slug);
       // Un brouillon ou un article programmé n'est pas servi en production.
       if (!isPublished(meta)) return null;
-      return { meta, content: demoteH1(marked(content) as string) };
+      return { meta, content: typoHeadings(demoteH1(marked(content) as string)) };
     }
   }
   return null;

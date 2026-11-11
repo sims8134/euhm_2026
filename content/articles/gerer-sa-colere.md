@@ -47,7 +47,7 @@ Vingt minutes assis à repasser la scène ne calment rien : ça alimente. La rum
 
 Ce qui marche : marcher dehors. L'activité physique consomme réellement l'activation, et le changement d'environnement coupe le circuit.
 
-### 3. Revenir — c'est la partie qui compte
+### 3. Revenir : c'est la partie qui compte
 
 Sans retour, la sortie n'est pas une régulation, c'est une fuite, et l'autre l'apprend vite : à force, chaque conflit se termine par une disparition.
 
@@ -89,8 +89,8 @@ Je ne suis ni psychologue ni thérapeute, et ce qui précède décrit la colère
 
 Deux situations sortent complètement de ce cadre, et je veux être net dessus.
 
-**Si votre colère est devenue physique** — quelque chose de cassé, un geste vers quelqu'un, une peur lue sur le visage d'un proche —, aucun article ne suffit. Ce n'est pas un problème de technique, et il existe un accompagnement pour ça. En parler à un médecin est la seule démarche qui protège vos proches et vous-même.
+**Si votre colère est devenue physique** (quelque chose de cassé, un geste vers quelqu'un, une peur lue sur le visage d'un proche), aucun article ne suffit. Ce n'est pas un problème de technique, et il existe un accompagnement pour ça. En parler à un médecin est la seule démarche qui protège vos proches et vous-même.
 
-**Si vous subissez la violence de quelqu'un d'autre** — violence physique, verbale, ou peur au quotidien —, le **3919** est un numéro d'écoute gratuit et anonyme, ouvert à tous.
+**Si vous subissez la violence de quelqu'un d'autre** (violence physique, verbale, ou peur au quotidien), le **3919** est un numéro d'écoute gratuit et anonyme, ouvert à tous.
 
 Dans les deux cas, demander de l'aide n'est pas un aveu de faiblesse : c'est la seule chose qui change réellement quelque chose.

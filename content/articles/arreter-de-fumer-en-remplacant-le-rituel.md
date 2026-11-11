@@ -44,13 +44,13 @@ Une pause au travail ne se remplace pas comme une décompression de fin de journ
 
 ## La méthode, concrètement
 
-### Étape 1 — Trois jours d'observation, sans rien changer
+### Étape 1 : trois jours d'observation, sans rien changer
 
 Notez chaque cigarette : l'heure, l'endroit, et **ce qu'elle vous apporte** en trois mots. Ne changez rien pendant ces trois jours, ne culpabilisez sur rien. C'est une prise d'information, pas un début d'arrêt.
 
 Au bout de trois jours, vous verrez apparaître deux catégories : celles qui répondent à un vrai besoin identifiable, et celles qui partent toutes seules parce qu'elles étaient là. Ces dernières sont les plus faciles à faire tomber.
 
-### Étape 2 — Changer tout le décor, pas seulement la cigarette
+### Étape 2 : changer tout le décor, pas seulement la cigarette
 
 C'est le point central. Pour chaque rituel à remplacer, changez au minimum trois éléments :
 
@@ -60,11 +60,11 @@ C'est le point central. Pour chaque rituel à remplacer, changez au minimum troi
 
 Le mien réunissait les trois : autre place, thé au lieu de café, banane à éplucher. Et le soleil au lieu de l'ombre, ce qui donne à la nouvelle version quelque chose de mieux plutôt que de moins bien. C'est peut-être le détail le plus important de toute cette histoire.
 
-### Étape 3 — Le sport comme accélérateur
+### Étape 3 : le sport comme accélérateur
 
 Trois séances par semaine suffisent : [mon programme à la maison](/articles/confinement-faire-du-sport-a-la-maison) tient en 25 minutes. Deux effets : le souffle qui revient donne une mesure concrète du progrès, et l'effort occupe le créneau où la cigarette manquait le plus.
 
-### Étape 4 — Ne pas tout arrêter le même jour
+### Étape 4 : ne pas tout arrêter le même jour
 
 Remplacez d'abord le rituel le plus facile, celui qui vous manque le moins. Puis le suivant, une fois le premier stabilisé. Le dernier (souvent celui du matin ou celui du stress) tombera plus facilement quand les autres seront acquis.
 
@@ -78,7 +78,7 @@ Et surtout, je ne vous dirai pas que ma méthode suffit à tout le monde. La dé
 
 Ce que je décris agit sur le comportement, sur l'habitude, sur le geste. C'est la partie que j'ai su traiter moi-même. Elle ne recouvre pas tout, et selon votre niveau de dépendance, l'accompagnement d'un professionnel peut faire une différence que la volonté seule ne fera pas.
 
-**Tabac Info Service — 39 89**, appel non surtaxé, met en relation gratuitement avec un tabacologue. Un médecin peut également vous accompagner et vous dire ce qui est adapté à votre situation. Moi, je ne le peux pas.
+**Tabac Info Service (39 89)**, appel non surtaxé, met en relation gratuitement avec un tabacologue. Un médecin peut également vous accompagner et vous dire ce qui est adapté à votre situation. Moi, je ne le peux pas.
 
 Chercher de l'aide n'est pas un aveu de faiblesse : c'est mettre les chances de son côté.
 

@@ -16,12 +16,12 @@ const PHOTO_JPEG = "/img/simon-auteur-euhm.jpg";
 const PHOTO_ALT = `${AUTEUR}, auteur d'EUHM`;
 
 export const metadata: Metadata = {
-  title: "À propos — qui écrit sur EUHM",
+  title: "À propos : qui écrit sur EUHM",
   description:
-    "Qui est derrière EUHM : cinq ans d'expérimentation personnelle en sport, alimentation, psychologie et écologie. Ni coach, ni médecin — des méthodes testées et assumées.",
+    "Qui est derrière EUHM : cinq ans d'expérimentation personnelle en sport, alimentation, psychologie et écologie. Ni coach, ni médecin : des méthodes testées et assumées.",
   alternates: { canonical: "/apropos" },
   openGraph: pageOpenGraph({
-    title: "À propos — qui écrit sur EUHM",
+    title: "À propos : qui écrit sur EUHM",
     description:
       "Cinq ans d'expérimentation personnelle partagés sans promesse miracle. Ni coach, ni médecin.",
     url: "/apropos",
@@ -37,7 +37,7 @@ export default function AproposPage() {
     url: `${BASE_URL}/apropos`,
     image: `${BASE_URL}${PHOTO_JPEG}`,
     description:
-      "Auteur d'EUHM — Être Un Homme Meilleur. Cinq ans d'expérimentation personnelle en sport, alimentation, psychologie et écologie.",
+      "Auteur d'EUHM (Être Un Homme Meilleur). Cinq ans d'expérimentation personnelle en sport, alimentation, psychologie et écologie.",
     knowsAbout: [
       "bien-être masculin",
       "sport à la maison",
@@ -47,7 +47,7 @@ export default function AproposPage() {
     ],
     worksFor: {
       "@type": "Organization",
-      name: "EUHM — Être Un Homme Meilleur",
+      name: "EUHM : Être Un Homme Meilleur",
       url: BASE_URL,
     },
   };
@@ -78,7 +78,7 @@ export default function AproposPage() {
               <h1>Qui écrit sur EUHM</h1>
               <p>
                 Moi, c&apos;est <strong>{AUTEUR}</strong>. Cinq ans à tester des méthodes de
-                bien-être sur moi-même, et à écrire ce qui a marché — comme ce qui n&apos;a pas marché.
+                bien-être sur moi-même, et à écrire ce qui a marché, comme ce qui n&apos;a pas marché.
               </p>
             </div>
           </div>
@@ -93,8 +93,8 @@ export default function AproposPage() {
               « mangez équilibré, dormez bien », il manquait quelque chose.
               <br /><br />
               EUHM, c&apos;est ce qui manquait, pour moi en tout cas : des protocoles précis, avec des
-              chiffres, des durées, un ordre de mise en place, et un moyen de vérifier si ça fonctionne
-              — plutôt que des conseils qu&apos;on lit sans jamais rien en faire.
+              chiffres, des durées, un ordre de mise en place, et un moyen de vérifier si ça fonctionne,
+              plutôt que des conseils qu&apos;on lit sans jamais rien en faire.
             </p>
 
             <h2>Ce que je ne suis pas</h2>
@@ -104,12 +104,12 @@ export default function AproposPage() {
               <br /><br />
               Ce que je partage, ce sont des expériences personnelles documentées. Elles ont fonctionné
               pour moi, dans mon contexte, avec mon corps. Elles peuvent ne pas vous convenir. Pour toute
-              question de santé — douleur, fatigue persistante, traitement en cours — c&apos;est un médecin
+              question de santé (douleur, fatigue persistante, traitement en cours), c&apos;est un médecin
               qu&apos;il faut consulter, pas un site de bien-être. Je le rappelle dans chacun de mes articles,
               et ce n&apos;est pas une formule de prudence : c&apos;est la limite réelle de ce que je peux vous apporter.
             </p>
 
-            <h2>Mes trois règles d&apos;écriture</h2>
+            <h2>Mes trois règles d’écriture</h2>
             <div className="apropos-valeurs">
               <div className="valeur-card">
                 <div className="valeur-icon">📏</div>
@@ -118,7 +118,7 @@ export default function AproposPage() {
               </div>
               <div className="valeur-card">
                 <div className="valeur-icon">🧪</div>
-                <h3>Testé avant d&apos;être publié</h3>
+                <h3>Testé avant d’être publié</h3>
                 <p>Je n&apos;écris pas sur ce que je n&apos;ai pas pratiqué moi-même, sur une durée suffisante pour en juger.</p>
               </div>
               <div className="valeur-card">
@@ -135,26 +135,26 @@ export default function AproposPage() {
             <ul style={{ listStyle: "disc", paddingLeft: "22px", marginBottom: "20px" }}>
               <li style={{ listStyle: "disc", marginBottom: "10px" }}>
                 Reprendre une activité physique sans matériel →{" "}
-                <Link href="/articles/confinement-faire-du-sport-a-la-maison" style={{ color: "#f86613", textDecoration: "underline" }}>
+                <Link href="/articles/confinement-faire-du-sport-a-la-maison" style={{ color: "#c2410c", textDecoration: "underline" }}>
                   le programme de sport à la maison
                 </Link>
               </li>
               <li style={{ listStyle: "disc", marginBottom: "10px" }}>
                 Tenir la saison froide sans tomber malade →{" "}
-                <Link href="/articles/hiver-comment-ne-pas-tomber-malade" style={{ color: "#f86613", textDecoration: "underline" }}>
+                <Link href="/articles/hiver-comment-ne-pas-tomber-malade" style={{ color: "#c2410c", textDecoration: "underline" }}>
                   les six habitudes d&apos;hiver
                 </Link>
               </li>
               <li style={{ listStyle: "disc", marginBottom: "10px" }}>
                 En finir avec le coup de barre de l&apos;après-midi →{" "}
-                <Link href="/articles/rentree-booster-son-dynamisme" style={{ color: "#f86613", textDecoration: "underline" }}>
+                <Link href="/articles/rentree-booster-son-dynamisme" style={{ color: "#c2410c", textDecoration: "underline" }}>
                   la routine énergie
                 </Link>
               </li>
             </ul>
             <p>
               Chaque article a sa{" "}
-              <Link href="/telechargement" style={{ color: "#f86613", textDecoration: "underline" }}>
+              <Link href="/telechargement" style={{ color: "#c2410c", textDecoration: "underline" }}>
                 fiche pratique à imprimer
               </Link>{" "}
               : une page A4 avec les gestes, les repères chiffrés et des cases à cocher.
@@ -164,11 +164,11 @@ export default function AproposPage() {
             <p>
               Une question, une suggestion de sujet, une erreur à me signaler ? Je lis tous les messages.
               Écrivez-moi via la{" "}
-              <Link href="/contact" style={{ color: "#f86613", textDecoration: "underline" }}>
+              <Link href="/contact" style={{ color: "#c2410c", textDecoration: "underline" }}>
                 page contact
-              </Link>{" "}
-              — et si vous voulez peser sur les prochains sujets, les{" "}
-              <Link href="/dossiers" style={{ color: "#f86613", textDecoration: "underline" }}>
+              </Link>.
+              Et si vous voulez peser sur les prochains sujets, les{" "}
+              <Link href="/dossiers" style={{ color: "#c2410c", textDecoration: "underline" }}>
                 dossiers en préparation
               </Link>{" "}
               se votent.

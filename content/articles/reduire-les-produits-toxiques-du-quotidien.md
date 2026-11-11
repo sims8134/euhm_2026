@@ -46,7 +46,7 @@ Le petit boîtier qui fait « pschitt » toutes les quelques minutes, souvent po
 
 **Il émet des composés organiques volatils** dans un espace qu'on aère peu. Certains d'entre eux, notamment les terpènes qui donnent les odeurs d'agrumes et de pin, peuvent réagir avec d'autres composés présents dans l'air intérieur et former des sous-produits qui n'étaient pas dans le flacon au départ.
 
-**Et il ne sert à rien.** Il masque une odeur au lieu de la traiter. Une odeur persistante dans un logement a toujours une cause — humidité, poubelle, litière, textiles, ventilation bouchée — et la cause reste après le pschitt.
+**Et il ne sert à rien.** Il masque une odeur au lieu de la traiter. Une odeur persistante dans un logement a toujours une cause (humidité, poubelle, litière, textiles, ventilation bouchée) et la cause reste après le pschitt.
 
 Même logique pour les sprays manuels, les diffuseurs à bâtonnets et le sapin parfumé de voiture, ce dernier cumulant les défauts du désodorisant automatique : diffusion continue, volume minuscule, aération quasi nulle.
 
@@ -68,7 +68,7 @@ Ma position : une bougie pour l'ambiance d'un soir, oui. Une bougie parfumée al
 
 C'est le point sur lequel les gens sont le plus surpris. Ces diffusaires libèrent en continu un insecticide dans une chambre fermée, souvent toute la nuit, parfois dans une pièce où dort un enfant. Les recommandations officielles sont explicites sur ce point : usage limité, jamais en continu, et aération de la pièce après utilisation.
 
-**Les alternatives, par ordre d'efficacité** : la moustiquaire au lit ou aux fenêtres — protection mécanique, zéro produit, efficacité totale ; le ventilateur, qui gêne réellement le vol des moustiques ; l'élimination des eaux stagnantes autour du logement, coupelles de pots, gouttières, seaux. Le répulsif cutané reste utile en extérieur, mais il n'a pas sa place dans une chambre fermée toute la nuit.
+**Les alternatives, par ordre d'efficacité** : la moustiquaire au lit ou aux fenêtres (protection mécanique, zéro produit, efficacité totale) ; le ventilateur, qui gêne réellement le vol des moustiques ; l'élimination des eaux stagnantes autour du logement, coupelles de pots, gouttières, seaux. Le répulsif cutané reste utile en extérieur, mais il n'a pas sa place dans une chambre fermée toute la nuit.
 
 ### 4. Les textiles synthétiques au lavage
 
@@ -96,4 +96,4 @@ Je ne suis ni toxicologue ni médecin. Ce que je décris ici, ce sont des gestes
 
 Ce que je peux dire honnêtement : ces gestes ne coûtent rien ou presque, plusieurs font gagner de l'argent, et aucun n'a d'inconvénient. C'est ce qui les rend raisonnables, indépendamment de ce que la recherche établira dans dix ans.
 
-Si vous avez des symptômes que vous attribuez à votre environnement intérieur — maux de tête récurrents, irritations respiratoires, allergies —, c'est un médecin qu'il faut voir. Il existe même, dans certaines régions, des conseillers en environnement intérieur qui interviennent à domicile sur prescription médicale.
+Si vous avez des symptômes que vous attribuez à votre environnement intérieur (maux de tête récurrents, irritations respiratoires, allergies), c'est un médecin qu'il faut voir. Il existe même, dans certaines régions, des conseillers en environnement intérieur qui interviennent à domicile sur prescription médicale.

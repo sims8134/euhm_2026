@@ -9,6 +9,7 @@ import FollowBlock from "../../../components/FollowBlock";
 import { getArticleBySlug, getAllArticles } from "../../../lib/mdx";
 import { BASE_URL, SITE_NAME, DEFAULT_OG_IMAGES } from "../../../lib/seo";
 import { formatDateFr, isoDate } from "../../../lib/dates";
+import { typo } from "../../../lib/typo";
 
 // ⚠️ Doit correspondre à la constante AUTEUR de app/apropos/page.tsx
 const AUTEUR = "Simon";
@@ -72,7 +73,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     },
     publisher: {
       "@type": "Organization",
-      name: "EUHM — Être Un Homme Meilleur",
+      name: "EUHM : Être Un Homme Meilleur",
       logo: {
         "@type": "ImageObject",
         url: `${BASE_URL}/img/logo_euhm_half.png`,
@@ -87,15 +88,15 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <Header title={article.meta.title} />
+      <Header title={article.meta.title} heroCompact />
       <main>
         <div className="article-page">
           <Link href="/articles" className="article-back">← Retour aux articles</Link>
           <div className="article-page-header">
             <div className="article-page-tag">{article.meta.category}</div>
-            <h1>{article.meta.title}</h1>
+            <h1>{typo(article.meta.title)}</h1>
             <div className="article-page-meta">
-              Par <Link href="/apropos" style={{ color: "#f86613" }}>{AUTEUR}</Link>
+              Par <Link href="/apropos" style={{ color: "#c2410c" }}>{AUTEUR}</Link>
               {" · "}
               <time dateTime={isoDate(article.meta.date)}>{formatDateFr(article.meta.date)}</time>
               {" · "}{article.meta.readTime} de lecture
@@ -119,7 +120,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
                   style={{
                     marginTop: "8px",
                     fontSize: "1.2rem",
-                    color: "#999",
+                    color: "#666",
                     fontStyle: "italic",
                     textAlign: "right",
                   }}
@@ -156,7 +157,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             <p style={{ margin: 0, fontSize: "14px", color: "#666", lineHeight: 1.6 }}>
               Je ne suis ni coach ni professionnel de santé. Tout ce que je partage ici a été testé
               par moi, sur plusieurs années.{" "}
-              <Link href="/apropos" style={{ color: "#f86613" }}>En savoir plus sur la démarche</Link>.
+              <Link href="/apropos" style={{ color: "#c2410c" }}>En savoir plus sur la démarche</Link>.
             </p>
           </aside>
         </div>

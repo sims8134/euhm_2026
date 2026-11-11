@@ -4,13 +4,14 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import NewsletterForm from "../../components/NewsletterForm";
 import { pageOpenGraph } from "../../lib/seo";
+import { typo } from "../../lib/typo";
 
 export const metadata: Metadata = {
-  title: "La boutique arrive — sélection zéro déchet & bien-être",
+  title: "La boutique arrive : sélection zéro déchet & bien-être",
   description: "La sélection zéro déchet EUHM se prépare : savon d'Alep, gourde en verre, brosse à dents en bambou. Rien n'est encore en vente. Laissez votre e-mail pour être prévenu au lancement.",
   alternates: { canonical: "/boutique" },
   openGraph: pageOpenGraph({
-    title: "La boutique arrive — sélection zéro déchet & bien-être",
+    title: "La boutique arrive : sélection zéro déchet & bien-être",
     description: "La sélection zéro déchet EUHM se prépare. Rien n'est encore en vente : laissez votre e-mail pour être prévenu au lancement.",
     url: "/boutique",
   }),
@@ -67,7 +68,7 @@ export default function BoutiquePage() {
                 fontSize: "11px",
                 textTransform: "uppercase",
                 letterSpacing: "0.2em",
-                color: "#f86613",
+                color: "#c2410c",
                 marginBottom: "12px",
               }}
             >
@@ -84,7 +85,7 @@ export default function BoutiquePage() {
             <NewsletterForm
               source="boutique"
               buttonLabel="Prévenez-moi"
-              successMessage="C'est noté. Vérifiez votre boîte mail pour confirmer votre inscription — pensez à regarder dans les spams."
+              successMessage="C'est noté. Vérifiez votre boîte mail pour confirmer votre inscription. Pensez à regarder dans les spams."
             />
           </div>
 
@@ -105,13 +106,13 @@ export default function BoutiquePage() {
                   style={{ objectFit: "cover" }}
                 />
                 <div className="produit-card-body">
-                  <h3>{p.nom}</h3>
+                  <h3>{typo(p.nom)}</h3>
                   <p>{p.desc}</p>
                   <span
                     style={{
                       display: "inline-block",
                       background: "#fff1e7",
-                      color: "#f86613",
+                      color: "#c2410c",
                       border: "1px solid #f9d4bb",
                       borderRadius: "999px",
                       padding: "7px 16px",

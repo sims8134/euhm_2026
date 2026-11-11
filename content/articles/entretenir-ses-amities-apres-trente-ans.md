@@ -21,7 +21,7 @@ Si le compte est court, vous n'avez rien raté et vous n'êtes pas seul dans ce 
 
 Rien de dramatique, et personne n'a rien fait de mal. Simplement, tout ce qui maintenait les liens disparaît en même temps.
 
-Les études se terminent, les collègues changent, on déménage, on se met en couple, les enfants arrivent, les emplois du temps se remplissent. Les amitiés qui reposaient sur la **proximité automatique** — vous vous voyiez parce que vous étiez au même endroit — n'ont plus de support.
+Les études se terminent, les collègues changent, on déménage, on se met en couple, les enfants arrivent, les emplois du temps se remplissent. Les amitiés qui reposaient sur la **proximité automatique** (vous vous voyiez parce que vous étiez au même endroit) n'ont plus de support.
 
 Et personne ne décide d'arrêter. C'est ça le piège : il n'y a pas de rupture, juste un « on se rappelle » qui devient trois mois, puis deux ans.
 
@@ -33,7 +33,7 @@ C'est la distinction la plus utile de cet article.
 
 **L'amitié** survit au contexte. Elle est entretenue explicitement : on s'appelle, on se déplace, on prend des nouvelles sans prétexte.
 
-Le point sensible : beaucoup d'hommes ont surtout construit des camaraderies d'activité, et croient avoir des amitiés. Ça ne se voit qu'au moment où l'activité s'arrête — un déménagement, une séparation, un changement de travail — et où le téléphone reste silencieux.
+Le point sensible : beaucoup d'hommes ont surtout construit des camaraderies d'activité, et croient avoir des amitiés. Ça ne se voit qu'au moment où l'activité s'arrête (un déménagement, une séparation, un changement de travail) et où le téléphone reste silencieux.
 
 Ce n'est pas une fatalité liée au fait d'être un homme : c'est une manière de faire, largement encouragée, dans laquelle on se reconnaît ou non. Et une manière de faire, ça se change.
 
@@ -95,7 +95,7 @@ Le point important : **c'est la répétition qui crée le lien, pas l'événemen
 
 1. **Aujourd'hui** : écrivez trois noms. Des gens avec qui ça comptait et que vous n'avez pas vus depuis plus de six mois.
 2. **Cette semaine** : envoyez un message au premier. Court, sans justification.
-3. **Ce mois-ci** : fixez une récurrence avec celui qui répond — une date, pas une intention.
+3. **Ce mois-ci** : fixez une récurrence avec celui qui répond : une date, pas une intention.
 4. **Ce trimestre** : inscrivez-vous à quelque chose qui se répète chaque semaine.
 
 **[Télécharger la fiche mémo (PDF, 1 page à imprimer)](/fiches/euhm-fiche-amities.pdf)**

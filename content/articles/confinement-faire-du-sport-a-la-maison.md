@@ -19,9 +19,9 @@ Pas de salle, pas de matériel, pas d'excuse : tout ce qu'il faut pour se remett
 
 Trois séances par semaine, un jour de repos minimum entre chaque (par exemple lundi, mercredi, vendredi). Chaque séance suit le même schéma :
 
-1. **Échauffement — 5 minutes** : 30 secondes de marche sur place, 30 secondes de montées de genoux, 10 rotations de bras dans chaque sens, 10 rotations de hanches, puis on répète le tout une fois.
-2. **Circuit principal — 15 minutes** : 4 exercices enchaînés, 45 secondes d'effort, 15 secondes de repos entre chaque. On refait le circuit 3 fois, avec 1 minute de pause entre les tours.
-3. **Retour au calme — 5 minutes** : étirements doux (cuisses, mollets, dos, épaules), 20 secondes par position, sans forcer.
+1. **Échauffement (5 minutes)** : 30 secondes de marche sur place, 30 secondes de montées de genoux, 10 rotations de bras dans chaque sens, 10 rotations de hanches, puis on répète le tout une fois.
+2. **Circuit principal (15 minutes)** : 4 exercices enchaînés, 45 secondes d'effort, 15 secondes de repos entre chaque. On refait le circuit 3 fois, avec 1 minute de pause entre les tours.
+3. **Retour au calme (5 minutes)** : étirements doux (cuisses, mollets, dos, épaules), 20 secondes par position, sans forcer.
 
 ## Les 4 exercices du circuit
 

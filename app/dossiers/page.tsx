@@ -4,6 +4,7 @@ import Footer from "../../components/Footer";
 import FollowBlock from "../../components/FollowBlock";
 import DossierInterest from "../../components/DossierInterest";
 import { pageOpenGraph } from "../../lib/seo";
+import { typo } from "../../lib/typo";
 
 export const metadata: Metadata = {
   title: "Dossiers Bien-être Homme : Santé, Sport, Nutrition et Sommeil",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: pageOpenGraph({
     title: "Dossiers Bien-être Homme",
     description:
-      "Des guides complets pour optimiser votre santé physique et mentale — en cours d'écriture.",
+      "Des guides complets pour optimiser votre santé physique et mentale, en cours d'écriture.",
     url: "/dossiers",
   }),
 };
@@ -79,7 +80,7 @@ export default function DossiersPage() {
           <h1>Dossiers thématiques : les guides en préparation</h1>
           <p className="intro">
             Contrairement aux articles, un dossier prend du temps à écrire. Voici les sept sujets
-            au programme — <strong>dites-moi lequel vous voulez lire en premier</strong>, j&#39;écris
+            au programme. <strong>Dites-moi lequel vous voulez lire en premier</strong>, j&#39;écris
             celui qui est le plus demandé et vous serez prévenu à sa sortie.
           </p>
 
@@ -89,7 +90,7 @@ export default function DossiersPage() {
                 <div className="dossier-card-img">{d.emoji}</div>
                 <div className="dossier-card-body">
                   <div className="dossier-tag">{d.tag}</div>
-                  <h2>{d.title}</h2>
+                  <h2>{typo(d.title)}</h2>
                   <p>{d.desc}</p>
                   <DossierInterest slug={d.slug} />
                 </div>
@@ -106,8 +107,8 @@ export default function DossiersPage() {
               lineHeight: 1.7,
             }}
           >
-            En attendant, les <a href="/articles" style={{ color: "#f86613" }}>articles</a> et les{" "}
-            <a href="/telechargement" style={{ color: "#f86613" }}>fiches pratiques à imprimer</a>{" "}
+            En attendant, les <a href="/articles" style={{ color: "#c2410c", textDecoration: "underline" }}>articles</a> et les{" "}
+            <a href="/telechargement" style={{ color: "#c2410c", textDecoration: "underline" }}>fiches pratiques à imprimer</a>{" "}
             sont déjà disponibles.
           </p>
           <FollowBlock />

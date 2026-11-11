@@ -3,6 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { formatDateFr, isoDate } from "../lib/dates";
+import { typo } from "../lib/typo";
 
 const CATEGORIES = ["Tous", "Sport", "Santé", "Alimentation", "Psychologie", "Écologie", "Vie de couple", "Développement Personnel"];
 
@@ -42,7 +43,7 @@ export default function ArticlesClient({ articles }: { articles: any[] }) {
             </div>
             <div className="article-card-body">
               <div className="article-tag">{a.meta?.category}</div>
-              <h2>{a.meta?.title}</h2>
+              <h2>{typo(a.meta?.title ?? "")}</h2>
               <p>{a.meta?.description}</p>
               <div className="article-meta">
                 <time dateTime={isoDate(a.meta?.date)}>{formatDateFr(a.meta?.date)}</time>
