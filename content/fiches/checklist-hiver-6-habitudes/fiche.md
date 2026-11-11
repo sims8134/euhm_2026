@@ -13,7 +13,7 @@ Pas de remède miracle : six habitudes concrètes pour mieux résister au froid.
 
 | Habitude | Le repère concret |
 | --- | --- |
-| 1. Sommeil | 7 à 9 h par nuit, heure de lever fixe et coucher régulier, écrans coupés 30 min avant, chambre entre 17 et 19 °C |
+| 1. Sommeil | 7 à 9 h par nuit, heure de lever fixe et un coucher régulier, écrans coupés 30 min avant, chambre entre 17 et 19 °C |
 | 2. Mains | Savon et 30 secondes de friction : en rentrant chez soi, avant chaque repas, après les transports |
 | 3. Aération | 10 minutes par pièce et par jour, même par temps froid. Le logement remonte en température en quelques minutes. |
 | 4. Activité physique | 3 séances de 25 minutes par semaine, en intérieur quand il fait trop froid ou trop nuit pour sortir |

@@ -17,7 +17,7 @@ Un hiver, une grippe m'a cloué au lit dix jours, le genre d'épisode qui fait r
 
 ## 1. Dormir 7 à 9 heures, à heures fixes
 
-C'est le levier numéro un et le plus négligé. Le manque de sommeil affaiblit directement les défenses de l'organisme. Concrètement : une heure de lever fixe et coucher régulier (pour moi, 22h en semaine), écrans coupés 30 minutes avant, chambre fraîche autour de 17-19 °C. Si vos nuits sont bonnes mais que l'énergie manque quand même en journée, le problème est souvent ailleurs. J'en parle dans [mes routines pour booster son dynamisme](/articles/rentree-booster-son-dynamisme).
+C'est le levier numéro un et le plus négligé. Le manque de sommeil affaiblit directement les défenses de l'organisme. Concrètement : une heure de lever fixe et un coucher régulier (pour moi, 22h en semaine), écrans coupés 30 minutes avant, chambre fraîche autour de 17-19 °C. Si vos nuits sont bonnes mais que l'énergie manque quand même en journée, le problème est souvent ailleurs. J'en parle dans [mes routines pour booster son dynamisme](/articles/rentree-booster-son-dynamisme).
 
 ## 2. Se laver les mains aux bons moments
 
