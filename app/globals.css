@@ -19,6 +19,10 @@ img { border-style: none; }
 
 * { box-sizing: border-box; outline: none; text-decoration: none; transition: all 0.2s ease 0s; }
 
+/* Thème clair uniquement (voir aussi viewport.colorScheme dans app/layout.tsx) */
+:root { color-scheme: light only; }
+html, body { background-color: #fff; }
+
 html { font-size: 62.5%; font-family: "Roboto", sans-serif; }
 
 body {

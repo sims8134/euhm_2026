@@ -1,7 +1,13 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import ReadingProgress from "../components/ReadingProgress";
 import { BASE_URL, SITE_NAME, DEFAULT_OG_IMAGES, SOCIAL_LINKS } from "../lib/seo";
+
+// Thème clair uniquement : empêche l'assombrissement automatique des navigateurs
+// (Chrome Android, Samsung Internet). Rendu : <meta name="color-scheme" content="only light">.
+export const viewport: Viewport = {
+  colorScheme: "only light",
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
