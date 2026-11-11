@@ -40,7 +40,7 @@ export default function Accueil() {
               <br /><br />
               <strong>Sport</strong>, <strong>alimentation</strong>, <strong>psychologie</strong>, vie de couple mais aussi <strong>écologie</strong> et astuces ménagères, les informations disponibles sur ce site vous sont présentées uniquement à titre de partage.
               <br /><br />
-              Je ne suis ni un coach en développement personnel, ni un moniteur de sport, ni un nutritionniste professionnel. Le site internet euhm.fr est la synthèse de plus de 5 années de travail en développement personnel. Toutes les astuces et conseils dont je fais part ont été préalablement testés par moi mais ne garantissent en rien une vérité absolue. Je vous invite donc à compléter votre travail en multipliant vos recherches, vos sources et en demandant conseil directement à un professionnel de santé.
+              Je ne suis ni un coach en développement personnel, ni un moniteur de sport, ni un nutritionniste professionnel. Le site internet euhm.fr est la synthèse de plus de 10 années de travail en développement personnel. Toutes les astuces et conseils dont je fais part ont été préalablement testés par moi mais ne garantissent en rien une vérité absolue. Je vous invite donc à compléter votre travail en multipliant vos recherches, vos sources et en demandant conseil directement à un professionnel de santé.
             </p>
             <Link href="/contact" className="btn">Contactez-nous</Link>
           </article>

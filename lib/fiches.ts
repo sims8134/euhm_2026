@@ -102,18 +102,35 @@ export type RelatedItem = { href: string; title: string; date: string; image?: s
 const normalize = (s: string) =>
   s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
 
+/** true si le texte de l'article contient un lien vers la fiche. */
+function articleLinksTo(articleSlug: string, ficheSlug: string): boolean {
+  for (const ext of ["md", "mdx"]) {
+    const p = path.join(process.cwd(), "content/articles", `${articleSlug}.${ext}`);
+    if (fs.existsSync(p)) return fs.readFileSync(p, "utf8").includes(`/fiches/${ficheSlug}`);
+  }
+  return false;
+}
+
 /**
- * « À lire aussi » : les fiches de la même série, puis les articles dont la
- * catégorie porte le même nom que la série. Trois éléments au plus.
+ * « À lire aussi », trois éléments au plus, dans cet ordre :
+ *   1. les articles qui renvoient vers cette fiche (lien explicite dans les deux sens) ;
+ *   2. les autres fiches de la même série ;
+ *   3. les articles dont la catégorie porte le même nom que la série.
  */
 export function getRelated(meta: FicheMeta, max = 3): RelatedItem[] {
-  if (!meta.serie) return [];
   const serie = normalize(meta.serie);
-  const fiches: RelatedItem[] = getAllFichesPages()
-    .filter((f) => f.slug !== meta.slug && normalize(f.serie) === serie)
-    .map((f) => ({ href: `/fiches/${f.slug}`, title: f.title, date: f.date, image: f.cover.src, kind: "Fiche" }));
-  const articles: RelatedItem[] = getAllArticles()
-    .filter((a) => normalize(a.category) === serie)
-    .map((a) => ({ href: `/articles/${a.slug}`, title: a.title, date: a.date, image: a.image, kind: "Article" }));
-  return [...fiches, ...articles].slice(0, max);
+  const toItem = (a: ReturnType<typeof getAllArticles>[number]): RelatedItem => ({
+    href: `/articles/${a.slug}`, title: a.title, date: a.date, image: a.image, kind: "Article",
+  });
+  const allArticles = getAllArticles();
+  const linked = allArticles.filter((a) => articleLinksTo(a.slug, meta.slug));
+  const fiches: RelatedItem[] = serie
+    ? getAllFichesPages()
+        .filter((f) => f.slug !== meta.slug && normalize(f.serie) === serie)
+        .map((f) => ({ href: `/fiches/${f.slug}`, title: f.title, date: f.date, image: f.cover.src, kind: "Fiche" }))
+    : [];
+  const sameCategory = serie
+    ? allArticles.filter((a) => !linked.includes(a) && normalize(a.category) === serie)
+    : [];
+  return [...linked.map(toItem), ...fiches, ...sameCategory.map(toItem)].slice(0, max);
 }

@@ -14,12 +14,12 @@ const AUTEUR = AUTHOR.name;
 export const metadata: Metadata = {
   title: "À propos : qui écrit sur EUHM",
   description:
-    "Qui est derrière EUHM : cinq ans d'expérimentation personnelle en sport, alimentation, psychologie et écologie. Ni coach, ni médecin : des méthodes testées et assumées.",
+    "Qui est derrière EUHM : dix ans d'expérimentation personnelle en sport, alimentation, psychologie et écologie. Ni coach, ni médecin : des méthodes testées et assumées.",
   alternates: { canonical: "/apropos" },
   openGraph: pageOpenGraph({
     title: "À propos : qui écrit sur EUHM",
     description:
-      "Cinq ans d'expérimentation personnelle partagés sans promesse miracle. Ni coach, ni médecin.",
+      "Dix ans d'expérimentation personnelle partagés sans promesse miracle. Ni coach, ni médecin.",
     url: "/apropos",
   }),
 };
@@ -33,7 +33,7 @@ export default function AproposPage() {
     url: `${BASE_URL}/apropos`,
     image: `${BASE_URL}${AUTHOR.photo}`,
     description:
-      "Auteur d'EUHM (Être Un Homme Meilleur). Cinq ans d'expérimentation personnelle en sport, alimentation, psychologie et écologie.",
+      "Auteur d'EUHM (Être Un Homme Meilleur). Dix ans d'expérimentation personnelle en sport, alimentation, psychologie et écologie.",
     knowsAbout: [
       "bien-être masculin",
       "sport à la maison",
@@ -64,7 +64,7 @@ export default function AproposPage() {
             <div className="apropos-hero-text">
               <h1>Qui écrit sur EUHM</h1>
               <p>
-                Moi, c&apos;est <strong>{AUTEUR}</strong>. Cinq ans à tester des méthodes de
+                Moi, c&apos;est <strong>{AUTEUR}</strong>. Dix ans à tester des méthodes de
                 bien-être sur moi-même, et à écrire ce qui a marché, comme ce qui n&apos;a pas marché.
               </p>
             </div>
@@ -73,7 +73,7 @@ export default function AproposPage() {
           <div className="apropos-content">
             <h2>Pourquoi ce site existe</h2>
             <p>
-              Il y a cinq ans, j&apos;ai commencé à m&apos;intéresser sérieusement à mon hygiène de vie :
+              Il y a dix ans, j&apos;ai commencé à m&apos;intéresser sérieusement à mon hygiène de vie :
               le sport, le sommeil, l&apos;alimentation, la charge mentale. J&apos;ai lu beaucoup, essayé
               beaucoup, abandonné beaucoup. Et j&apos;ai surtout constaté une chose : entre les coachs qui
               vendent des transformations en trente jours et les articles génériques qui répètent

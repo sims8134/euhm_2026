@@ -68,3 +68,5 @@ Ce protocole vaut pour un sommeil « moyennement mauvais », celui qu'on abîme 
 Une somnolence permanente malgré des nuits longues, des ronflements avec pauses respiratoires, une insomnie qui dure depuis des mois, un réveil systématique à 4 h avec anxiété : ce sont des situations médicales, et l'apnée du sommeil comme l'insomnie chronique se soignent. Aucun rituel du soir ne remplace un médecin sur ces points. Si les quatre semaines ne changent rien, c'est vers lui qu'il faut aller, pas vers un article de plus.
 
 Et si le sommeil est bon mais que l'énergie manque quand même en journée, le problème est ailleurs : j'en parle dans [mes habitudes pour traverser l'hiver en forme](/articles/hiver-comment-ne-pas-tomber-malade) et dans [le programme de sport à la maison](/articles/confinement-faire-du-sport-a-la-maison).
+
+Version courte à garder sous la main : [la fiche Protocole sommeil : 6 gestes](/fiches/protocole-sommeil-6-gestes).
