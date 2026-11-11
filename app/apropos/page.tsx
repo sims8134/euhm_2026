@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import FollowBlock from "../../components/FollowBlock";
 import { pageOpenGraph } from "../../lib/seo";
 
 const BASE_URL = "https://euhm.fr";
@@ -173,6 +174,7 @@ export default function AproposPage() {
               se votent.
             </p>
           </div>
+          <FollowBlock />
         </section>
       </main>
       <Footer />

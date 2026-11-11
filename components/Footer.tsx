@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import NewsletterForm from "./NewsletterForm";
+import FollowBlock from "./FollowBlock";
 
 export default function Footer() {
   return (
@@ -107,30 +108,6 @@ export default function Footer() {
 
         .footer-nav a:hover { color: white; text-decoration: underline; }
 
-        .footer-social-icons {
-          display: flex;
-          gap: 16px;
-          margin-bottom: 20px;
-        }
-
-        .footer-social-icons a {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 42px;
-          height: 42px;
-          background: rgba(255,255,255,0.15);
-          border-radius: 50%;
-          transition: all 0.2s ease;
-        }
-
-        .footer-social-icons a:hover {
-          background: white;
-          transform: scale(1.1);
-        }
-
-        .footer-social-icons a:hover img { filter: invert(60%) sepia(90%) saturate(500%) hue-rotate(340deg); }
-
         .footer-bottom {
           border-top: 1px solid rgba(255,255,255,0.2);
           max-width: 1280px;
@@ -232,17 +209,7 @@ export default function Footer() {
 
           <div className="footer-social">
             <h3>Suivez-nous</h3>
-            <div className="footer-social-icons">
-              <a href="https://www.facebook.com/profile.php?id=61577494686303" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                <Image src="/img/f_logo_RGB-White_58.png" alt="Facebook" width={22} height={22} />
-              </a>
-              <a href="https://x.com/euhmfr" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
-                <Image src="/img/Twitter_Social_Icon_Circle_White.png" alt="X (Twitter)" width={22} height={22} />
-              </a>
-              <a href="https://www.instagram.com/euhmfr" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                <Image src="/img/instablanc.png" alt="Instagram" width={22} height={22} />
-              </a>
-            </div>
+            <FollowBlock variant="compact" />
             <div className="footer-nav">
               <ul>
                 <li><Link href="/apropos">À propos</Link></li>

@@ -5,6 +5,7 @@ import Image from "next/image";
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import ShareButtons from "../../../components/ShareButtons";
+import FollowBlock from "../../../components/FollowBlock";
 import { getArticleBySlug, getAllArticles } from "../../../lib/mdx";
 import { BASE_URL, SITE_NAME, DEFAULT_OG_IMAGES } from "../../../lib/seo";
 import { formatDateFr, isoDate } from "../../../lib/dates";
@@ -138,6 +139,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             title={article.meta.title}
           />
 
+          <FollowBlock />
           {/* Encart auteur — signal E-E-A-T sur thématique santé */}
           <aside
             style={{

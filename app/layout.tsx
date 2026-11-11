@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { BASE_URL, SITE_NAME, DEFAULT_OG_IMAGES } from "../lib/seo";
+import { BASE_URL, SITE_NAME, DEFAULT_OG_IMAGES, SOCIAL_LINKS } from "../lib/seo";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
@@ -36,11 +36,7 @@ const jsonLd = {
   logo: `${BASE_URL}/img/logo_euhm_half.png`,
   description:
     "Plateforme de bien-être masculin : sport, alimentation, psychologie, développement personnel et écologie.",
-  sameAs: [
-    "https://www.facebook.com/profile.php?id=61577494686303",
-    "https://x.com/euhmfr",
-    "https://www.instagram.com/euhmfr",
-  ],
+  sameAs: [SOCIAL_LINKS.facebook, SOCIAL_LINKS.instagram],
 };
 
 export default function RootLayout({

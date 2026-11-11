@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import FollowBlock from "../components/FollowBlock";
 import { getAllArticles } from "../lib/mdx";
 import { pageOpenGraph } from "../lib/seo";
 
@@ -106,6 +107,9 @@ export default function Accueil() {
               Être prévenu au lancement
             </Link>
           </section>
+        </div>
+        <div style={{ maxWidth: "800px", margin: "0 auto 60px", padding: "0 20px" }}>
+          <FollowBlock />
         </div>
       </main>
       <Footer />

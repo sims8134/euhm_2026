@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import FollowBlock from "../../components/FollowBlock";
 import { getAllFiches } from "../../lib/mdx";
 import { pageOpenGraph } from "../../lib/seo";
 
@@ -77,6 +78,7 @@ export default function TelechargementPage() {
             De nouvelles fiches arrivent au rythme des articles. Inscrivez-vous à la newsletter
             ci-dessous pour être prévenu à chaque publication.
           </p>
+          <FollowBlock />
         </section>
       </main>
       <Footer />

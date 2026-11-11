@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import FollowBlock from "../../components/FollowBlock";
 import DossierInterest from "../../components/DossierInterest";
 import { pageOpenGraph } from "../../lib/seo";
 
@@ -109,6 +110,7 @@ export default function DossiersPage() {
             <a href="/telechargement" style={{ color: "#f86613" }}>fiches pratiques à imprimer</a>{" "}
             sont déjà disponibles.
           </p>
+          <FollowBlock />
         </section>
       </main>
       <Footer />
