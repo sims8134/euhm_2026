@@ -50,3 +50,58 @@ export function pageOpenGraph({
     images: DEFAULT_OG_IMAGES,
   };
 }
+
+/* ------------------------------------------------------------------ */
+/* Auteur et JSON-LD Article (articles et fiches)                      */
+/* ------------------------------------------------------------------ */
+
+export const AUTHOR = {
+  name: "Simon",
+  /** Photo carrée 400 px (page À propos, JSON-LD). */
+  photo: "/img/simon.webp",
+  /** Photo carrée 128 px (encadré auteur et ligne « Par Simon »). */
+  photoSmall: "/img/simon-128.webp",
+  alt: "Simon, auteur d'EUHM",
+  page: "/apropos",
+} as const;
+
+/** Objet Person de l'auteur, en adresses absolues. */
+export const AUTHOR_PERSON = {
+  "@type": "Person",
+  name: AUTHOR.name,
+  image: `${BASE_URL}${AUTHOR.photo}`,
+  url: `${BASE_URL}${AUTHOR.page}`,
+} as const;
+
+type ArticleJsonLdInput = {
+  headline: string;
+  description: string;
+  datePublished: string;
+  /** Chemin de la page, ex. "/articles/mon-article". */
+  path: string;
+  /** Chemin de l'image ; à défaut, l'image Open Graph du site. */
+  image?: string;
+  section?: string;
+};
+
+/** Bloc JSON-LD de type Article, commun aux articles et aux fiches. */
+export function articleJsonLd({ headline, description, datePublished, path, image, section }: ArticleJsonLdInput) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline,
+    description,
+    datePublished,
+    dateModified: datePublished,
+    inLanguage: "fr-FR",
+    ...(section ? { articleSection: section } : {}),
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${BASE_URL}${path}` },
+    image: `${BASE_URL}${image ?? DEFAULT_OG_IMAGES[0].url}`,
+    author: AUTHOR_PERSON,
+    publisher: {
+      "@type": "Organization",
+      name: SITE_NAME,
+      logo: { "@type": "ImageObject", url: `${BASE_URL}/img/logo_euhm_half.png` },
+    },
+  };
+}

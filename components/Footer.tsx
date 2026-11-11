@@ -207,6 +207,7 @@ export default function Footer() {
             <ul>
               <li><Link href="/">Accueil</Link></li>
               <li><Link href="/articles">Articles</Link></li>
+              <li><Link href="/fiches">Fiches</Link></li>
               <li><Link href="/dossiers">Dossiers</Link></li>
               <li><Link href="/galerie">Galerie</Link></li>
               <li><Link href="/telechargement">Téléchargement</Link></li>

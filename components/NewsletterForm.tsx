@@ -101,7 +101,7 @@ export default function NewsletterForm({
           onChange={(e) => setEmail(e.target.value)}
           placeholder={placeholder}
           required
-          style={{ flex: 1, padding: "12px 16px", border: "1px solid #e2e0d8", borderRadius: "6px", fontSize: "14px", outline: "none", background: "#fff", color: "#333" }}
+          style={{ flex: 1, minWidth: 0, padding: "12px 16px", border: "1px solid #e2e0d8", borderRadius: "6px", fontSize: "14px", outline: "none", background: "#fff", color: "#333" }}
         />
         <input
           type="text"
@@ -115,7 +115,7 @@ export default function NewsletterForm({
         <button
           type="submit"
           disabled={status === "loading"}
-          style={{ padding: "12px 24px", background: "#f86613", color: "white", border: "none", borderRadius: "6px", fontSize: "14px", fontWeight: 600, cursor: "pointer", opacity: status === "loading" ? 0.6 : 1, whiteSpace: "nowrap" }}
+          className="btn-form"
         >
           {status === "loading" ? "Envoi..." : buttonLabel}
         </button>

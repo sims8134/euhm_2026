@@ -6,13 +6,11 @@ import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import ShareButtons from "../../../components/ShareButtons";
 import FollowBlock from "../../../components/FollowBlock";
+import Byline from "../../../components/Byline";
+import AuthorBox from "../../../components/AuthorBox";
 import { getArticleBySlug, getAllArticles } from "../../../lib/mdx";
-import { BASE_URL, SITE_NAME, DEFAULT_OG_IMAGES } from "../../../lib/seo";
-import { formatDateFr, isoDate } from "../../../lib/dates";
+import { BASE_URL, SITE_NAME, DEFAULT_OG_IMAGES, articleJsonLd } from "../../../lib/seo";
 import { typo } from "../../../lib/typo";
-
-// ⚠️ Doit correspondre à la constante AUTEUR de app/apropos/page.tsx
-const AUTEUR = "Simon";
 
 export async function generateStaticParams() {
   const articles = getAllArticles();
@@ -53,34 +51,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const article = getArticleBySlug(slug);
   if (!article) notFound();
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Article",
+  const jsonLd = articleJsonLd({
     headline: article.meta.title,
     description: article.meta.description,
     datePublished: article.meta.date,
-    dateModified: article.meta.date,
-    inLanguage: "fr-FR",
-    articleSection: article.meta.category,
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": `${BASE_URL}/articles/${slug}`,
-    },
-    author: {
-      "@type": "Person",
-      name: AUTEUR,
-      url: `${BASE_URL}/apropos`,
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "EUHM : Être Un Homme Meilleur",
-      logo: {
-        "@type": "ImageObject",
-        url: `${BASE_URL}/img/logo_euhm_half.png`,
-      },
-    },
-    image: `${BASE_URL}${article.meta.image ?? "/img/og-image.jpg"}`,
-  };
+    path: `/articles/${slug}`,
+    image: article.meta.image,
+    section: article.meta.category,
+  });
 
   return (
     <>
@@ -95,12 +73,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           <div className="article-page-header">
             <div className="article-page-tag">{article.meta.category}</div>
             <h1>{typo(article.meta.title)}</h1>
-            <div className="article-page-meta">
-              Par <Link href="/apropos" style={{ color: "#c2410c" }}>{AUTEUR}</Link>
-              {" · "}
-              <time dateTime={isoDate(article.meta.date)}>{formatDateFr(article.meta.date)}</time>
-              {" · "}{article.meta.readTime} de lecture
-            </div>
+            <Byline date={article.meta.date} readTime={article.meta.readTime} />
           </div>
 
           {article.meta.image && (
@@ -141,25 +114,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           />
 
           <FollowBlock />
-          {/* Encart auteur — signal E-E-A-T sur thématique santé */}
-          <aside
-            style={{
-              marginTop: "48px",
-              padding: "24px",
-              background: "#faf5f0",
-              border: "1px solid #f2e4d8",
-              borderRadius: "12px",
-            }}
-          >
-            <p style={{ margin: "0 0 8px", fontSize: "14px", color: "#333" }}>
-              <strong>Écrit par {AUTEUR}</strong>
-            </p>
-            <p style={{ margin: 0, fontSize: "14px", color: "#666", lineHeight: 1.6 }}>
-              Je ne suis ni coach ni professionnel de santé. Tout ce que je partage ici a été testé
-              par moi, sur plusieurs années.{" "}
-              <Link href="/apropos" style={{ color: "#c2410c" }}>En savoir plus sur la démarche</Link>.
-            </p>
-          </aside>
+          <AuthorBox />
         </div>
       </main>
       <Footer />

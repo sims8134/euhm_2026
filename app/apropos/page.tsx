@@ -2,18 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import Image from "next/image";
 import FollowBlock from "../../components/FollowBlock";
-import { pageOpenGraph } from "../../lib/seo";
+import { pageOpenGraph, AUTHOR } from "../../lib/seo";
 
 const BASE_URL = "https://euhm.fr";
 
-// ⚠️ Doit correspondre exactement à la constante AUTEUR de app/articles/[slug]/page.tsx
-const AUTEUR = "Simon";
-
-// Photo de l'auteur : WebP servi en priorite, JPEG en repli (800px de large).
-const PHOTO_WEBP = "/img/simon-auteur-euhm.webp";
-const PHOTO_JPEG = "/img/simon-auteur-euhm.jpg";
-const PHOTO_ALT = `${AUTEUR}, auteur d'EUHM`;
+// Nom et photo de l'auteur : source unique dans lib/seo.ts (AUTHOR).
+const AUTEUR = AUTHOR.name;
 
 export const metadata: Metadata = {
   title: "À propos : qui écrit sur EUHM",
@@ -35,7 +31,7 @@ export default function AproposPage() {
     "@type": "Person",
     name: AUTEUR,
     url: `${BASE_URL}/apropos`,
-    image: `${BASE_URL}${PHOTO_JPEG}`,
+    image: `${BASE_URL}${AUTHOR.photo}`,
     description:
       "Auteur d'EUHM (Être Un Homme Meilleur). Cinq ans d'expérimentation personnelle en sport, alimentation, psychologie et écologie.",
     knowsAbout: [
@@ -63,16 +59,7 @@ export default function AproposPage() {
         <section className="apropos-section">
           <div className="apropos-hero">
             <div className="apropos-hero-logo">
-              <picture>
-                <source srcSet={PHOTO_WEBP} type="image/webp" />
-                <img
-                  src={PHOTO_JPEG}
-                  alt={PHOTO_ALT}
-                  width={160}
-                  height={160}
-                  decoding="async"
-                />
-              </picture>
+              <Image src={AUTHOR.photo} alt={AUTHOR.alt} width={160} height={160} priority />
             </div>
             <div className="apropos-hero-text">
               <h1>Qui écrit sur EUHM</h1>
@@ -135,26 +122,26 @@ export default function AproposPage() {
             <ul style={{ listStyle: "disc", paddingLeft: "22px", marginBottom: "20px" }}>
               <li style={{ listStyle: "disc", marginBottom: "10px" }}>
                 Reprendre une activité physique sans matériel →{" "}
-                <Link href="/articles/confinement-faire-du-sport-a-la-maison" style={{ color: "#c2410c", textDecoration: "underline" }}>
+                <Link href="/articles/confinement-faire-du-sport-a-la-maison" className="lien lien--souligne">
                   le programme de sport à la maison
                 </Link>
               </li>
               <li style={{ listStyle: "disc", marginBottom: "10px" }}>
                 Tenir la saison froide sans tomber malade →{" "}
-                <Link href="/articles/hiver-comment-ne-pas-tomber-malade" style={{ color: "#c2410c", textDecoration: "underline" }}>
+                <Link href="/articles/hiver-comment-ne-pas-tomber-malade" className="lien lien--souligne">
                   les six habitudes d&apos;hiver
                 </Link>
               </li>
               <li style={{ listStyle: "disc", marginBottom: "10px" }}>
                 En finir avec le coup de barre de l&apos;après-midi →{" "}
-                <Link href="/articles/rentree-booster-son-dynamisme" style={{ color: "#c2410c", textDecoration: "underline" }}>
+                <Link href="/articles/rentree-booster-son-dynamisme" className="lien lien--souligne">
                   la routine énergie
                 </Link>
               </li>
             </ul>
             <p>
               Chaque article a sa{" "}
-              <Link href="/telechargement" style={{ color: "#c2410c", textDecoration: "underline" }}>
+              <Link href="/telechargement" className="lien lien--souligne">
                 fiche pratique à imprimer
               </Link>{" "}
               : une page A4 avec les gestes, les repères chiffrés et des cases à cocher.
@@ -164,11 +151,11 @@ export default function AproposPage() {
             <p>
               Une question, une suggestion de sujet, une erreur à me signaler ? Je lis tous les messages.
               Écrivez-moi via la{" "}
-              <Link href="/contact" style={{ color: "#c2410c", textDecoration: "underline" }}>
+              <Link href="/contact" className="lien lien--souligne">
                 page contact
               </Link>.
               Et si vous voulez peser sur les prochains sujets, les{" "}
-              <Link href="/dossiers" style={{ color: "#c2410c", textDecoration: "underline" }}>
+              <Link href="/dossiers" className="lien lien--souligne">
                 dossiers en préparation
               </Link>{" "}
               se votent.

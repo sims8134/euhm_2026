@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { getAllArticles } from "../lib/mdx";
+import { getAllFichesPages } from "../lib/fiches";
 
 const BASE_URL = "https://euhm.fr";
 
@@ -15,9 +16,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  const fiches: MetadataRoute.Sitemap = getAllFichesPages().map((f) => ({
+    url: `${BASE_URL}/fiches/${f.slug}`,
+    lastModified: new Date(f.date),
+    changeFrequency: "monthly",
+    priority: 0.8,
+  }));
+
   const pages: MetadataRoute.Sitemap = [
     { url: BASE_URL, lastModified: lastMod, changeFrequency: "weekly", priority: 1.0 },
     { url: `${BASE_URL}/articles`, lastModified: lastMod, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${BASE_URL}/fiches`, lastModified: lastMod, changeFrequency: "daily", priority: 0.9 },
     { url: `${BASE_URL}/dossiers`, lastModified: lastMod, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/telechargement`, lastModified: lastMod, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/boutique`, lastModified: lastMod, changeFrequency: "monthly", priority: 0.6 },
@@ -29,5 +38,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/politique-confidentialite`, lastModified: lastMod, changeFrequency: "yearly", priority: 0.3 },
   ];
 
-  return [...pages, ...articles];
+  return [...pages, ...articles, ...fiches];
 }

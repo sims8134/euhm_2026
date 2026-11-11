@@ -53,13 +53,8 @@ export default function TelechargementPage() {
                 </a>
                 <a
                   href={`/articles/${f.slug}`}
-                  style={{
-                    display: "inline-block",
-                    marginLeft: "16px",
-                    color: "#c2410c",
-                    fontSize: "14px",
-                    textDecoration: "underline",
-                  }}
+                  className="lien lien--souligne"
+                  style={{ display: "inline-block", marginLeft: "16px", fontSize: "14px" }}
                 >
                   Lire l&#39;article associé
                 </a>

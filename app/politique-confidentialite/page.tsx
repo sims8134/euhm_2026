@@ -26,7 +26,7 @@ export default function PolitiqueConfidentialitePage() {
           <p className="date">Dernière mise à jour : août 2026</p>
 
           <div style={{ textAlign: "center", marginBottom: "40px" }}>
-            <span style={{ background: "#f86613", color: "white", borderRadius: "30px", padding: "8px 20px", fontSize: "1.4rem", fontWeight: 600 }}>
+            <span className="badge-orange">
               🔒 Conforme RGPD &amp; CNIL
             </span>
           </div>

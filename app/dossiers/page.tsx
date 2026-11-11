@@ -107,8 +107,8 @@ export default function DossiersPage() {
               lineHeight: 1.7,
             }}
           >
-            En attendant, les <a href="/articles" style={{ color: "#c2410c", textDecoration: "underline" }}>articles</a> et les{" "}
-            <a href="/telechargement" style={{ color: "#c2410c", textDecoration: "underline" }}>fiches pratiques à imprimer</a>{" "}
+            En attendant, les <a href="/articles" className="lien lien--souligne">articles</a> et les{" "}
+            <a href="/telechargement" className="lien lien--souligne">fiches pratiques à imprimer</a>{" "}
             sont déjà disponibles.
           </p>
           <FollowBlock />

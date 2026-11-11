@@ -221,7 +221,7 @@ footer a:hover { color: rgb(60,190,240); text-decoration: underline; }
 .legal-section h2 { font-size: 2rem; margin-top: 40px; }
 .legal-section p { font-size: 1.55rem; color: #333; line-height: 1.8; }
 .legal-section a { color: #c2410c; text-decoration: underline; }
-.legal-section a:hover { color: #e55a0a; }
+.legal-section a:hover { color: #9a3412; }
 .legal-section a:hover { color: rgb(60,190,240); text-decoration: underline; }
 
 /* ARTICLE PAGE */
@@ -235,9 +235,9 @@ footer a:hover { color: rgb(60,190,240); text-decoration: underline; }
 .article-page-content p { margin-bottom: 20px; }
 .article-page-content a:not([href$=".pdf"]),
 .article-page-content a:not([href$=".pdf"]):visited { color: #c2410c; text-decoration: underline; }
-.article-page-content a:not([href$=".pdf"]):hover { color: #e55a0a; }
+.article-page-content a:not([href$=".pdf"]):hover { color: #9a3412; }
 .article-back { display: inline-block; margin-bottom: 30px; color: #c2410c; font-weight: 600; font-size: 1.5rem; }
-.article-back:hover { color: #e55a0a; }
+.article-back:hover { color: #9a3412; }
 
 /* RESPONSIVE */
 
@@ -326,6 +326,27 @@ html {
 .actualite li a:hover strong { color: #e55a0a; }
 .btn:link, .btn:visited, .btn:hover, .btn:active { color: white; }
 .btn:hover { background: #e55a0a; }
+
+/* Boutons de formulaire (newsletter, vote des dossiers) */
+.btn-form {
+  min-height: 44px; padding: 12px 24px; border: none; border-radius: 6px;
+  background: #f86613; color: #fff; font-family: inherit; font-size: 14px; font-weight: 600;
+  white-space: nowrap; cursor: pointer;
+}
+.btn-form--compact { padding: 10px 16px; font-size: 13px; }
+.btn-form:hover:not(:disabled) { background: #e55a0a; }
+.btn-form:disabled { opacity: 0.6; cursor: default; }
+
+/* Étiquette orange non cliquable (pas de survol) */
+.badge-orange {
+  display: inline-block; padding: 8px 20px; border-radius: 30px;
+  background: #f86613; color: #fff; font-size: 1.4rem; font-weight: 600;
+}
+
+/* Petits liens orange sur fond clair (moins de 18 px) */
+a.lien, a.lien:visited { color: #c2410c; }
+a.lien--souligne, a.lien--souligne:visited { text-decoration: underline; }
+a.lien:hover { color: #9a3412; }
 /* ========================
    FOLLOW BLOCK (components/FollowBlock.tsx)
    Boutons à l'orange du site #f86613, survol #e55a0a.
@@ -432,3 +453,121 @@ html {
 @media (prefers-reduced-motion: reduce) {
   .reading-progress { transition: none; }
 }
+
+/* ========================
+   AUTEUR : ligne « Par Simon » et encadré « Écrit par Simon »
+======================== */
+.byline { display: flex; align-items: center; gap: 10px; font-size: 1.6rem; color: #666; }
+.byline > span { min-width: 0; }
+.byline-photo { width: 28px; height: 28px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
+.author-box {
+  display: flex; align-items: flex-start; gap: 16px; margin-top: 48px; padding: 24px;
+  background: #faf5f0; border: 1px solid #f2e4d8; border-radius: 12px;
+}
+.author-box-photo { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
+.author-box-name { margin: 0 0 8px; font-size: 1.6rem; color: #333; }
+.author-box-text { margin: 0; font-size: 1.6rem; color: #666; line-height: 1.6; }
+
+/* Lien retour : zone cliquable de 44 px */
+.article-back { display: inline-flex; align-items: center; min-height: 44px; font-size: 1.6rem; }
+
+/* Tableaux : défilement horizontal dans leur cadre (mobile) */
+.table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0 0 24px; border: 1px solid #eee; border-radius: 8px; }
+.table-scroll table { border-collapse: collapse; width: 100%; min-width: 480px; font-size: 1.6rem; }
+.table-scroll th, .table-scroll td { padding: 10px 14px; border-bottom: 1px solid #eee; text-align: left; vertical-align: top; }
+.table-scroll th { background: #faf5f0; color: #333; font-weight: 700; }
+.table-scroll tr:last-child td { border-bottom: none; }
+.table-scroll:focus-visible { outline: 3px solid #333; outline-offset: 2px; }
+
+/* Boutons de partage : zone cliquable de 44 px */
+.share-btn { min-height: 44px; }
+
+/* ========================
+   FICHES
+======================== */
+.fiche-cover { margin: 0 0 32px; }
+.fiche-cover img { display: block; width: 100%; height: auto; border-radius: 8px; }
+.fiche-page .article-page-header { margin-bottom: 32px; }
+
+/* Galerie du carrousel */
+.carousel { max-width: 540px; margin: 0 auto 40px; }
+.carousel-track {
+  display: flex; margin: 0; padding: 0; list-style: none;
+  overflow-x: auto; scroll-snap-type: x mandatory; overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch; scrollbar-width: none; border-radius: 8px;
+}
+.carousel-track::-webkit-scrollbar { display: none; }
+.carousel-track:focus-visible { outline: 3px solid #333; outline-offset: 3px; }
+.carousel-slide { flex: 0 0 100%; scroll-snap-align: center; scroll-snap-stop: always; list-style: none; }
+.carousel-slide img { display: block; width: 100%; height: auto; }
+.carousel-controls { display: flex; align-items: center; justify-content: center; gap: 16px; margin-top: 12px; }
+.carousel-counter { margin: 0; min-width: 64px; text-align: center; font-size: 1.6rem; font-weight: 600; color: #333; font-variant-numeric: tabular-nums; }
+.carousel-btn {
+  display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px;
+  border: 2px solid #f86613; border-radius: 50%; background: #fff; color: #f86613; cursor: pointer;
+}
+.carousel-btn:hover:not(:disabled) { background: #e55a0a; border-color: #e55a0a; color: #fff; }
+.carousel-btn:disabled { opacity: 0.35; cursor: default; }
+.carousel-btn:focus-visible { outline: 3px solid #333; outline-offset: 2px; }
+/* Écrans tactiles : on glisse au doigt, flèches masquées (le compteur reste) */
+@media (hover: none) and (pointer: coarse) {
+  .carousel-btn { display: none; }
+}
+
+/* Sources */
+.fiche-sources { margin-top: 40px; padding-top: 24px; border-top: 1px solid #eee; font-size: 1.6rem; color: #333; line-height: 1.7; }
+.fiche-sources h2 { font-size: 2.2rem; margin: 0 0 12px; }
+.fiche-sources ul, .fiche-sources ol { padding-left: 20px; }
+.fiche-sources li { list-style: disc; margin-bottom: 8px; overflow-wrap: anywhere; }
+.fiche-sources a, .fiche-sources a:visited { color: #c2410c; text-decoration: underline; }
+.fiche-sources a:hover { color: #9a3412; }
+
+/* À lire aussi */
+.related { margin-top: 48px; }
+.related h2 { font-size: 2.4rem; margin: 0 0 16px; }
+.related-list { display: grid; gap: 12px; }
+.related-item {
+  display: flex; align-items: center; gap: 16px; min-height: 44px; padding: 12px;
+  border: 1px solid #eee; border-radius: 12px; background: #fff;
+}
+.related-item:hover { border-color: #f86613; }
+.related-item img { width: 120px; height: 63px; object-fit: cover; border-radius: 6px; flex-shrink: 0; }
+.related-item > span { display: flex; flex-direction: column; gap: 4px; font-size: 1.6rem; color: #666; }
+.related-kind { font-size: 1.6rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #c2410c; }
+.related-title { font-weight: 600; color: #333; }
+
+/* Rubrique /fiches */
+.fiches-section { max-width: 1200px; margin: 60px auto; padding: 0 40px; }
+.fiches-section > h1 { text-align: center; margin-bottom: 10px; }
+.fiches-section > .intro { text-align: center; color: #555; margin: 0 auto 50px; max-width: 720px; font-size: 1.7rem; }
+.fiches-empty { text-align: center; color: #666; font-size: 1.6rem; }
+.fiches-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin: 0; padding: 0; }
+.fiches-grid > li { list-style: none; }
+.fiche-card {
+  display: flex; flex-direction: column; height: 100%; border-radius: 16px; overflow: hidden;
+  background: #fff; box-shadow: 0px 0px 12px rgba(0,0,0,0.12);
+}
+.fiche-card:hover { box-shadow: 0px 0px 18px rgba(248,102,19,0.4); transform: translateY(-4px); }
+.fiche-card img { display: block; width: 100%; height: auto; aspect-ratio: 1200 / 630; object-fit: cover; }
+.fiche-card-body { display: flex; flex-direction: column; gap: 8px; padding: 20px 24px 24px; font-size: 1.6rem; color: #666; }
+.fiche-card-body .article-tag { margin: 0; }
+.fiche-card-title { font-size: 2rem; line-height: 1.3; margin: 0; }
+.fiche-card-desc { margin: 0; color: #555; line-height: 1.6; }
+
+@media (max-width: 990px) {
+  .fiches-grid { grid-template-columns: repeat(2, 1fr); gap: 24px; }
+  .fiches-section { padding: 0 20px; }
+}
+@media (max-width: 600px) {
+  .fiches-grid { grid-template-columns: 1fr; }
+  .author-box { padding: 20px 16px; gap: 12px; }
+  .related-item img { width: 96px; height: 50px; }
+}
+
+/* Pages fiches : aucun texte sous 16 px (étiquettes et barre de partage comprises) */
+.fiche-page .article-page-tag,
+.fiche-page .share-bar-title,
+.fiche-page .share-btn,
+.fiches-grid .article-tag { font-size: 1.6rem; }
+/* Lien « Simon » de la ligne auteur : zone cliquable de 44 px sans décaler la ligne */
+.byline a { display: inline-block; padding: 12px 0; margin: -12px 0; }

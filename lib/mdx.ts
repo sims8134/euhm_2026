@@ -103,6 +103,21 @@ function demoteH1(html: string): string {
   return html.replace(/<h1(\s[^>]*)?>/g, "<h2$1>").replace(/<\/h1>/g, "</h2>");
 }
 
+/** Chaque tableau est placé dans un cadre qui défile horizontalement sur mobile. */
+function wrapTables(html: string): string {
+  return html
+    .replace(/<table(\s[^>]*)?>/g, '<div class="table-scroll" tabindex="0" role="region" aria-label="Tableau"><table$1>')
+    .replace(/<\/table>/g, "</table></div>");
+}
+
+/**
+ * Chaîne Markdown commune aux articles et aux fiches :
+ * Markdown -> HTML, H1 rétrogradés, apostrophes des titres, tableaux défilants.
+ */
+export function renderMarkdown(markdown: string): string {
+  return wrapTables(typoHeadings(demoteH1(marked(markdown) as string)));
+}
+
 export function getArticleBySlug(slug: string) {
   for (const ext of ["mdx", "md"]) {
     const filePath = path.join(articlesDir, `${slug}.${ext}`);
@@ -112,7 +127,7 @@ export function getArticleBySlug(slug: string) {
       const meta = toMeta(data, slug);
       // Un brouillon ou un article programmé n'est pas servi en production.
       if (!isPublished(meta)) return null;
-      return { meta, content: typoHeadings(demoteH1(marked(content) as string)) };
+      return { meta, content: renderMarkdown(content) };
     }
   }
   return null;

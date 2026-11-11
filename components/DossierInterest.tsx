@@ -111,18 +111,7 @@ export default function DossierInterest({ slug, label = "Ça m'intéresse" }: Pr
         <button
           type="submit"
           disabled={status === "loading"}
-          style={{
-            padding: "10px 16px",
-            background: "#f86613",
-            color: "white",
-            border: "none",
-            borderRadius: "6px",
-            fontSize: "13px",
-            fontWeight: 600,
-            cursor: "pointer",
-            opacity: status === "loading" ? 0.6 : 1,
-            whiteSpace: "nowrap",
-          }}
+          className="btn-form btn-form--compact"
         >
           {status === "loading" ? "..." : "Valider"}
         </button>
